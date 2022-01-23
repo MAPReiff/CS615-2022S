@@ -1,0 +1,19 @@
+Lecture 01 (1/24/22)
+=========
+Before class:
+-------------------
+Prior to class, I have reviewed the course's web page to determine what to expect
+during this semester as well as what is expected of me before the first class.
+
+I have completed the first week self check questionnaire.
+
+I have reviewed the 6 video segments for week 1, read through chapters 1, 2 and 3
+of the course book, as well as SAGE Job Descriptions for System Administrators
+document linked on the course's web page.
+
+I have been granted access to the Stevens Linux Lab server, however I am unable to
+connect to it as the connection times out when I try to ssh into it. I am still
+waiting on a response to my ticket.
+
+I have registered for AWS.
+
