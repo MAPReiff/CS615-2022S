@@ -17,3 +17,23 @@ waiting on a response to my ticket.
 
 I have registered for AWS.
 
+
+After class:
+----------------
+Important takeaways:
+    - 3 core principles: security, scalability, simplicity.
+    - "Sysadmins are lazy"
+    - HW 1 is related to AWS; I have signed up for a student account with the link
+      on the course web page.
+    - The linux lab is currently non accessible so assignments must be done using my
+      local machine (such as spawning AWS instances for HW1).
+    - I will need to start thinking of a topic that I would like to present on as
+      one of the weekly topic presentations. I might want to volunteer for week 2 since
+      file systems are interesting and I have some experience.
+    - I also need to start thinking about a meet up to attend that is related to the course.
+
+I really enjoyed the start of the class where we used basic command line tools to gather
+information about and debug the connection to the linux lab server. I have previously used
+the `dig`, `host`, and `whois` commands, however the `traceroute` command is something which
+I had never used. I liked that I was able to both watch it be used over zoom and try it on my
+own machine in real time with a proper example of when a sysadmin would make use of such commands.
