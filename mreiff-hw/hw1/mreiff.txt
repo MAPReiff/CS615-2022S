@@ -1,0 +1,284 @@
+I pledge my honor that I have abided by the Stevens Honor System.
+
+HW#1: Setup your environment for EC2 and create an instance
+
+Notes & Steps:
+- As the linux lab is currently not accessible at the time I start this
+  assignment (Mon 1/24/22), I will be following these steps on my own
+  linux machine.
+- I have copied and applied the recommended `awsaliases` from the course
+  website, and I have installed the `aws-cli` package so I have access to
+  the commands.
+- I have read through the guides to set up CLI access and generated my IAM
+  key ID and secret key, and I have configured my required access groups.
+- I have separated commands and their outputs with ====== lines if they
+  are multi-line to make it easier to tell where they start and end. I
+  also did this with further notes.
+- I did NOT format the command output text to use short lines like
+  these, as I wanted to make sure I did not accidentally change the
+  meaning of their outputs (specifically the first command's output 
+  which is a very long single line.)
+
+
+Commands and their outputs:
+
+uname -a: NetBSD ip-10-10-0-59.ec2.internal 9.99.78 NetBSD 9.99.78 (GENERIC) #0: Fri Jan 22 00:44:55 UTC 2021  mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/amd64/compile/GENERIC amd64
+
+
+whoami: root
+
+
+date: Tue Jan 25 03:47:07 UTC 2022
+
+
+w:
+  3:47AM  up 3 mins, 1 user, load averages: 0.05, 0.07, 0.03
+  USER     TTY     FROM              LOGIN@  IDLE WHAT
+  root     pts/0   89.46.62.162      3:45AM     0 w 
+
+==========================================================================
+
+ifconfig -a:
+  xennet0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=0x3fc00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        capabilities=0x3fc00<TCP6CSUM_Rx,TCP6CSUM_Tx,UDP6CSUM_Rx,UDP6CSUM_Tx>
+        enabled=0
+        ec_capabilities=0x5<VLAN_MTU,JUMBO_MTU>
+        ec_enabled=0
+        address: 0a:0e:25:74:a8:ff
+        inet 10.10.0.59/26 broadcast 10.10.0.63 flags 0
+        inet6 fe80::5d0d:d264:1a15:aa0f%xennet0/64 flags 0 scopeid 0x1
+        inet6 2600:1f18:f87:cb00:7a6b:203a:be4a:f6ca/128 flags 0
+  lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33624
+        status: active
+        inet 127.0.0.1/8 flags 0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0 scopeid 0x2
+
+==========================================================================
+
+netstat -na:
+  Active Internet connections (including servers)
+  Proto Recv-Q Send-Q  Local Address          Foreign Address        State
+  tcp        0     36  10.10.0.59.22          89.46.62.162.56888     ESTABLISHED
+  tcp        0      0  *.22                   *.*                    LISTEN
+  udp        0      0  *.68                   *.*                   
+  udp        0      0  *.*                    *.*                   
+  Active Internet6 connections (including servers)
+  Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+  tcp6       0      0  *.22                   *.*                    LISTEN
+  udp6       0      0  *.546                  *.*                   
+  udp6       0      0  *.*                    *.*                   
+  Active UNIX domain sockets
+  Address  Type   Recv-Q Send-Q    Inode     Conn     Refs  Nextref Addr
+  ffffd0842df82dc0 stream      0      0        0 ffffd0842df82d00        0        0 
+  ffffd0842df82d00 stream      0      0        0 ffffd0842df82dc0        0        0 
+  ffffd0842df82ac0 stream      0      0        0 ffffd0842df82a00        0        0 
+  ffffd0842df82a00 stream      0      0        0 ffffd0842df82ac0        0        0 
+  ffffd0842df82880 stream      0      0 ffffd0842b61d100        0        0        0 private/scache
+  ffffd0842df827c0 stream      0      0        0 ffffd0842df82700        0        0 
+  ffffd0842df82700 stream      0      0        0 ffffd0842df827c0        0        0 
+  ffffd0842df82580 stream      0      0 ffffd0842bcbcd40        0        0        0 private/anvil
+  ffffd0842df824c0 stream      0      0        0 ffffd0842df82400        0        0 
+  ffffd0842df82400 stream      0      0        0 ffffd0842df824c0        0        0 
+  ffffd0842df82280 stream      0      0 ffffd0842bcbcac0        0        0        0 private/lmtp
+  ffffd08425b19dc0 stream      0      0        0 ffffd08425b19a00        0        0 
+  ffffd08425b19a00 stream      0      0        0 ffffd08425b19dc0        0        0 
+  ffffd0842df82100 stream      0      0 ffffd0842bcbc840        0        0        0 private/virtual
+  ffffd0842df82040 stream      0      0        0 ffffd0842b5f5f40        0        0 
+  ffffd0842b5f5f40 stream      0      0        0 ffffd0842df82040        0        0 
+  ffffd0842b5f5dc0 stream      0      0 ffffd0842bcbc5c0        0        0        0 private/local
+  ffffd0842b5f5d00 stream      0      0        0 ffffd0842b5f5c40        0        0 
+  ffffd0842b5f5c40 stream      0      0        0 ffffd0842b5f5d00        0        0 
+  ffffd0842b5f5ac0 stream      0      0 ffffd0842bcbc340        0        0        0 private/discard
+  ffffd0842b5f5a00 stream      0      0        0 ffffd0842b5f5940        0        0 
+  ffffd0842b5f5940 stream      0      0        0 ffffd0842b5f5a00        0        0 
+  ffffd0842b5f57c0 stream      0      0 ffffd0842bcbc0c0        0        0        0 private/retry
+  ffffd0842b5f5700 stream      0      0        0 ffffd0842b5f5640        0        0 
+  ffffd0842b5f5640 stream      0      0        0 ffffd0842b5f5700        0        0 
+  ffffd0842b5f54c0 stream      0      0 ffffd0842c42bd00        0        0        0 private/error
+  ffffd0842b5f5400 stream      0      0        0 ffffd0842b5f5340        0        0 
+  ffffd0842b5f5340 stream      0      0        0 ffffd0842b5f5400        0        0 
+  ffffd0842b5f51c0 stream      0      0 ffffd0842c42ba80        0        0        0 public/showq
+  ffffd0842b5f5100 stream      0      0        0 ffffd0842b5f5040        0        0 
+  ffffd0842b5f5040 stream      0      0        0 ffffd0842b5f5100        0        0 
+  ffffd0842aaaae80 stream      0      0 ffffd0842c42b800        0        0        0 private/relay
+  ffffd0842aaaadc0 stream      0      0        0 ffffd0842aaaad00        0        0 
+  ffffd0842aaaad00 stream      0      0        0 ffffd0842aaaadc0        0        0 
+  ffffd0842aaaab80 stream      0      0 ffffd0842c42b580        0        0        0 private/smtp
+  ffffd0842aaaaac0 stream      0      0        0 ffffd0842aaaa340        0        0 
+  ffffd0842aaaa340 stream      0      0        0 ffffd0842aaaaac0        0        0 
+  ffffd0842aaaa580 stream      0      0 ffffd0842c42b300        0        0        0 private/proxywrite
+  ffffd0842667a100 stream      0      0        0 ffffd08428a05f40        0        0 
+  ffffd08428a05f40 stream      0      0        0 ffffd0842667a100        0        0 
+  ffffd08424e32340 stream      0      0 ffffd0842c42b080        0        0        0 private/proxymap
+  ffffd08424cf81c0 stream      0      0        0 ffffd0842f3b0d00        0        0 
+  ffffd0842f3b0d00 stream      0      0        0 ffffd08424cf81c0        0        0 
+  ffffd08428fa44c0 stream      0      0 ffffd0842ae3ecc0        0        0        0 public/flush
+  ffffd08428a05340 stream      0      0        0 ffffd08424b45580        0        0 
+  ffffd08424b45580 stream      0      0        0 ffffd08428a05340        0        0 
+  ffffd0842aaaa700 stream      0      0 ffffd0842ae3ea40        0        0        0 private/verify
+  ffffd08428fa4940 stream      0      0        0 ffffd0842aaaa640        0        0 
+  ffffd0842aaaa640 stream      0      0        0 ffffd08428fa4940        0        0 
+  ffffd0842667adc0 stream      0      0 ffffd0842ae3e7c0        0        0        0 private/trace
+  ffffd08424cf8400 stream      0      0        0 ffffd0842f3b0f40        0        0 
+  ffffd0842f3b0f40 stream      0      0        0 ffffd08424cf8400        0        0 
+  ffffd0842aaaa940 stream      0      0 ffffd0842ae3e540        0        0        0 private/defer
+  ffffd0842667a1c0 stream      0      0        0 ffffd08428fa4a00        0        0 
+  ffffd08428fa4a00 stream      0      0        0 ffffd0842667a1c0        0        0 
+  ffffd08425b19400 stream      0      0 ffffd0842ae3e2c0        0        0        0 private/bounce
+  ffffd08424d6ca00 stream      0      0        0 ffffd08424d821c0        0        0 
+  ffffd08424d821c0 stream      0      0        0 ffffd08424d6ca00        0        0 
+  ffffd0842e639580 stream      0      0 ffffd0842ae3e040        0        0        0 private/rewrite
+  ffffd08428a05280 stream      0      0        0 ffffd08428fa4700        0        0 
+  ffffd08428fa4700 stream      0      0        0 ffffd08428a05280        0        0 
+  ffffd0842e6391c0 stream      0      0 ffffd0842bc74d80        0        0        0 private/tlsmgr
+  ffffd08424d82100 stream      0      0        0 ffffd0842671ae80        0        0 
+  ffffd0842671ae80 stream      0      0        0 ffffd08424d82100        0        0 
+  ffffd08424b45e80 stream      0      0 ffffd0842bc74b00        0        0        0 public/qmgr
+  ffffd0842e639640 stream      0      0        0 ffffd08428a051c0        0        0 
+  ffffd08428a051c0 stream      0      0        0 ffffd0842e639640        0        0 
+  ffffd08428a05940 stream      0      0 ffffd0842bc74880        0        0        0 public/cleanup
+  ffffd084252daa00 stream      0      0        0 ffffd0842e639100        0        0 
+  ffffd0842e639100 stream      0      0        0 ffffd084252daa00        0        0 
+  ffffd084252dae80 stream      0      0 ffffd0842bc74600        0        0        0 public/pickup
+  ffffd084256287c0 stream      0      0 ffffd08424fdd880        0        0        0 /var/run/dhcpcd/unpriv.sock
+  ffffd08425628700 stream      0      0 ffffd08424fdd600        0        0        0 /var/run/dhcpcd/sock
+  ffffd08425243400 stream      0      0        0 ffffd08425243340        0        0 
+  ffffd08425243340 stream      0      0        0 ffffd08425243400        0        0 
+  ffffd08425243280 stream      0      0        0 ffffd084252431c0        0        0 
+  ffffd084252431c0 stream      0      0        0 ffffd08425243280        0        0 
+  ffffd08425b19580 stream      0      0        0        0        0        0 
+  ffffd0842df82b80 dgram       0      0 ffffd0842b61d380        0        0        0 public/postlog
+  ffffd08424a0a700 dgram       0      0        0 ffffd084252da400        0 ffffd08428fa4dc0 -> /var/run/log
+  ffffd08424b45d00 dgram       0      0        0 ffffd084252da400        0 ffffd084252da880 -> /var/run/log
+  ffffd0842aaaa1c0 dgram       0      0        0 ffffd084252da400        0 ffffd08424b45d00 -> /var/run/log
+  ffffd08428fa4dc0 dgram       0      0        0 ffffd084252da400        0 ffffd0842aaaa1c0 -> /var/run/log
+  ffffd08425243d00 dgram       0      0        0        0        0        0 
+  ffffd084252da880 dgram       0      0        0 ffffd084252da400        0        0 -> /var/run/log
+  ffffd08425243580 dgram       0      0        0 ffffd084252434c0 ffffd084252434c0        0 
+  ffffd084252434c0 dgram       0      0        0 ffffd08425243580 ffffd08425243580        0 
+  ffffd08424d82640 dgram       0      0        0 ffffd08424e32a00 ffffd08424e32a00        0 
+  ffffd08424e32a00 dgram       0      0        0 ffffd08424d82640 ffffd08424d82640        0 
+  ffffd08424d6c340 dgram       0      0        0 ffffd08424e32040 ffffd08424e32040        0 
+  ffffd08424e32040 dgram       0      0        0 ffffd08424d6c340 ffffd08424d6c340        0 
+  ffffd08424e32400 dgram       0      0        0 ffffd08424e32580 ffffd08424e32580        0 
+  ffffd08424e32580 dgram       0      0        0 ffffd08424e32400 ffffd08424e32400        0 
+  ffffd08424e32d00 dgram       0      0        0 ffffd08424d82400 ffffd08424d82400        0 
+  ffffd08424d6c4c0 dgram       0      0        0        0        0        0 
+  ffffd08424d82400 dgram       0      0        0 ffffd08424e32d00 ffffd08424e32d00        0 
+  ffffd084252da400 dgram       0      0 ffffd084260c9a40        0 ffffd0842b77d940        0 /var/run/log
+  ffffd0842b77d940 dgram       0      0        0 ffffd084252da400        0 ffffd08424a0a700 -> /var/run/log
+  ffffd0842497a580 dgram       0      0        0        0        0        0
+
+==========================================================================
+
+Commands used to display the partition table, currently mounted filesystems, disk space:
+
+fdisk:
+  Disk: /dev/rxbd0
+  NetBSD disklabel disk geometry:
+  cylinders: 10240, heads: 1, sectors/track: 2048 (2048 sectors/cylinder)
+  total sectors: 20971520, bytes/sector: 512
+
+  BIOS disk geometry:
+  cylinders: 1023, heads: 255, sectors/track: 63 (16065 sectors/cylinder)
+  total sectors: 20971520
+
+  Partitions aligned to 2048 sector boundaries, offset 2048
+
+  Partition table:
+  0: NetBSD (sysid 169)
+      start 2048, size 3903488 (1906 MB, Cyls 0-243/27/40), Active
+  1: <UNUSED>
+  2: <UNUSED>
+  3: <UNUSED>
+  Bootselector disabled.
+  First active partition: 0
+  Drive serial number: 0 (0x00000000)
+
+==========================================================================
+
+mount:
+  /dev/xbd0a on / type ffs (local)
+  ptyfs on /dev/pts type ptyfs (local)
+
+==========================================================================
+
+df:
+  Filesystem      1K-blocks         Used        Avail %Cap Mounted on
+/dev/xbd0a       10318062      1225978      8576182  12% /
+ptyfs                   1            1            0 100% /dev/pts
+
+==========================================================================
+
+When I filled up all available disk space, I used the following command:
+  dd if=/dev/urandom of=bigFile bs=1024 count=1024*1024*10
+
+This command takes input (in this case random data from /dev/urandom)
+and places it in a file (in this case named bigFile). As I knew the
+remaining disk space with the output of the `df` command, I created a
+file which was more than the remaining space. After running this, the
+output of the df command reported that I was at 105% capacity and I had
+a negative amount of disk space left. My takeaway from this exercise is
+that disks on AWS EC2 instances are able to store more data than what their
+stated capacities would imply, as I imagine AWS is able to tap into its
+vast amount of disk space to store the overflow data.
+
+I am able to log out and log back into the system without any issues.
+I am also able to reboot the system without any issues, however, the
+creation of new files or making old files larger is not something
+that can be done in this state as the system's drive is at full
+capacity.
+
+==========================================================================
+
+When I filled up all of the available inodes, my first instinct was to
+use a for loop to generate a large number of files. I wrote the following
+script and saved it as makeFiles.sh, and made it executable with chmod +x.
+In this example, the number 102241 is the remaining number of inodes, which
+was found from the output of df -i.
+  
+  for i in `seq 2 102241`
+  do
+    touch "$i"
+  done
+
+While this was running, I was monitoring the system using `top` while
+connected with a second terminal window on my host. While this class
+is supposed to be terminal based, I did also look at the monitoring tab
+on the AWS console web page to see a more visual representation of how
+the system's resources were being allocated. I let this run for about
+three hours, and I was only able to use up about 35% of the inodes on
+the disk. I tried to use resize_ffs to shrink the main partition, however,
+doing so did not affect the partition's size despite the lack of error
+messages.
+
+For the sake of both time and costs (I do not want to run out of AWS
+credits), I created a NetBSD virtual machine following the guide on
+the CS631 website with a smaller disk so that there would be less
+total inodes to fill.
+
+After running my script, an error is printed stating that there
+are "no idnoes free" and that there is "No space left on device".
+Attempting to manually create a file or directory produces the same
+error message. I am still able to log in and out of the system without
+any issues, and I am still able to run basic commands such as cd and ls.
+In this controlled environment, this is a nonissue as the operating
+system still boots and I am able to remove all of these files easily
+as I made them all in a dedicated directory. In a different environment,
+this may be an issue as the system may have software that needs to
+write a new file to the disk when a system is started or stopped, and
+any software which relies on temporary files while it is running will
+not be able to make such files. It would also be impossible to install
+or update any software at this point, as update files or new package
+files would not be able to be written to the disk due to lacking spare
+inodes for these new files.
+
+==========================================================================
+
+Question: Could a near infinite number of inodes be "generated" by
+          storing files on virtual disks as a VM does? Do these
+          disk image files only occupy 1 inode on the host while
+          allowing for many inodes to be used within them, or are
+          inodes used on virtual drives also used on the host drive?
