@@ -1,0 +1,22 @@
+Lecture 02 (1/31/21)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week two lecture playlist and read
+the "File Systems and Storage Models" chapter linked on the course web
+page.
+
+I have completed the second week's self check questionnaire.
+
+I have completed HW1 and submitted my document. In the process of doing this,
+I have successfully configured my system to use the `aws-cli` package as well
+as added the supplied `awsaliases` file to system so I can make use of them.
+
+As I have volunteered to do a paper/article presentation for this week, I
+have taken time to find a topic and prepare a demonstration to show in class
+as a proof of concept.
+
+Question: Could a near infinite number of inodes be "generated" by storing
+files on virtual disks as a VM does? Do these disk image files only occupy
+1 inode on the host while allowing for many inodes to be used within them,
+or are inodes used on virtual drives also used on the host drive?
