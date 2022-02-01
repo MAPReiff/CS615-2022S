@@ -20,3 +20,28 @@ Question: Could a near infinite number of inodes be "generated" by storing
 files on virtual disks as a VM does? Do these disk image files only occupy
 1 inode on the host while allowing for many inodes to be used within them,
 or are inodes used on virtual drives also used on the host drive?
+
+After Class:
+-------------------
+Important takeaways:
+- Inodes contain:
+	- disk blocks
+	- permissions
+	- type
+	- size
+	- number of links
+	- owner
+	- timestamps
+- Generally, a SAN will be faster than a NAS, however this depends on the
+  hardware and may not always be true
+- AWS likely uses a SAN to allocate disk space to instances.
+- An AWS instance does not know that it is running on AWS, however it might
+  know that it is virtual due to needing specific drivers to load virtual hardware.
+- Normally on a Unix file system, 100% disk usage does not mean that 100% of
+  the disk is used. The super user can continue to fill the disk 
+
+I really enjoyed the first in class presentation about log4j. While it was
+something that I have read about in the past and have seen demonstrations,
+I never truly understood what was happening behind the scenes to make it work.
+The presentation was very insightful and the live professor's demo helped me
+understand how the exploit functions.
