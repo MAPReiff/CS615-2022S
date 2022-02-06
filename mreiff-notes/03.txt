@@ -1,0 +1,16 @@
+Lecture 03 (2/7/22)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week three lecture playlist and read
+the "Software Installation and Package Management" chapter linked on the
+course site.
+
+I have completed the third week's self check questionnaire.
+
+I have followed along with the examples shown in the videos regarding
+manually writing to a disk to store files and define MBR partitions.
+
+As there was no homework assignment due this week, I instead spent my time
+doing further research into the topics and doing more proof of concept exercises
+so I can become more familiar with the subjects.
