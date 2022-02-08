@@ -14,3 +14,86 @@ manually writing to a disk to store files and define MBR partitions.
 As there was no homework assignment due this week, I instead spent my time
 doing further research into the topics and doing more proof of concept exercises
 so I can become more familiar with the subjects.
+
+
+After Class:
+-------------------
+Important takeaways:
+Boot process
+  - POST (Hardware)
+    - Basic functionality
+      - hardware missing
+      - hardware faulty
+      - CMOS battery status
+  - BIOS (firmware)
+    - Basic Input Output System
+    - Runs off the motherboard
+    - Enable/disable hardware
+    - Settings
+      - Fans
+      - Clock speeds
+    - Boot device order/selection
+    - Password protection
+  - Boot device
+    - First block (512 bytes) is bios partition
+      - Last 2 bytes are 0x55 and 0xAA
+      - Contains 4 possible partitions (16 bytes each). 64 bytes total
+      - Provides enough info for the first stage boot loader in the remaining
+        446 bytes
+    - Stage 1 (software from now on)
+      - Small
+      - Is able to see more than 8GB 
+      - Usually hands off to Stage 2
+    - Stage 2
+      - Not always necessary, some Stage 1 boot loaders can boot an OS
+  - Kernel
+    - Could be on the boot device, could be on another
+    - If you know how to start a kernel, it can be done without any of the
+      previous (other than POST)
+      - A VM skips most of these steps
+    - Kernel detects and initializes hardware
+      - CPU
+      - RAM
+      - GPU
+      - Console
+    - Creates some process
+      - Scheduler
+      - Page daemon
+      - init/systemd
+  - Init (process 1)
+    - Creates all the other processes during boot
+    - Is in user space, not kernel space
+    - OS bootstrap process such as
+      - System V init run level
+      - BSD rc-levels
+      - These start stuff like
+        - sshd
+        - apache
+  - Login
+
+Filesystems typically contain:
+  - super blocks
+    - describes cylinder group geometry
+    - is usually replicated to help if one gets corrupted
+  - inode data
+  - directory data
+  - data
+  - types of files
+    - file (hard link)
+      - FIle names cannot contain a `/` or `NULL`
+    - socket
+    - fifo (pipe)
+    - character device (such as input devices)
+    - bloack device
+    - directory
+    - symbolic link
+      - can work across filesystems
+      - can work on directories unlike hard links
+    - whiteout
+
+I found the discussion about union filesystems very interesting. Being able to overlay
+another filesystem on top of one could allow for situations where we want the host
+to have some base files/software on the system, but overlay the user's own files/software
+on the system when they login, allowing for a base system to exist locally while giving
+users a seemless exprince when they log in to a server that would not overwrite another
+user's files/software.
