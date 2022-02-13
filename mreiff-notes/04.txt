@@ -1,0 +1,18 @@
+Lecture 04 (2/14/22)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week four lecture playlist and re read the
+"Software Installation and Package Management" chapter and read the "Of Users
+and Groups" chapter linked on the course site.
+
+I have completed the fourth week's self check questionnaire.
+
+I have followed along with the example exercises regarding adding new users
+and package managers.
+
+As there was no homework assignment due this week, I dedicated more of my spare
+time to doing the above mentioned examples, as well as some further research into
+the topics in order to better my understanding of them. I have run through a few
+tutorials regarding operting systerms from scratch in order to get some hands on
+experince.
