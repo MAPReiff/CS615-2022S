@@ -16,3 +16,79 @@ time to doing the above mentioned examples, as well as some further research int
 the topics in order to better my understanding of them. I have run through a few
 tutorials regarding operting systerms from scratch in order to get some hands on
 experince.
+
+
+After Class:
+-------------------
+Important takeaways:
+Software:
+  - Is "soft" and easy to manipulate
+  - System software
+  - Kernel (+ libraries)
+    - Gluing the system software and kernel (+ libraries) together makes an OS
+  - Add-on software
+    - Web servers
+    - Image manipulation tools
+    - Some things that can be seen as add-ons could also be shipped with an OS
+      as system software
+    - Firmware is software
+
+Firmware:
+  - Kind of soft but hard to manipulate, so it is "firm"
+  - Close to the hardware
+  - Less flexibility
+  - Can exist on
+    - Routers
+    - Printers
+    - Car navigation systems
+    - Bios
+    - RAID controllers
+
+Hardware:
+  - Is "hard" and not easy to manipulate
+
+The basic steps of installing an operating system:
+  - Power on
+  - Boot off of some kind of boot device
+  - Create partitions
+    - fdisk
+    - disklabel
+  - Create file systems on partitions
+  - Mount partitions
+  - Extract software
+  - Update the MBR/install boot loader
+  - Reboot into the new OS
+  - Configuration
+  - Add more software/apply updates & patches
+
+Package Management:
+  - pkg = container
+    - executables (compiled or interpreted)
+    - libraries
+    - scripts
+    - config files
+    - documentation
+    - etc
+  - Can automatically pull in dependencies
+  - Package repositories
+    - An inventory
+    - Dependency graphs
+  - Integrity checks
+  - Vulnerability advisories
+  - Keep track of what is installed
+  - Can easily update
+  - Easy to remove software
+
+The example shown in the slides and discussed briefly in class regarding the npm
+package being removed and breaking other people's software reminded me a similar
+and more recent event. About a month go, a developer named Marak Squires intentionally
+corrupted two of his own npm packaged `color` and `faker` in protest of big corporations
+and commercial environments taking open source projects ans using them to make their own
+products without compensation to the original developer.
+https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/
+
+Something else I found very interesting was the Docker presentation. While I have been
+using Docker for a few years to make hosting web apps on my server easier, I had never
+considered the implications of running Docker inside of a Docker container. I found it
+fascinating how running Docker in a container has the ability to run on the host parallel
+to the original container despite being spawned in a containerized environment.
