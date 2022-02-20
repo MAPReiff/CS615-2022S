@@ -1,0 +1,15 @@
+Lecture 05 (2/22/22)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week five lecture playlist and read the WHOIS:
+Fragile, unparseable, obsolete... and universally relied upon" chapter linked on
+the course site.
+
+I have completed the fifth week's self check questionnaire.
+
+I found some of the concepts discussed in the last lecture video to be very interesting,
+such as peering and how networks are connected to other networks.
+
+I have started to work on the second homework assignment regarding packet capture by doing
+some further research into the concepts and software needed to complete the assignment.
