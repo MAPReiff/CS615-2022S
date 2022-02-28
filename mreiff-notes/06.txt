@@ -1,0 +1,17 @@
+Lecture 06 (2/28/22)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week six lecture playlist on youtube and as
+well as reviewed last week's materials to refresh the concepts in my mind. As we
+did not have a lecture last week, I have used the time to try and further familiarize
+myself with networking concepts to help me understand the course's current content.
+
+There does not appear to be a self check questionnaire this week on the course website,
+so I dedicated the time I would normally spend completing it to work on homework #2.
+
+I found the `ktrace` command (and by extension the `strace` and `dtrace` commands) mentioned
+in the video to be very fascinating. A way to know what system calls are being made by a
+command is an easy way to demystify what might otherwise just be seen as a black box, as
+most of the times when I run a command I usually know what it will do, but not how it will
+accomplish it.
