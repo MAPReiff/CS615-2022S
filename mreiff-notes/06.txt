@@ -15,3 +15,43 @@ in the video to be very fascinating. A way to know what system calls are being m
 command is an easy way to demystify what might otherwise just be seen as a black box, as
 most of the times when I run a command I usually know what it will do, but not how it will
 accomplish it.
+
+
+After class:
+-------------------
+`nc www.yahoo.com 80`
+- `/etc/nsswitch.com` name service switch conf file; defines how lookups are done
+- `/etc/hosts` to check if host is defined
+- if not, `/etc/resolv.conf` to get DNS server
+- DNS request
+	- by default, UDP on port 53
+	- requests with domain
+	- DNS server sends back IPv4/IPv6
+- Packet sent out of network to foreign server
+- TCP handshake
+	- SYN packets sent
+		- if no response, keep trying to send
+	- if the port is closed, get a RESET packet response
+	- if the port is open, get an SYN ACK back; then client sends an ACK back to the server
+	- client now sends data via Push, server sends an ACK
+	- when done communicating, send a FIN flag
+	- server will then send a FIN ACK back
+	- client sends final ACK
+
+Netmask
+- Entire address space is /32 for IPv4
+- In a /26 network
+	- 32-26=6 bits left for host component => 2^6 hosts = 64 hosts
+	- 2 are actually reserved, so 62 hosts
+- IPv6 is /128
+
+ICMP - Internet Control Message Protocol (and ICMPv6 for IPv6)
+
+TTL - Time To Live
+- router will not forward a packet with a TTL of 0
+- Each step will decrease the the number by 1 until 0
+
+I found the eBPF presentation very interesting. Being able to talk to the system
+in a much more effieicnet way (such as the example of offloading some processing
+to a NIC to improve throughput) can be very useful, and could even help with
+debugging due to how low level it can go.
