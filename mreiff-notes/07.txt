@@ -1,0 +1,14 @@
+Lecture 07 (3/7/22)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week seven lecture playlist on youtube
+as well as read the three blog posts linked on the course site.
+
+I have completed the seventh week's self check questionnaire, as well as
+took time to finalize my work on HW2. This assignment took much longer than
+I expected it to, however I was still able to complete it on time.
+
+I found the reading about DoT, DoH and DNSSEC very interesting, as it is
+very fascinating seeing multiple standards designed to accomplish similar
+tasks do so in different ways.
