@@ -1,0 +1,67 @@
+I pledge my honor that I have abided by the Stevens Honor System.
+
+HW#2: Packet Capture
+
+Notes & Setup:
+- As per the directions on the course site, I completed the assignment
+  on an OmniOS instance (ami-0242bbd23361d20e2) and a Fedora instance
+  (ami-08b4ee602f76bff79) running on AWS EC2.
+
+- For the first portion of the assignment, all captured data from running
+  `traceroute www.stevens.edu` that was collected with snoop/tcpdump is
+  located in the `traceroute.txt` file.
+
+- For the second portion of the assignment, the data collected from running
+  the telnet command is located in the `http.txt` file.
+
+- For the third portion of the assignment, the data collected from the
+  multiple traceroute commands is located in the `visual-traceroute.txt`
+  file.
+
+- While not specifically requested by the assignmentm, all of the raw
+  unfiltered output data is stored in the ./raw directory
+
+Part 1:
+- While the OmniOS instance had both the snoop and traceroute commands
+  avalable from the start, there was no additional tinkering required.
+  However, the Fedora instnace lacked both the tcpdump and traceroute
+  commands needed for this assignment. In order to install them, I
+  used the following commands:
+      sudo yum install traceroute
+      sudo yum install tcpdump
+  
+
+Part 2:
+- When intially trying to run the telnet command, I was recieving an error
+  that the instance was unable to connect to to the IPv6 address that is
+  assigned to 6.ifconfig.pro. As I was attempting to solve this issue,
+  I saw that Timothy Wang in the course slack had discovered a solution
+  to this issue. On boot, OmniOS (or atleast how it is configured on this
+  instance) does not enable IPv6 by default. To solve this, the following
+  commands must be run:
+      ipadm create-addr -T addrconf xnf0/v6
+      /usr/lib/inet/in.ndpd
+  This allows for IPv6 networking to function properly on the OmniOS instance.
+  To verify this, I am able to both use the telnet command to do the assignment
+  work, as well as use the `curl` command on the provided domain to verify
+  the instance's IPv6 address.
+
+- For the Fedora instance, similar to in Part 1, I had to install the telnet
+  packaged as it was not included. I did so by running the following command:
+      sudo yum install telnet
+
+- In order to issue the HTTP requests using telnet, the following command and
+  inputs were used:
+      telnet 6.ifconfig.pro
+        HEAD / HTTP/1.0
+
+
+Part 3:
+- The visual traceroute exercise was a very informative, as having a way to
+  visualize network traffic connecting to different nodes allowed for me to
+  gain a better graph of how the internet exists in a physical sense, rather
+  than just a mysterious invisible network that "just works".
+
+- It appears that using a traceroute visualization tool is not always the
+  best option. As explained in the visual-traceroute.txt, it appears that
+  multiple nodes along the connection route are not displayed.

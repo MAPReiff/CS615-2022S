@@ -1,0 +1,213 @@
+04:49:38.675252 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 3083949196:3083949256, ack 2596066975, win 464, options [nop,nop,TS val 2521399305 ecr 3805335930], length 60
+04:49:38.675384 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 60:204, ack 1, win 464, options [nop,nop,TS val 2521399305 ecr 3805335930], length 144
+04:49:38.675466 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 204:360, ack 1, win 464, options [nop,nop,TS val 2521399305 ecr 3805335930], length 156
+04:49:38.675499 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 360:428, ack 1, win 464, options [nop,nop,TS val 2521399305 ecr 3805335930], length 68
+04:49:38.675593 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 428:464, ack 1, win 464, options [nop,nop,TS val 2521399305 ecr 3805335930], length 36
+04:49:38.685294 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 60, win 501, options [nop,nop,TS val 3805335980 ecr 2521399305], length 0
+04:49:38.685304 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 204, win 501, options [nop,nop,TS val 3805335980 ecr 2521399305], length 0
+04:49:38.685306 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 360, win 501, options [nop,nop,TS val 3805335980 ecr 2521399305], length 0
+04:49:38.685307 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 428, win 501, options [nop,nop,TS val 3805335980 ecr 2521399305], length 0
+04:49:38.685308 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 464, win 501, options [nop,nop,TS val 3805335980 ecr 2521399305], length 0
+04:49:39.012043 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [P.], seq 1592652653:1592652689, ack 303715461, win 501, options [nop,nop,TS val 3805336308 ecr 2521396182], length 36
+04:49:39.014006 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1:37, ack 36, win 464, options [nop,nop,TS val 2521399644 ecr 3805336308], length 36
+04:49:39.014953 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 37:153, ack 36, win 464, options [nop,nop,TS val 2521399645 ecr 3805336308], length 116
+04:49:39.015056 IP ip-10-10-0-23.ec2.internal.45428 > 104.18.130.28.traceroute: UDP, length 32
+04:49:39.015083 IP ip-10-10-0-23.ec2.internal.45047 > 104.18.130.28.33435: UDP, length 32
+04:49:39.015098 IP ip-10-10-0-23.ec2.internal.40435 > 104.18.130.28.33436: UDP, length 32
+04:49:39.015117 IP ip-10-10-0-23.ec2.internal.51776 > 104.18.130.28.33437: UDP, length 32
+04:49:39.015136 IP ip-10-10-0-23.ec2.internal.57017 > 104.18.130.28.33438: UDP, length 32
+04:49:39.015153 IP ip-10-10-0-23.ec2.internal.53356 > 104.18.130.28.33439: UDP, length 32
+04:49:39.015166 IP ip-10-10-0-23.ec2.internal.45830 > 104.18.130.28.33440: UDP, length 32
+04:49:39.015185 IP ip-10-10-0-23.ec2.internal.41775 > 104.18.130.28.33441: UDP, length 32
+04:49:39.015202 IP ip-10-10-0-23.ec2.internal.55501 > 104.18.130.28.33442: UDP, length 32
+04:49:39.015219 IP ip-10-10-0-23.ec2.internal.56100 > 104.18.130.28.33443: UDP, length 32
+04:49:39.015233 IP ip-10-10-0-23.ec2.internal.37843 > 104.18.130.28.33444: UDP, length 32
+04:49:39.015251 IP ip-10-10-0-23.ec2.internal.49853 > 104.18.130.28.33445: UDP, length 32
+04:49:39.015270 IP ip-10-10-0-23.ec2.internal.47997 > 104.18.130.28.33446: UDP, length 32
+04:49:39.015283 IP ip-10-10-0-23.ec2.internal.52836 > 104.18.130.28.33447: UDP, length 32
+04:49:39.015303 IP ip-10-10-0-23.ec2.internal.48524 > 104.18.130.28.33448: UDP, length 32
+04:49:39.015321 IP ip-10-10-0-23.ec2.internal.51607 > 104.18.130.28.33449: UDP, length 32
+04:49:39.015610 IP 241.0.6.6 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015655 IP ip-10-10-0-23.ec2.internal.37327 > 104.18.130.28.33450: UDP, length 32
+04:49:39.015688 IP 241.0.4.27 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015688 IP 241.0.6.2 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015724 IP ip-10-10-0-23.ec2.internal.39159 > 104.18.130.28.33451: UDP, length 32
+04:49:39.015744 IP 241.0.4.8 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015744 IP 240.0.48.22 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015758 IP ip-10-10-0-23.ec2.internal.55260 > 104.18.130.28.33452: UDP, length 32
+04:49:39.015772 IP 242.0.155.33 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.015800 IP ip-10-10-0-23.ec2.internal.37147 > 104.18.130.28.33453: UDP, length 32
+04:49:39.015824 IP ip-10-10-0-23.ec2.internal.48319 > 104.18.130.28.33454: UDP, length 32
+04:49:39.015842 IP ip-10-10-0-23.ec2.internal.47163 > 104.18.130.28.33455: UDP, length 32
+04:49:39.016115 IP 242.0.155.49 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016154 IP ip-10-10-0-23.ec2.internal.51465 > 104.18.130.28.33456: UDP, length 32
+04:49:39.016422 IP 52.93.28.95 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016422 IP 52.93.28.101 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016459 IP ip-10-10-0-23.ec2.internal.50686 > 104.18.130.28.33457: UDP, length 32
+04:49:39.016496 IP ip-10-10-0-23.ec2.internal.42668 > 104.18.130.28.33458: UDP, length 32
+04:49:39.016645 IP 100.100.34.92 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016682 IP 242.0.186.177 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016686 IP ip-10-10-0-23.ec2.internal.50414 > 104.18.130.28.33459: UDP, length 32
+04:49:39.016722 IP ip-10-10-0-23.ec2.internal.33697 > 104.18.130.28.33460: UDP, length 32
+04:49:39.017051 IP 100.100.34.40 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.017051 IP 100.100.34.44 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.017088 IP ip-10-10-0-23.ec2.internal.55022 > 104.18.130.28.33461: UDP, length 32
+04:49:39.017112 IP ip-10-10-0-23.ec2.internal.56617 > 104.18.130.28.33462: UDP, length 32
+04:49:39.017313 IP 100.100.34.32 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.017352 IP ip-10-10-0-23.ec2.internal.50394 > 104.18.130.28.33463: UDP, length 32
+04:49:39.018530 IP 99.83.90.51 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.018568 IP ip-10-10-0-23.ec2.internal.34824 > 104.18.130.28.33464: UDP, length 32
+04:49:39.018635 IP 172.70.40.2 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.018668 IP ip-10-10-0-23.ec2.internal.50980 > 104.18.130.28.33465: UDP, length 32
+04:49:39.019369 IP 104.18.130.28 > ip-10-10-0-23.ec2.internal: ICMP 104.18.130.28 udp port 33464 unreachable, length 68
+04:49:39.019403 IP ip-10-10-0-23.ec2.internal.49903 > 104.18.130.28.33466: UDP, length 32
+04:49:39.019455 IP 104.18.130.28 > ip-10-10-0-23.ec2.internal: ICMP 104.18.130.28 udp port 33465 unreachable, length 68
+04:49:39.019837 IP 100.65.107.176 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.020122 IP 104.18.130.28 > ip-10-10-0-23.ec2.internal: ICMP 104.18.130.28 udp port 33466 unreachable, length 68
+04:49:39.020701 IP 172.70.40.4 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.020717 IP 216.182.229.72 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.021512 IP 52.93.28.83 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.023344 IP 99.83.90.51 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.024081 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 37, win 501, options [nop,nop,TS val 3805336318 ecr 2521399644], length 0
+04:49:39.024081 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 153, win 501, options [nop,nop,TS val 3805336319 ecr 2521399645], length 0
+04:49:39.025751 IP 52.93.28.107 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.026928 IP 100.66.15.38 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.028475 IP 100.66.14.40 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.028632 IP 216.182.226.20 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.032102 IP 100.66.9.16 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.034555 IP 100.66.55.42 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.034993 IP 100.66.14.138 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.035051 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 153:189, ack 36, win 464, options [nop,nop,TS val 2521399665 ecr 3805336319], length 36
+04:49:39.035105 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 189:233, ack 36, win 464, options [nop,nop,TS val 2521399665 ecr 3805336319], length 44
+04:49:39.035695 IP ip-10-10-0-23.ec2.internal.37452 > ip-10-10-0-2.ec2.internal.domain: 42407+ [1au] PTR? 72.229.182.216.in-addr.arpa. (56)
+04:49:39.043991 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 189, win 501, options [nop,nop,TS val 3805336339 ecr 2521399665], length 0
+04:49:39.043991 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 233, win 501, options [nop,nop,TS val 3805336339 ecr 2521399665], length 0
+04:49:39.106032 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.37452: 42407 NXDomain 0/1/1 (127)
+04:49:39.106601 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 233:309, ack 36, win 464, options [nop,nop,TS val 2521399736 ecr 3805336339], length 76
+04:49:39.107157 IP ip-10-10-0-23.ec2.internal.45047 > ip-10-10-0-2.ec2.internal.domain: 39124+ [1au] PTR? 20.226.182.216.in-addr.arpa. (56)
+04:49:39.112277 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.45047: 39124 NXDomain 0/1/1 (127)
+04:49:39.112611 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 309:393, ack 36, win 464, options [nop,nop,TS val 2521399742 ecr 3805336339], length 84
+04:49:39.112686 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 393:429, ack 36, win 464, options [nop,nop,TS val 2521399742 ecr 3805336339], length 36
+04:49:39.112696 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 429:473, ack 36, win 464, options [nop,nop,TS val 2521399743 ecr 3805336339], length 44
+04:49:39.113165 IP ip-10-10-0-23.ec2.internal.52198 > ip-10-10-0-2.ec2.internal.domain: 9230+ [1au] PTR? 16.9.66.100.in-addr.arpa. (53)
+04:49:39.114773 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.52198: 9230 NXDomain 0/1/1 (112)
+04:49:39.115080 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 473:549, ack 36, win 464, options [nop,nop,TS val 2521399745 ecr 3805336339], length 76
+04:49:39.115611 IP ip-10-10-0-23.ec2.internal.49369 > ip-10-10-0-2.ec2.internal.domain: 21390+ [1au] PTR? 176.107.65.100.in-addr.arpa. (56)
+04:49:39.115992 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 309, win 501, options [nop,nop,TS val 3805336411 ecr 2521399736], length 0
+04:49:39.117102 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.49369: 21390 NXDomain 0/1/1 (115)
+04:49:39.117438 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 549:625, ack 36, win 464, options [nop,nop,TS val 2521399747 ecr 3805336411], length 76
+04:49:39.117526 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 625:661, ack 36, win 464, options [nop,nop,TS val 2521399747 ecr 3805336411], length 36
+04:49:39.117955 IP ip-10-10-0-23.ec2.internal.37255 > ip-10-10-0-2.ec2.internal.domain: 28331+ [1au] PTR? 138.14.66.100.in-addr.arpa. (55)
+04:49:39.119479 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.37255: 28331 NXDomain 0/1/1 (114)
+04:49:39.119845 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 661:745, ack 36, win 464, options [nop,nop,TS val 2521399750 ecr 3805336411], length 84
+04:49:39.120327 IP ip-10-10-0-23.ec2.internal.41972 > ip-10-10-0-2.ec2.internal.domain: 46771+ [1au] PTR? 40.14.66.100.in-addr.arpa. (54)
+04:49:39.121803 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.41972: 46771 NXDomain 0/1/1 (113)
+04:49:39.122146 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 745:821, ack 36, win 464, options [nop,nop,TS val 2521399752 ecr 3805336411], length 76
+04:49:39.122660 IP ip-10-10-0-23.ec2.internal.59396 > ip-10-10-0-2.ec2.internal.domain: 16949+ [1au] PTR? 38.15.66.100.in-addr.arpa. (54)
+04:49:39.124025 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 393, win 501, options [nop,nop,TS val 3805336417 ecr 2521399742], length 0
+04:49:39.124030 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 429, win 501, options [nop,nop,TS val 3805336417 ecr 2521399742], length 0
+04:49:39.124052 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 473, win 501, options [nop,nop,TS val 3805336417 ecr 2521399743], length 0
+04:49:39.124081 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 549, win 501, options [nop,nop,TS val 3805336419 ecr 2521399745], length 0
+04:49:39.124247 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.59396: 16949 NXDomain 0/1/1 (113)
+04:49:39.124592 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 821:897, ack 36, win 464, options [nop,nop,TS val 2521399754 ecr 3805336419], length 76
+04:49:39.124670 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 897:933, ack 36, win 464, options [nop,nop,TS val 2521399754 ecr 3805336419], length 36
+04:49:39.125120 IP ip-10-10-0-23.ec2.internal.56918 > ip-10-10-0-2.ec2.internal.domain: 26922+ [1au] PTR? 42.55.66.100.in-addr.arpa. (54)
+04:49:39.126642 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.56918: 26922 NXDomain 0/1/1 (113)
+04:49:39.126964 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 933:1009, ack 36, win 464, options [nop,nop,TS val 2521399757 ecr 3805336419], length 76
+04:49:39.127456 IP ip-10-10-0-23.ec2.internal.41873 > ip-10-10-0-2.ec2.internal.domain: 60126+ [1au] PTR? 6.6.0.241.in-addr.arpa. (51)
+04:49:39.127990 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 625, win 501, options [nop,nop,TS val 3805336422 ecr 2521399747], length 0
+04:49:39.128001 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 661, win 501, options [nop,nop,TS val 3805336422 ecr 2521399747], length 0
+04:49:39.128022 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 745, win 501, options [nop,nop,TS val 3805336424 ecr 2521399750], length 0
+04:49:39.131993 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 821, win 501, options [nop,nop,TS val 3805336426 ecr 2521399752], length 0
+04:49:39.136030 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 897, win 501, options [nop,nop,TS val 3805336429 ecr 2521399754], length 0
+04:49:39.136042 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 933, win 501, options [nop,nop,TS val 3805336429 ecr 2521399754], length 0
+04:49:39.136061 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1009, win 501, options [nop,nop,TS val 3805336431 ecr 2521399757], length 0
+04:49:39.196293 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.41873: 60126 NXDomain 0/1/1 (119)
+04:49:39.196845 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1009:1077, ack 36, win 464, options [nop,nop,TS val 2521399827 ecr 3805336431], length 68
+04:49:39.197605 IP ip-10-10-0-23.ec2.internal.50977 > ip-10-10-0-2.ec2.internal.domain: 48863+ [1au] PTR? 27.4.0.241.in-addr.arpa. (52)
+04:49:39.208021 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1077, win 501, options [nop,nop,TS val 3805336501 ecr 2521399827], length 0
+04:49:39.262341 IP 216.182.231.14 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.337573 IP6 ip-10-10-0-23.ec2.internal > ff02::16: HBH ICMP6, multicast listener report v2, 3 group record(s), length 68
+04:49:39.346220 IP 100.66.9.22 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.440598 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.50977: 48863 NXDomain 0/1/1 (120)
+04:49:39.441135 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1077:1145, ack 36, win 464, options [nop,nop,TS val 2521400071 ecr 3805336501], length 68
+04:49:39.441221 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1145:1181, ack 36, win 464, options [nop,nop,TS val 2521400071 ecr 3805336501], length 36
+04:49:39.441916 IP ip-10-10-0-23.ec2.internal.37252 > ip-10-10-0-2.ec2.internal.domain: 34269+ [1au] PTR? 8.4.0.241.in-addr.arpa. (51)
+04:49:39.452022 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1145, win 501, options [nop,nop,TS val 3805336745 ecr 2521400071], length 0
+04:49:39.452031 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1181, win 501, options [nop,nop,TS val 3805336745 ecr 2521400071], length 0
+04:49:39.580285 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.37252: 34269 NXDomain 0/1/1 (119)
+04:49:39.580821 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1181:1257, ack 36, win 464, options [nop,nop,TS val 2521400211 ecr 3805336745], length 76
+04:49:39.581557 IP ip-10-10-0-23.ec2.internal.49083 > ip-10-10-0-2.ec2.internal.domain: 29217+ [1au] PTR? 2.6.0.241.in-addr.arpa. (51)
+04:49:39.591567 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.49083: 29217 NXDomain 0/1/1 (119)
+04:49:39.591849 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1257:1325, ack 36, win 464, options [nop,nop,TS val 2521400222 ecr 3805336745], length 68
+04:49:39.592023 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1257, win 501, options [nop,nop,TS val 3805336885 ecr 2521400211], length 0
+04:49:39.592546 IP ip-10-10-0-23.ec2.internal.60461 > ip-10-10-0-2.ec2.internal.domain: 3986+ [1au] PTR? 22.48.0.240.in-addr.arpa. (53)
+04:49:39.595137 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.60461: 3986 NXDomain 0/1/1 (121)
+04:49:39.595402 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1325:1401, ack 36, win 464, options [nop,nop,TS val 2521400225 ecr 3805336885], length 76
+04:49:39.595483 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1401:1437, ack 36, win 464, options [nop,nop,TS val 2521400225 ecr 3805336885], length 36
+04:49:39.596067 IP ip-10-10-0-23.ec2.internal.60173 > ip-10-10-0-2.ec2.internal.domain: 21580+ [1au] PTR? 33.155.0.242.in-addr.arpa. (54)
+04:49:39.598944 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.60173: 21580 NXDomain 0/1/1 (122)
+04:49:39.599209 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1437:1513, ack 36, win 464, options [nop,nop,TS val 2521400229 ecr 3805336885], length 76
+04:49:39.599835 IP ip-10-10-0-23.ec2.internal.47571 > ip-10-10-0-2.ec2.internal.domain: 25448+ [1au] PTR? 177.186.0.242.in-addr.arpa. (55)
+04:49:39.599995 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1325, win 501, options [nop,nop,TS val 3805336896 ecr 2521400222], length 0
+04:49:39.602585 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.47571: 25448 NXDomain 0/1/1 (123)
+04:49:39.602890 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1513:1589, ack 36, win 464, options [nop,nop,TS val 2521400233 ecr 3805336896], length 76
+04:49:39.603461 IP ip-10-10-0-23.ec2.internal.36697 > ip-10-10-0-2.ec2.internal.domain: 54811+ [1au] PTR? 49.155.0.242.in-addr.arpa. (54)
+04:49:39.604006 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1401, win 501, options [nop,nop,TS val 3805336900 ecr 2521400225], length 0
+04:49:39.604011 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1437, win 501, options [nop,nop,TS val 3805336900 ecr 2521400225], length 0
+04:49:39.607993 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1513, win 501, options [nop,nop,TS val 3805336903 ecr 2521400229], length 0
+04:49:39.612005 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1589, win 501, options [nop,nop,TS val 3805336907 ecr 2521400233], length 0
+04:49:39.673131 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.36697: 54811 NXDomain 0/1/1 (122)
+04:49:39.673762 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1589:1665, ack 36, win 464, options [nop,nop,TS val 2521400304 ecr 3805336907], length 76
+04:49:39.674380 IP ip-10-10-0-23.ec2.internal.40552 > ip-10-10-0-2.ec2.internal.domain: 59450+ [1au] PTR? 95.28.93.52.in-addr.arpa. (53)
+04:49:39.676172 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.40552: 59450 NXDomain 0/1/1 (124)
+04:49:39.676544 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1665:1741, ack 36, win 464, options [nop,nop,TS val 2521400306 ecr 3805336907], length 76
+04:49:39.677084 IP ip-10-10-0-23.ec2.internal.57130 > ip-10-10-0-2.ec2.internal.domain: 57194+ [1au] PTR? 83.28.93.52.in-addr.arpa. (53)
+04:49:39.679457 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.57130: 57194 NXDomain 0/1/1 (124)
+04:49:39.679825 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1741:1817, ack 36, win 464, options [nop,nop,TS val 2521400310 ecr 3805336907], length 76
+04:49:39.680357 IP ip-10-10-0-23.ec2.internal.57823 > ip-10-10-0-2.ec2.internal.domain: 43883+ [1au] PTR? 101.28.93.52.in-addr.arpa. (54)
+04:49:39.681854 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.57823: 43883 NXDomain 0/1/1 (125)
+04:49:39.682153 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1817:1893, ack 36, win 464, options [nop,nop,TS val 2521400312 ecr 3805336907], length 76
+04:49:39.682709 IP ip-10-10-0-23.ec2.internal.50123 > ip-10-10-0-2.ec2.internal.domain: 55662+ [1au] PTR? 44.34.100.100.in-addr.arpa. (55)
+04:49:39.683980 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1665, win 501, options [nop,nop,TS val 3805336978 ecr 2521400304], length 0
+04:49:39.684176 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.50123: 55662 NXDomain 0/1/1 (114)
+04:49:39.684472 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1893:1977, ack 36, win 464, options [nop,nop,TS val 2521400314 ecr 3805336978], length 84
+04:49:39.685013 IP ip-10-10-0-23.ec2.internal.40188 > ip-10-10-0-2.ec2.internal.domain: 14541+ [1au] PTR? 92.34.100.100.in-addr.arpa. (55)
+04:49:39.686413 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.40188: 14541 NXDomain 0/1/1 (114)
+04:49:39.686744 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1977:2053, ack 36, win 464, options [nop,nop,TS val 2521400317 ecr 3805336978], length 76
+04:49:39.687264 IP ip-10-10-0-23.ec2.internal.41163 > ip-10-10-0-2.ec2.internal.domain: 48833+ [1au] PTR? 107.28.93.52.in-addr.arpa. (54)
+04:49:39.687989 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1741, win 501, options [nop,nop,TS val 3805336981 ecr 2521400306], length 0
+04:49:39.687994 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1817, win 501, options [nop,nop,TS val 3805336984 ecr 2521400310], length 0
+04:49:39.689509 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.41163: 48833 NXDomain 0/1/1 (125)
+04:49:39.689814 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2053:2129, ack 36, win 464, options [nop,nop,TS val 2521400320 ecr 3805336984], length 76
+04:49:39.690336 IP ip-10-10-0-23.ec2.internal.60573 > ip-10-10-0-2.ec2.internal.domain: 5237+ [1au] PTR? 40.34.100.100.in-addr.arpa. (55)
+04:49:39.691782 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.60573: 5237 NXDomain 0/1/1 (114)
+04:49:39.692018 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1893, win 501, options [nop,nop,TS val 3805336986 ecr 2521400312], length 0
+04:49:39.692125 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2129:2213, ack 36, win 464, options [nop,nop,TS val 2521400322 ecr 3805336986], length 84
+04:49:39.692864 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2213:2289, ack 36, win 464, options [nop,nop,TS val 2521400323 ecr 3805336986], length 76
+04:49:39.693604 IP ip-10-10-0-23.ec2.internal.48224 > ip-10-10-0-2.ec2.internal.domain: 45724+ [1au] PTR? 32.34.100.100.in-addr.arpa. (55)
+04:49:39.694982 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.48224: 45724 NXDomain 0/1/1 (114)
+04:49:39.695301 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2289:2365, ack 36, win 464, options [nop,nop,TS val 2521400325 ecr 3805336986], length 76
+04:49:39.695850 IP ip-10-10-0-23.ec2.internal.56217 > ip-10-10-0-2.ec2.internal.domain: 60608+ [1au] PTR? 4.40.70.172.in-addr.arpa. (53)
+04:49:39.695975 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 1977, win 501, options [nop,nop,TS val 3805336989 ecr 2521400314], length 0
+04:49:39.695986 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2053, win 501, options [nop,nop,TS val 3805336991 ecr 2521400317], length 0
+04:49:39.700016 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2129, win 501, options [nop,nop,TS val 3805336994 ecr 2521400320], length 0
+04:49:39.700070 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.56217: 60608 NXDomain 0/1/1 (115)
+04:49:39.700380 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2365:2441, ack 36, win 464, options [nop,nop,TS val 2521400330 ecr 3805336994], length 76
+04:49:39.701128 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2441:2517, ack 36, win 464, options [nop,nop,TS val 2521400331 ecr 3805336994], length 76
+04:49:39.701849 IP ip-10-10-0-23.ec2.internal.52359 > ip-10-10-0-2.ec2.internal.domain: 37906+ [1au] PTR? 2.40.70.172.in-addr.arpa. (53)
+04:49:39.704094 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2213, win 501, options [nop,nop,TS val 3805336996 ecr 2521400322], length 0
+04:49:39.704100 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2289, win 501, options [nop,nop,TS val 3805336997 ecr 2521400323], length 0
+04:49:39.704127 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2365, win 501, options [nop,nop,TS val 3805337000 ecr 2521400325], length 0
+04:49:39.705834 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.52359: 37906 NXDomain 0/1/1 (115)
+04:49:39.706139 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2517:2593, ack 36, win 464, options [nop,nop,TS val 2521400336 ecr 3805337000], length 76
+04:49:39.706691 IP ip-10-10-0-23.ec2.internal.37406 > ip-10-10-0-2.ec2.internal.domain: 23054+ [1au] PTR? 28.130.18.104.in-addr.arpa. (55)
+04:49:39.711050 IP ip-10-10-0-2.ec2.internal.domain > ip-10-10-0-23.ec2.internal.37406: 23054 NXDomain 0/1/1 (117)
+04:49:39.711473 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2593:2693, ack 36, win 464, options [nop,nop,TS val 2521400341 ecr 3805337000], length 100
+04:49:39.711790 IP ip-10-10-0-23.ec2.internal.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 2693:2785, ack 36, win 464, options [nop,nop,TS val 2521400342 ecr 3805337000], length 92
+04:49:39.712003 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2441, win 501, options [nop,nop,TS val 3805337005 ecr 2521400330], length 0
+04:49:39.712009 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2517, win 501, options [nop,nop,TS val 3805337005 ecr 2521400331], length 0
+04:49:39.716020 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2593, win 501, options [nop,nop,TS val 3805337010 ecr 2521400336], length 0
+04:49:39.720025 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2693, win 501, options [nop,nop,TS val 3805337016 ecr 2521400341], length 0
+04:49:39.720031 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > ip-10-10-0-23.ec2.internal.ssh: Flags [.], ack 2785, win 501, options [nop,nop,TS val 3805337016 ecr 2521400342], length 0
+

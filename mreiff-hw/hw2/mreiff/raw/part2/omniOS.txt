@@ -1,0 +1,3398 @@
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 1 arrived at 4:24:45.15043
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 46858
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 47 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 137a
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40970
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1863562290
+TCP:  Acknowledgement number = 2983847703
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 4010
+TCP:  Checksum = 0x21cb
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391911907, TS Echo = 4011644
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 2 arrived at 4:24:45.15452
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 46859
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 47 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1379
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40970
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1863562290
+TCP:  Acknowledgement number = 2983847755
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 4010
+TCP:  Checksum = 0x2191
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391911910, TS Echo = 4011647
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 3 arrived at 4:24:45.15453
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 46860
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 47 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1378
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40970
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1863562290
+TCP:  Acknowledgement number = 2983847799
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 4010
+TCP:  Checksum = 0x2165
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391911910, TS Echo = 4011647
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 4 arrived at 4:24:45.15453
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 46861
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 47 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1377
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40970
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1863562290
+TCP:  Acknowledgement number = 2983847835
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 4010
+TCP:  Checksum = 0x2141
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391911910, TS Echo = 4011647
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 5 arrived at 4:24:45.15453
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 46862
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 47 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 1376
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40970
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1863562290
+TCP:  Acknowledgement number = 2983847895
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 4010
+TCP:  Checksum = 0x2105
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391911910, TS Echo = 4011647
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 6 arrived at 4:24:45.79813
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 60 bytes
+IP:   Identification = 24296
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 239 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 010e
+IP:   Source address = 72.21.217.130, 72.21.217.130
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 11455
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 2239810860
+TCP:  Acknowledgement number = 0
+TCP:  Data offset = 40 bytes
+TCP:  Flags = 0x02
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...0 .... = No acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 65535
+TCP:  Checksum = 0x7697
+TCP:  Urgent pointer = 0
+TCP:  Options: (20 bytes)
+TCP:    - Maximum segment size = 1460 bytes
+TCP:    - SACK permitted option
+TCP:    - TS Val = 2108663861, TS Echo = 0
+TCP:    - No operation
+TCP:    - Window scale = 9
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 7 arrived at 4:24:45.79813
+ETHER:  Packet size = 102 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 88 bytes
+IP:   Identification = 64758
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc69
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196266988
+TCP:  Acknowledgement number = 1440317436
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x7341
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391912554, TS Echo = 4006214
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 8 arrived at 4:24:45.79816
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 879
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 0b9c
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 72.21.217.130, 72.21.217.130
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 11455 
+TCP:  Sequence number = 0
+TCP:  Acknowledgement number = 2239810861
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x14
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .1.. = Reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 0
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 9 arrived at 4:24:45.79866
+ETHER:  Packet size = 102 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 88 bytes
+IP:   Identification = 932
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b5f4
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440317436
+TCP:  Acknowledgement number = 1196267024
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4012303, TS Echo = 391912554
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 10 arrived at 4:24:45.79963
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 60 bytes
+IP:   Identification = 56341
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 239 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 83e0
+IP:   Source address = 72.21.217.130, 72.21.217.130
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 19780
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 715878968
+TCP:  Acknowledgement number = 0
+TCP:  Data offset = 40 bytes
+TCP:  Flags = 0x02
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...0 .... = No acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 65535
+TCP:  Checksum = 0x0bd9
+TCP:  Urgent pointer = 0
+TCP:  Options: (20 bytes)
+TCP:    - Maximum segment size = 1460 bytes
+TCP:    - SACK permitted option
+TCP:    - TS Val = 2108663864, TS Echo = 0
+TCP:    - No operation
+TCP:    - Window scale = 9
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 11 arrived at 4:24:45.79964
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 880
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 0b9b
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 72.21.217.130, 72.21.217.130
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 19780 
+TCP:  Sequence number = 0
+TCP:  Acknowledgement number = 715878969
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x14
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .1.. = Reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 0
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 12 arrived at 4:24:45.80164
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 60 bytes
+IP:   Identification = 881
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = a406
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 33031
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 40 
+UDP:  Checksum = 0000 (no checksum)
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 56691
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 6.ifconfig.pro.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 13 arrived at 4:24:45.80207
+ETHER:  Packet size = 135 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 121 bytes
+IP:   Identification = 45542
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f553
+IP:   Source address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 33031 
+UDP:  Length = 101 
+UDP:  Checksum = 49EC 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 56691
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 0 (OK)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 6.ifconfig.pro.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  0 answer(s)
+DNS:  1 name server resource(s)
+DNS:      Domain Name: ifconfig.pro.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  6 (Start Of a zone Authority)
+DNS:      TTL (Time To Live): 206
+DNS:      Start Of a zone Authority: 
+DNS:      MNAME (Server name): ns1.geekstorage.com.
+DNS:      RNAME (Resposible mailbox): admin.geekstorage.com.
+DNS:      Serial: 2022020800
+DNS:      Refresh: 3600  Retry: 1800  Expire: 1209600 Minimum: 86400
+DNS:  
+DNS:  0 additional record(s)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 14 arrived at 4:24:45.80212
+ETHER:  Packet size = 87 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 73 bytes
+IP:   Identification = 882
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = a3f8
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 52513
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 53 
+UDP:  Checksum = 0000 (no checksum)
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 5611
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 6.ifconfig.pro.ec2.internal.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 15 arrived at 4:24:45.81008
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64759
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc8c
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267024
+TCP:  Acknowledgement number = 1440317472
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x3343
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391912567, TS Echo = 4012303
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 16 arrived at 4:24:45.81029
+ETHER:  Packet size = 148 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 134 bytes
+IP:   Identification = 45543
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f545
+IP:   Source address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 52513 
+UDP:  Length = 114 
+UDP:  Checksum = 31B2 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 5611
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 3 (Name Error)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 6.ifconfig.pro.ec2.internal.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  1 (Address)
+DNS:  
+DNS:  0 answer(s)
+DNS:  1 name server resource(s)
+DNS:      Domain Name: ec2.internal.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  6 (Start Of a zone Authority)
+DNS:      TTL (Time To Live): 60
+DNS:      Start Of a zone Authority: 
+DNS:      MNAME (Server name): ns0.ec2.internal.
+DNS:      RNAME (Resposible mailbox): hostmaster.amazon.com.
+DNS:      Serial: 2012103100
+DNS:      Refresh: 3600  Retry: 3600  Expire: 3600 Minimum: 60
+DNS:  
+DNS:  0 additional record(s)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 17 arrived at 4:24:45.81332
+ETHER:  Packet size = 134 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 120 bytes
+IP:   Identification = 933
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b5d3
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440317472
+TCP:  Acknowledgement number = 1196267024
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4012318, TS Echo = 391912567
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 18 arrived at 4:24:45.81338
+ETHER:  Packet size = 94 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0x0
+IPv6:   Payload length = 40
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 60
+IPv6:   Source address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   Destination address = 2604:180:f1::92, ifconfig.pro
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 63823
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 594529395
+TCP:  Acknowledgement number = 0
+TCP:  Data offset = 40 bytes
+TCP:  Flags = 0x02
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...0 .... = No acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64080
+TCP:  Checksum = 0x43dd
+TCP:  Urgent pointer = 0
+TCP:  Options: (20 bytes)
+TCP:    - Maximum segment size = 1440 bytes
+TCP:    - SACK permitted option
+TCP:    - TS Val = 4012318, TS Echo = 0
+TCP:    - No operation
+TCP:    - Window scale = 1
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 19 arrived at 4:24:45.82604
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64760
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc8b
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267024
+TCP:  Acknowledgement number = 1440317540
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x32e1
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391912582, TS Echo = 4012318
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 20 arrived at 4:24:45.82769
+ETHER:  Packet size = 94 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0xedbc7
+IPv6:   Payload length = 40
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 48
+IPv6:   Source address = 2604:180:f1::92, ifconfig.pro
+IPv6:   Destination address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 63823 
+TCP:  Sequence number = 1832836039
+TCP:  Acknowledgement number = 594529396
+TCP:  Data offset = 40 bytes
+TCP:  Flags = 0x12
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 65535
+TCP:  Checksum = 0x5cdb
+TCP:  Urgent pointer = 0
+TCP:  Options: (20 bytes)
+TCP:    - Maximum segment size = 1440 bytes
+TCP:    - No operation
+TCP:    - Window scale = 6
+TCP:    - SACK permitted option
+TCP:    - TS Val = 3488073806, TS Echo = 4012318
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 21 arrived at 4:24:45.82771
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0x0
+IPv6:   Payload length = 32
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 60
+IPv6:   Source address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   Destination address = 2604:180:f1::92, ifconfig.pro
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 63823
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 594529396
+TCP:  Acknowledgement number = 1832836040
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64260
+TCP:  Checksum = 0x907f
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4012332, TS Echo = 3488073806
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 22 arrived at 4:24:45.82779
+ETHER:  Packet size = 134 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 120 bytes
+IP:   Identification = 934
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b5d2
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440317540
+TCP:  Acknowledgement number = 1196267024
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4012332, TS Echo = 391912582
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 23 arrived at 4:24:45.82783
+ETHER:  Packet size = 134 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 120 bytes
+IP:   Identification = 935
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b5d1
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440317608
+TCP:  Acknowledgement number = 1196267024
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4012332, TS Echo = 391912582
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 24 arrived at 4:24:45.83806
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64761
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc8a
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267024
+TCP:  Acknowledgement number = 1440317608
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x3281
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391912596, TS Echo = 4012332
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 25 arrived at 4:24:45.83806
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64762
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc89
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267024
+TCP:  Acknowledgement number = 1440317676
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x323d
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391912596, TS Echo = 4012332
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 26 arrived at 4:24:46.15260
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 72 bytes
+IP:   Identification = 883
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = a3f8
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 52974
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 52 
+UDP:  Checksum = 0000 (no checksum)
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 31689
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 130.217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 27 arrived at 4:24:46.15445
+ETHER:  Packet size = 157 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 143 bytes
+IP:   Identification = 45569
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f522
+IP:   Source address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 52974 
+UDP:  Length = 123 
+UDP:  Checksum = 41D4 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 31689
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 3 (Name Error)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 130.217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+DNS:  0 answer(s)
+DNS:  1 name server resource(s)
+DNS:      Domain Name: 217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  6 (Start Of a zone Authority)
+DNS:      TTL (Time To Live): 300
+DNS:      Start Of a zone Authority: 
+DNS:      MNAME (Server name): dns-external-master.amazon.com.
+DNS:      RNAME (Resposible mailbox): root.amazon.com.
+DNS:      Serial: 2007072408
+DNS:      Refresh: 600  Retry: 900  Expire: 604800 Minimum: 900
+DNS:  
+DNS:  0 additional record(s)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 28 arrived at 4:24:46.15524
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 72 bytes
+IP:   Identification = 884
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = a3f7
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 42912
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 52 
+UDP:  Checksum = 0000 (no checksum)
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 57798
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 130.217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 29 arrived at 4:24:46.15553
+ETHER:  Packet size = 157 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 143 bytes
+IP:   Identification = 45570
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f521
+IP:   Source address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 42912 
+UDP:  Length = 123 
+UDP:  Checksum = 0325 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 57798
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 3 (Name Error)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 130.217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+DNS:  0 answer(s)
+DNS:  1 name server resource(s)
+DNS:      Domain Name: 217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  6 (Start Of a zone Authority)
+DNS:      TTL (Time To Live): 300
+DNS:      Start Of a zone Authority: 
+DNS:      MNAME (Server name): dns-external-master.amazon.com.
+DNS:      RNAME (Resposible mailbox): root.amazon.com.
+DNS:      Serial: 2007072408
+DNS:      Refresh: 600  Retry: 900  Expire: 604800 Minimum: 900
+DNS:  
+DNS:  0 additional record(s)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 30 arrived at 4:24:46.16011
+ETHER:  Packet size = 132 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 118 bytes
+IP:   Identification = 885
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = a3c8
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 47736
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 98 
+UDP:  Checksum = 0000 (no checksum)
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 38028
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 1.9.6.2.1.6.6.3.9.0.e.b.b.6.3.8.0.0.b.c.7.8.f.0.8.1.f.1.0.0.6.2.ip6.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 31 arrived at 4:24:46.16051
+ETHER:  Packet size = 203 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 189 bytes
+IP:   Identification = 45571
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f4f2
+IP:   Source address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 47736 
+UDP:  Length = 169 
+UDP:  Checksum = AA05 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 38028
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 3 (Name Error)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 1.9.6.2.1.6.6.3.9.0.e.b.b.6.3.8.0.0.b.c.7.8.f.0.8.1.f.1.0.0.6.2.ip6.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+DNS:  0 answer(s)
+DNS:  1 name server resource(s)
+DNS:      Domain Name: 0.8.1.f.1.0.0.6.2.ip6.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  6 (Start Of a zone Authority)
+DNS:      TTL (Time To Live): 73
+DNS:      Start Of a zone Authority: 
+DNS:      MNAME (Server name): dns-external-master.amazon.com.
+DNS:      RNAME (Resposible mailbox): root.amazon.com.
+DNS:      Serial: 93
+DNS:      Refresh: 3600  Retry: 900  Expire: 604800 Minimum: 900
+DNS:  
+DNS:  0 additional record(s)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 32 arrived at 4:24:46.47749
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 60 bytes
+IP:   Identification = 9973
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 234 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 3e36
+IP:   Source address = 72.21.217.77, 72.21.217.77
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 23419
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 3912328389
+TCP:  Acknowledgement number = 0
+TCP:  Data offset = 40 bytes
+TCP:  Flags = 0x02
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...0 .... = No acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 65535
+TCP:  Checksum = 0x9864
+TCP:  Urgent pointer = 0
+TCP:  Options: (20 bytes)
+TCP:    - Maximum segment size = 1460 bytes
+TCP:    - SACK permitted option
+TCP:    - TS Val = 3445624038, TS Echo = 0
+TCP:    - No operation
+TCP:    - Window scale = 9
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 33 arrived at 4:24:46.47751
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 886
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 0bca
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 72.21.217.77, 72.21.217.77
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 23419 
+TCP:  Sequence number = 0
+TCP:  Acknowledgement number = 3912328390
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x14
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .1.. = Reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 0
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 34 arrived at 4:24:46.47881
+ETHER:  Packet size = 74 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 60 bytes
+IP:   Identification = 27779
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 233 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = f9a7
+IP:   Source address = 72.21.217.77, 72.21.217.77
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 19573
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 3389797302
+TCP:  Acknowledgement number = 0
+TCP:  Data offset = 40 bytes
+TCP:  Flags = 0x02
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...0 .... = No acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..1. = Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 65535
+TCP:  Checksum = 0xf79d
+TCP:  Urgent pointer = 0
+TCP:  Options: (20 bytes)
+TCP:    - Maximum segment size = 1460 bytes
+TCP:    - SACK permitted option
+TCP:    - TS Val = 3445624039, TS Echo = 0
+TCP:    - No operation
+TCP:    - Window scale = 9
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 35 arrived at 4:24:46.47882
+ETHER:  Packet size = 54 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 40 bytes
+IP:   Identification = 887
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = 0bc9
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 72.21.217.77, 72.21.217.77
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 19573 
+TCP:  Sequence number = 0
+TCP:  Acknowledgement number = 3389797303
+TCP:  Data offset = 20 bytes
+TCP:  Flags = 0x14
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .1.. = Reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 0
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  No options
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 36 arrived at 4:24:46.54212
+ETHER:  Packet size = 118 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 104 bytes
+IP:   Identification = 64763
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc54
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267024
+TCP:  Acknowledgement number = 1440317676
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0xce21
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391913299, TS Echo = 4012332
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 37 arrived at 4:24:46.54226
+ETHER:  Packet size = 118 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 104 bytes
+IP:   Identification = 936
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b5e0
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440317676
+TCP:  Acknowledgement number = 1196267076
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4013047, TS Echo = 391913299
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 38 arrived at 4:24:46.55407
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64764
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc87
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267076
+TCP:  Acknowledgement number = 1440317728
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x2c3f
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391913311, TS Echo = 4013047
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 39 arrived at 4:24:46.88613
+ETHER:  Packet size = 102 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 88 bytes
+IP:   Identification = 64765
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc62
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267076
+TCP:  Acknowledgement number = 1440317728
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x4f7d
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391913645, TS Echo = 4013047
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 40 arrived at 4:24:46.88627
+ETHER:  Packet size = 102 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 88 bytes
+IP:   Identification = 937
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b5ef
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440317728
+TCP:  Acknowledgement number = 1196267112
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4013391, TS Echo = 391913645
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 41 arrived at 4:24:46.88635
+ETHER:  Packet size = 103 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0x0
+IPv6:   Payload length = 49
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 60
+IPv6:   Source address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   Destination address = 2604:180:f1::92, ifconfig.pro
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 63823
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 594529396
+TCP:  Acknowledgement number = 1832836040
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64260
+TCP:  Checksum = 0xb283
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4013391, TS Echo = 3488073806
+TCP:  
+HTTP: ----- HyperText Transfer Protocol -----
+HTTP: 
+HTTP: HEAD / HTTP/1.0
+HTTP: 
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 42 arrived at 4:24:46.89823
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64766
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc85
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267112
+TCP:  Acknowledgement number = 1440317764
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x2947
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391913655, TS Echo = 4013391
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 43 arrived at 4:24:46.93140
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0xedbc7
+IPv6:   Payload length = 32
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 48
+IPv6:   Source address = 2604:180:f1::92, ifconfig.pro
+IPv6:   Destination address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 63823 
+TCP:  Sequence number = 1832836040
+TCP:  Acknowledgement number = 594529413
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 1035
+TCP:  Checksum = 0x7eef
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 3488074916, TS Echo = 4013391
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 44 arrived at 4:24:47.15430
+ETHER:  Packet size = 85 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 71 bytes
+IP:   Identification = 888
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = a3f4
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 54780
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 51 
+UDP:  Checksum = 0000 (no checksum)
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 58074
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 77.217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 45 arrived at 4:24:47.15749
+ETHER:  Packet size = 156 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 142 bytes
+IP:   Identification = 45609
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f4fb
+IP:   Source address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 54780 
+UDP:  Length = 122 
+UDP:  Checksum = 6152 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 58074
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 3 (Name Error)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 77.217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+DNS:  0 answer(s)
+DNS:  1 name server resource(s)
+DNS:      Domain Name: 217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  6 (Start Of a zone Authority)
+DNS:      TTL (Time To Live): 300
+DNS:      Start Of a zone Authority: 
+DNS:      MNAME (Server name): dns-external-master.amazon.com.
+DNS:      RNAME (Resposible mailbox): root.amazon.com.
+DNS:      Serial: 2007072408
+DNS:      Refresh: 600  Retry: 900  Expire: 604800 Minimum: 900
+DNS:  
+DNS:  0 additional record(s)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 46 arrived at 4:24:47.15830
+ETHER:  Packet size = 85 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 71 bytes
+IP:   Identification = 889
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = a3f3
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 65424
+UDP:  Destination port = 53 (DNS)
+UDP:  Length = 51 
+UDP:  Checksum = 0000 (no checksum)
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Query ID = 14775
+DNS:  Opcode: Query
+DNS:  RD (Recursion Desired) 
+DNS:  1 question(s)
+DNS:      Domain Name: 77.217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 47 arrived at 4:24:47.15868
+ETHER:  Packet size = 156 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x00
+IP:         xxx. .... = 0 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 142 bytes
+IP:   Identification = 45610
+IP:   Flags = 0x0
+IP:         .0.. .... = may fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 255 seconds/hops
+IP:   Protocol = 17 (UDP)
+IP:   Header checksum = f4fa
+IP:   Source address = 10.10.0.2, ip-10-10-0-2.ec2.internal
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+UDP:  ----- UDP Header -----
+UDP:  
+UDP:  Source port = 53
+UDP:  Destination port = 65424 
+UDP:  Length = 122 
+UDP:  Checksum = E0E1 
+UDP:  
+DNS:  ----- DNS Header -----
+DNS:  
+DNS:  Response ID = 14775
+DNS:  RA (Recursion Available) 
+DNS:  Response Code: 3 (Name Error)
+DNS:  Reply to 1 question(s)
+DNS:      Domain Name: 77.217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  12 (Domain Name Pointer)
+DNS:  
+DNS:  0 answer(s)
+DNS:  1 name server resource(s)
+DNS:      Domain Name: 217.21.72.in-addr.arpa.
+DNS:      Class: 1 (Internet)
+DNS:      Type:  6 (Start Of a zone Authority)
+DNS:      TTL (Time To Live): 300
+DNS:      Start Of a zone Authority: 
+DNS:      MNAME (Server name): dns-external-master.amazon.com.
+DNS:      RNAME (Resposible mailbox): root.amazon.com.
+DNS:      Serial: 2007072408
+DNS:      Refresh: 600  Retry: 900  Expire: 604800 Minimum: 900
+DNS:  
+DNS:  0 additional record(s)
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 48 arrived at 4:24:47.56224
+ETHER:  Packet size = 102 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 88 bytes
+IP:   Identification = 64767
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc60
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267112
+TCP:  Acknowledgement number = 1440317764
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x5822
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391914318, TS Echo = 4013391
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 49 arrived at 4:24:47.56239
+ETHER:  Packet size = 102 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 88 bytes
+IP:   Identification = 938
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b5ee
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440317764
+TCP:  Acknowledgement number = 1196267148
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4014067, TS Echo = 391914318
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 50 arrived at 4:24:47.56244
+ETHER:  Packet size = 88 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0x0
+IPv6:   Payload length = 34
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 60
+IPv6:   Source address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   Destination address = 2604:180:f1::92, ifconfig.pro
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 63823
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 594529413
+TCP:  Acknowledgement number = 1832836040
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64260
+TCP:  Checksum = 0x783d
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4014067, TS Echo = 3488074916
+TCP:  
+HTTP: ----- HyperText Transfer Protocol -----
+HTTP: 
+HTTP: 
+HTTP: 
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 51 arrived at 4:24:47.57427
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64768
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc83
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267148
+TCP:  Acknowledgement number = 1440317800
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x23b7
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391914331, TS Echo = 4014067
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 52 arrived at 4:24:47.59974
+ETHER:  Packet size = 245 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0xedbc7
+IPv6:   Payload length = 191
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 48
+IPv6:   Source address = 2604:180:f1::92, ifconfig.pro
+IPv6:   Destination address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 63823 
+TCP:  Sequence number = 1832836040
+TCP:  Acknowledgement number = 594529415
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 1035
+TCP:  Checksum = 0xf26f
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 3488075581, TS Echo = 4014067
+TCP:  
+HTTP: ----- HyperText Transfer Protocol -----
+HTTP: 
+HTTP: HTTP/1.1 200 OK
+HTTP: Server: nginx/1.18.0
+HTTP: Date: Sat, 05 Mar 2022 04:24:47 GMT
+HTTP: Content-Type: text/html; charset=utf-8
+HTTP: Content-Length: 1336
+HTTP: [...]
+HTTP: 
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 53 arrived at 4:24:47.59974
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0xedbc7
+IPv6:   Payload length = 32
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 48
+IPv6:   Source address = 2604:180:f1::92, ifconfig.pro
+IPv6:   Destination address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 63823 
+TCP:  Sequence number = 1832836199
+TCP:  Acknowledgement number = 594529415
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x11
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...1 = Fin
+TCP:  Window = 1035
+TCP:  Checksum = 0x7910
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 3488075581, TS Echo = 4014067
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 54 arrived at 4:24:47.59978
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0x0
+IPv6:   Payload length = 32
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 60
+IPv6:   Source address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   Destination address = 2604:180:f1::92, ifconfig.pro
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 63823
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 594529415
+TCP:  Acknowledgement number = 1832836199
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64260
+TCP:  Checksum = 0x81f2
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4014104, TS Echo = 3488075581
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 55 arrived at 4:24:47.59979
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0x0
+IPv6:   Payload length = 32
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 60
+IPv6:   Source address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   Destination address = 2604:180:f1::92, ifconfig.pro
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 63823
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 594529415
+TCP:  Acknowledgement number = 1832836200
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64260
+TCP:  Checksum = 0x81f1
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4014104, TS Echo = 3488075581
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 56 arrived at 4:24:47.59994
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0x0
+IPv6:   Payload length = 32
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 60
+IPv6:   Source address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   Destination address = 2604:180:f1::92, ifconfig.pro
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 63823
+TCP:  Destination port = 80 (HTTP)
+TCP:  Sequence number = 594529415
+TCP:  Acknowledgement number = 1832836200
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x11
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...1 = Fin
+TCP:  Window = 64260
+TCP:  Checksum = 0x81f0
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4014104, TS Echo = 3488075581
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 57 arrived at 4:24:47.60066
+ETHER:  Packet size = 318 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 304 bytes
+IP:   Identification = 939
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b515
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440317800
+TCP:  Acknowledgement number = 1196267148
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4014105, TS Echo = 391914331
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 58 arrived at 4:24:47.60093
+ETHER:  Packet size = 126 bytes
+ETHER:  Destination = a:2f:8:d6:4f:17, 
+ETHER:  Source      = a:d1:68:72:ef:77, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x10
+IP:         xxx. .... = 0 (precedence)
+IP:         ...1 .... = low delay
+IP:         .... 0... = normal throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 112 bytes
+IP:   Identification = 940
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 64 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = b5d4
+IP:   Source address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   Destination address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 22
+TCP:  Destination port = 40960 
+TCP:  Sequence number = 1440318052
+TCP:  Acknowledgement number = 1196267148
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x18
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 1... = Push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 64436
+TCP:  Checksum = 0x0000
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 4014105, TS Echo = 391914331
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 59 arrived at 4:24:47.61024
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64769
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc82
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267148
+TCP:  Acknowledgement number = 1440318052
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x226f
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391914369, TS Echo = 4014105
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 60 arrived at 4:24:47.61027
+ETHER:  Packet size = 66 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 0800 (IP)
+ETHER:  
+IP:   ----- IP Header -----
+IP:   
+IP:   Version = 4
+IP:   Header length = 20 bytes
+IP:   Type of service = 0x48
+IP:         xxx. .... = 2 (precedence)
+IP:         ...0 .... = normal delay
+IP:         .... 1... = high throughput
+IP:         .... .0.. = normal reliability
+IP:         .... ..0. = not ECN capable transport
+IP:         .... ...0 = no ECN congestion experienced
+IP:   Total length = 52 bytes
+IP:   Identification = 64770
+IP:   Flags = 0x4
+IP:         .1.. .... = do not fragment
+IP:         ..0. .... = last fragment
+IP:   Fragment offset = 0 bytes
+IP:   Time to live = 48 seconds/hops
+IP:   Protocol = 6 (TCP)
+IP:   Header checksum = cc81
+IP:   Source address = 100.8.18.194, pool-100-8-18-194.nwrknj.fios.verizon.net
+IP:   Destination address = 10.10.0.36, ip-10-10-0-36.ec2.internal
+IP:   No options
+IP:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 40960
+TCP:  Destination port = 22 
+TCP:  Sequence number = 1196267148
+TCP:  Acknowledgement number = 1440318112
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 501
+TCP:  Checksum = 0x2233
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 391914369, TS Echo = 4014105
+TCP:  
+
+ETHER:  ----- Ether Header -----
+ETHER:  
+ETHER:  Packet 61 arrived at 4:24:47.61404
+ETHER:  Packet size = 86 bytes
+ETHER:  Destination = a:d1:68:72:ef:77, 
+ETHER:  Source      = a:2f:8:d6:4f:17, 
+ETHER:  Ethertype = 86DD (IPv6)
+ETHER:  
+IPv6:   ----- IPv6 Header -----
+IPv6:   
+IPv6:   Version = 6
+IPv6:   Traffic Class = 0
+IPv6:   Flow label = 0xedbc7
+IPv6:   Payload length = 32
+IPv6:   Next Header = 6 (TCP)
+IPv6:   Hop Limit = 48
+IPv6:   Source address = 2604:180:f1::92, ifconfig.pro
+IPv6:   Destination address = 2600:1f18:f87:cb00:836b:be09:3661:2691
+IPv6:   
+TCP:  ----- TCP Header -----
+TCP:  
+TCP:  Source port = 80
+TCP:  Destination port = 63823 
+TCP:  Sequence number = 1832836200
+TCP:  Acknowledgement number = 594529416
+TCP:  Data offset = 32 bytes
+TCP:  Flags = 0x10
+TCP:        0... .... = No ECN congestion window reduced
+TCP:        .0.. .... = No ECN echo
+TCP:        ..0. .... = No urgent pointer
+TCP:        ...1 .... = Acknowledgement
+TCP:        .... 0... = No push
+TCP:        .... .0.. = No reset
+TCP:        .... ..0. = No Syn
+TCP:        .... ...0 = No Fin
+TCP:  Window = 1035
+TCP:  Checksum = 0x78db
+TCP:  Urgent pointer = 0
+TCP:  Options: (12 bytes)
+TCP:    - No operation
+TCP:    - No operation
+TCP:    - TS Val = 3488075596, TS Echo = 4014104
+TCP:  
+HTTP:  ----- HTTP:   -----
+HTTP:  
+HTTP:  ""
+HTTP:  

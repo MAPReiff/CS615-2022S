@@ -1,0 +1,38 @@
+00:06:43.006394 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 3083961880:3083961940, ack 2596072255, win 464, options [nop,nop,TS val 2522423636 ecr 3806360280], length 60
+00:06:43.006468 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 60:140, ack 1, win 464, options [nop,nop,TS val 2522423636 ecr 3806360280], length 80
+00:06:43.006527 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 140:192, ack 1, win 464, options [nop,nop,TS val 2522423636 ecr 3806360280], length 52
+00:06:43.006567 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 192:260, ack 1, win 464, options [nop,nop,TS val 2522423636 ecr 3806360280], length 68
+00:06:43.006620 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38224: Flags [P.], seq 260:364, ack 1, win 464, options [nop,nop,TS val 2522423636 ecr 3806360280], length 104
+00:06:43.019262 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > 10.10.0.23.ssh: Flags [.], ack 60, win 501, options [nop,nop,TS val 3806360311 ecr 2522423636], length 0
+00:06:43.019272 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > 10.10.0.23.ssh: Flags [.], ack 140, win 501, options [nop,nop,TS val 3806360311 ecr 2522423636], length 0
+00:06:43.019274 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > 10.10.0.23.ssh: Flags [.], ack 192, win 501, options [nop,nop,TS val 3806360311 ecr 2522423636], length 0
+00:06:43.019275 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > 10.10.0.23.ssh: Flags [.], ack 260, win 501, options [nop,nop,TS val 3806360311 ecr 2522423636], length 0
+00:06:43.019276 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38224 > 10.10.0.23.ssh: Flags [.], ack 364, win 501, options [nop,nop,TS val 3806360311 ecr 2522423636], length 0
+00:06:43.666082 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [P.], seq 1592655537:1592655573, ack 303729729, win 501, options [nop,nop,TS val 3806360958 ecr 2522420242], length 36
+00:06:43.667560 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 1:37, ack 36, win 464, options [nop,nop,TS val 2522424297 ecr 3806360958], length 36
+00:06:43.668636 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 37:97, ack 36, win 464, options [nop,nop,TS val 2522424298 ecr 3806360958], length 60
+00:06:43.668766 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 97:133, ack 36, win 464, options [nop,nop,TS val 2522424299 ecr 3806360958], length 36
+00:06:43.668796 IP6 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522 > ifconfig.pro.http: Flags [S], seq 2790916694, win 62587, options [mss 8941,sackOK,TS val 2258776398 ecr 0,nop,wscale 7], length 0
+00:06:43.678055 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 37, win 501, options [nop,nop,TS val 3806360972 ecr 2522424297], length 0
+00:06:43.678061 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 97, win 501, options [nop,nop,TS val 3806360973 ecr 2522424298], length 0
+00:06:43.678063 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 133, win 501, options [nop,nop,TS val 3806360973 ecr 2522424299], length 0
+00:06:43.686320 IP6 ifconfig.pro.http > 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522: Flags [S.], seq 73462718, ack 2790916695, win 65535, options [mss 1440,nop,wscale 6,sackOK,TS val 326850343 ecr 2258776398], length 0
+00:06:43.686336 IP6 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522 > ifconfig.pro.http: Flags [.], ack 1, win 489, options [nop,nop,TS val 2258776415 ecr 326850343], length 0
+00:06:43.686397 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 133:201, ack 36, win 464, options [nop,nop,TS val 2522424316 ecr 3806360973], length 68
+00:06:43.686478 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 201:297, ack 36, win 464, options [nop,nop,TS val 2522424316 ecr 3806360973], length 96
+00:06:43.686552 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 297:333, ack 36, win 464, options [nop,nop,TS val 2522424316 ecr 3806360973], length 36
+00:06:43.697994 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 201, win 501, options [nop,nop,TS val 3806360991 ecr 2522424316], length 0
+00:06:43.697999 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 297, win 501, options [nop,nop,TS val 3806360991 ecr 2522424316], length 0
+00:06:43.698002 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 333, win 501, options [nop,nop,TS val 3806360991 ecr 2522424316], length 0
+00:06:44.166101 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [P.], seq 36:88, ack 333, win 501, options [nop,nop,TS val 3806361460 ecr 2522424316], length 52
+00:06:44.166247 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 333:385, ack 88, win 464, options [nop,nop,TS val 2522424796 ecr 3806361460], length 52
+00:06:44.178048 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 385, win 501, options [nop,nop,TS val 3806361470 ecr 2522424796], length 0
+00:06:44.466033 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [P.], seq 88:124, ack 385, win 501, options [nop,nop,TS val 3806361761 ecr 2522424796], length 36
+00:06:44.466195 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 385:421, ack 124, win 464, options [nop,nop,TS val 2522425096 ecr 3806361761], length 36
+00:06:44.466237 IP6 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522 > ifconfig.pro.http: Flags [P.], seq 1:18, ack 1, win 489, options [nop,nop,TS val 2258777195 ecr 326850343], length 17: HTTP: HEAD / HTTP/1.0
+00:06:44.478028 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 421, win 501, options [nop,nop,TS val 3806361770 ecr 2522425096], length 0
+00:06:44.525840 IP6 ifconfig.pro.http > 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522: Flags [.], ack 18, win 1035, options [nop,nop,TS val 326851184 ecr 2258777195], length 0
+00:06:45.030053 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [P.], seq 124:160, ack 421, win 501, options [nop,nop,TS val 3806362323 ecr 2522425096], length 36
+00:06:45.030198 IP 10.10.0.23.ssh > pool-100-8-18-194.nwrknj.fios.verizon.net.38226: Flags [P.], seq 421:457, ack 160, win 464, options [nop,nop,TS val 2522425660 ecr 3806362323], length 36
+00:06:45.030244 IP6 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522 > ifconfig.pro.http: Flags [P.], seq 18:20, ack 1, win 489, options [nop,nop,TS val 2258777759 ecr 326851184], length 2: HTTP
+00:06:45.042008 IP pool-100-8-18-194.nwrknj.fios.verizon.net.38226 > 10.10.0.23.ssh: Flags [.], ack 457, win 501, options [nop,nop,TS val 3806362334 ecr 2522425660], length 0

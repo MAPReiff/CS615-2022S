@@ -1,0 +1,167 @@
+I was not sure about the best way to annotate the output, so my comments
+will be grouped at the bottom of the file.
+
+snoop output for traceroute to www.stevens.edu on OmniOS
+filtered for ICMP and UDP
+
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33434 S=33897 LEN=20
+216.182.226.98 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33435 S=33897 LEN=20
+216.182.229.66 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33436 S=33897 LEN=20
+216.182.224.52 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33437 S=33897 LEN=20
+100.66.13.176 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33438 S=33897 LEN=20
+100.65.107.176 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33439 S=33897 LEN=20
+100.66.37.130 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33440 S=33897 LEN=20
+100.66.38.246 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33441 S=33897 LEN=20
+100.66.10.78 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33442 S=33897 LEN=20
+100.66.14.200 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33443 S=33897 LEN=20
+241.0.4.17 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33444 S=33897 LEN=20
+241.0.4.1 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33445 S=33897 LEN=20
+241.0.4.19 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33446 S=33897 LEN=20
+240.0.32.30 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33447 S=33897 LEN=20
+241.0.4.21 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33448 S=33897 LEN=20
+240.0.32.21 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33449 S=33897 LEN=20
+242.0.154.49 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33450 S=33897 LEN=20
+242.0.154.49 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33451 S=33897 LEN=20
+240.0.32.17 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33452 S=33897 LEN=20
+52.93.28.91 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33453 S=33897 LEN=20
+52.93.28.103 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33454 S=33897 LEN=20
+52.93.28.97 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33455 S=33897 LEN=20
+100.100.34.34 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33456 S=33897 LEN=20
+100.100.2.44 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33457 S=33897 LEN=20
+100.100.34.40 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33458 S=33897 LEN=20
+99.83.90.51 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33459 S=33897 LEN=20
+99.83.90.167 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33460 S=33897 LEN=20
+100.100.34.38 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33461 S=33897 LEN=20
+99.83.90.51 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33462 S=33897 LEN=20
+172.70.172.2 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33463 S=33897 LEN=20
+99.82.178.127 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33464 S=33897 LEN=20
+173.245.63.243 -> ip-10-10-0-5.ec2.internal ICMP Time exceeded (in transit)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33465 S=33897 LEN=20
+104.18.131.28 -> ip-10-10-0-5.ec2.internal ICMP Destination unreachable (UDP port 33465 unreachable)
+ip-10-10-0-5.ec2.internal -> 104.18.131.28 UDP D=33466 S=33897 LEN=20
+104.18.131.28 -> ip-10-10-0-5.ec2.internal ICMP Destination unreachable (UDP port 33466 unreachable)
+
+
+tcpdump output for traceroute to www.stevens.edu on Fedora
+filtered for ICMP and UDP
+
+04:49:39.015056 IP ip-10-10-0-23.ec2.internal.45428 > 104.18.130.28.traceroute: UDP, length 32
+04:49:39.015083 IP ip-10-10-0-23.ec2.internal.45047 > 104.18.130.28.33435: UDP, length 32
+04:49:39.015098 IP ip-10-10-0-23.ec2.internal.40435 > 104.18.130.28.33436: UDP, length 32
+04:49:39.015117 IP ip-10-10-0-23.ec2.internal.51776 > 104.18.130.28.33437: UDP, length 32
+04:49:39.015136 IP ip-10-10-0-23.ec2.internal.57017 > 104.18.130.28.33438: UDP, length 32
+04:49:39.015153 IP ip-10-10-0-23.ec2.internal.53356 > 104.18.130.28.33439: UDP, length 32
+04:49:39.015166 IP ip-10-10-0-23.ec2.internal.45830 > 104.18.130.28.33440: UDP, length 32
+04:49:39.015185 IP ip-10-10-0-23.ec2.internal.41775 > 104.18.130.28.33441: UDP, length 32
+04:49:39.015202 IP ip-10-10-0-23.ec2.internal.55501 > 104.18.130.28.33442: UDP, length 32
+04:49:39.015219 IP ip-10-10-0-23.ec2.internal.56100 > 104.18.130.28.33443: UDP, length 32
+04:49:39.015233 IP ip-10-10-0-23.ec2.internal.37843 > 104.18.130.28.33444: UDP, length 32
+04:49:39.015251 IP ip-10-10-0-23.ec2.internal.49853 > 104.18.130.28.33445: UDP, length 32
+04:49:39.015270 IP ip-10-10-0-23.ec2.internal.47997 > 104.18.130.28.33446: UDP, length 32
+04:49:39.015283 IP ip-10-10-0-23.ec2.internal.52836 > 104.18.130.28.33447: UDP, length 32
+04:49:39.015303 IP ip-10-10-0-23.ec2.internal.48524 > 104.18.130.28.33448: UDP, length 32
+04:49:39.015321 IP ip-10-10-0-23.ec2.internal.51607 > 104.18.130.28.33449: UDP, length 32
+04:49:39.015610 IP 241.0.6.6 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015655 IP ip-10-10-0-23.ec2.internal.37327 > 104.18.130.28.33450: UDP, length 32
+04:49:39.015688 IP 241.0.4.27 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015688 IP 241.0.6.2 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015724 IP ip-10-10-0-23.ec2.internal.39159 > 104.18.130.28.33451: UDP, length 32
+04:49:39.015744 IP 241.0.4.8 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015744 IP 240.0.48.22 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 68
+04:49:39.015758 IP ip-10-10-0-23.ec2.internal.55260 > 104.18.130.28.33452: UDP, length 32
+04:49:39.015772 IP 242.0.155.33 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.015800 IP ip-10-10-0-23.ec2.internal.37147 > 104.18.130.28.33453: UDP, length 32
+04:49:39.015824 IP ip-10-10-0-23.ec2.internal.48319 > 104.18.130.28.33454: UDP, length 32
+04:49:39.015842 IP ip-10-10-0-23.ec2.internal.47163 > 104.18.130.28.33455: UDP, length 32
+04:49:39.016115 IP 242.0.155.49 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016154 IP ip-10-10-0-23.ec2.internal.51465 > 104.18.130.28.33456: UDP, length 32
+04:49:39.016422 IP 52.93.28.95 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016422 IP 52.93.28.101 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016459 IP ip-10-10-0-23.ec2.internal.50686 > 104.18.130.28.33457: UDP, length 32
+04:49:39.016496 IP ip-10-10-0-23.ec2.internal.42668 > 104.18.130.28.33458: UDP, length 32
+04:49:39.016645 IP 100.100.34.92 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016682 IP 242.0.186.177 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.016686 IP ip-10-10-0-23.ec2.internal.50414 > 104.18.130.28.33459: UDP, length 32
+04:49:39.016722 IP ip-10-10-0-23.ec2.internal.33697 > 104.18.130.28.33460: UDP, length 32
+04:49:39.017051 IP 100.100.34.40 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.017051 IP 100.100.34.44 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.017088 IP ip-10-10-0-23.ec2.internal.55022 > 104.18.130.28.33461: UDP, length 32
+04:49:39.017112 IP ip-10-10-0-23.ec2.internal.56617 > 104.18.130.28.33462: UDP, length 32
+04:49:39.017313 IP 100.100.34.32 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.017352 IP ip-10-10-0-23.ec2.internal.50394 > 104.18.130.28.33463: UDP, length 32
+04:49:39.018530 IP 99.83.90.51 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.018568 IP ip-10-10-0-23.ec2.internal.34824 > 104.18.130.28.33464: UDP, length 32
+04:49:39.018635 IP 172.70.40.2 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.018668 IP ip-10-10-0-23.ec2.internal.50980 > 104.18.130.28.33465: UDP, length 32
+04:49:39.019369 IP 104.18.130.28 > ip-10-10-0-23.ec2.internal: ICMP 104.18.130.28 udp port 33464 unreachable, length 68
+04:49:39.019403 IP ip-10-10-0-23.ec2.internal.49903 > 104.18.130.28.33466: UDP, length 32
+04:49:39.019455 IP 104.18.130.28 > ip-10-10-0-23.ec2.internal: ICMP 104.18.130.28 udp port 33465 unreachable, length 68
+04:49:39.019837 IP 100.65.107.176 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.020122 IP 104.18.130.28 > ip-10-10-0-23.ec2.internal: ICMP 104.18.130.28 udp port 33466 unreachable, length 68
+04:49:39.020701 IP 172.70.40.4 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.020717 IP 216.182.229.72 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.021512 IP 52.93.28.83 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.023344 IP 99.83.90.51 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.025751 IP 52.93.28.107 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.026928 IP 100.66.15.38 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.028475 IP 100.66.14.40 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.028632 IP 216.182.226.20 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.032102 IP 100.66.9.16 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.034555 IP 100.66.55.42 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.034993 IP 100.66.14.138 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.262341 IP 216.182.231.14 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+04:49:39.346220 IP 100.66.9.22 > ip-10-10-0-23.ec2.internal: ICMP time exceeded in-transit, length 36
+
+Comments/Annotations:
+- When attempting to connect to www.stevens.edu, the IPv4 address that is
+  being connected to is 104.18.130.28. This can be verified as both instances
+  are attempting to reach this address, as well as using the dig command to
+  veiry the DNS A records are pointing to this address.
+
+- In addition to the IP address for the Stevens website, both instances also
+  connect with multiple IPv4 address that start with `216.182`. These addresses
+  are allocated to Amazon. As both instances pass through multiple of these
+  addresses, it can be assumed that these are the addresses of different
+  switches and routers that must be passed through in order for data to
+  both leave the internal network as well as come into the internal network.
+
+- Both instances also make connections with addresses that start with both
+  `240.` and `241.`. When looking up the owner of these addresses, the results
+  declare it to be a private IP address. According to Wikipedia, 240.0.0.0/4
+  (240.0.0.0–255.255.255.254) is "[r]]eserved for future use", however I am
+  assuming Amazon is using these addresses to connect to servers internally,
+  as these addresses are not accessable directly from the internet.
+  https://en.wikipedia.org/wiki/Reserved_IP_addresses
+
+- All of the raw unfiltered output for this part of the assignment is
+  located in the ./raw/part1 directory.

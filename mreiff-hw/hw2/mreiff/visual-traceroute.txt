@@ -1,0 +1,150 @@
+For the 8 provided IP addresses, I ran traceroute on a Fedora
+instance. The raw results are located in the ./raw/part3
+directory, in files named after each of the IP addresses.
+For the visualization, I used the provided link on the
+assignment page: https://stefansundin.github.io/traceroute-mapper/
+
+These visualizations seem to only have a few points on
+the map, as I believe that IP addresses which are located
+near eachother (or in the same datacenter) are lumped together.
+
+
+155.246.56.11:
+On the map, the the request orginates from Virginia, and
+then connects to a location in NYC before being forwared
+to Seattle, Washington. After the connection on the West
+coast, the connection routes back to the East coast to
+Newark, NJ and then back to NYC. Eventually, the connection
+gets to NJEdge, which can then finally deliver the connection
+to the final IP address (which in this case is Stevens).
+For this connection, it goes through 26 systems.
+
+
+128.171.235.62:
+As with the first IP address, the connection orginates from
+the AWS datacenter in Virginia, however instead of connecting
+to NYC, a connection is made to Ann Arbor, MI and then finally
+Honolulu, HI. The IP address is owned by the University of Hawaii,
+so this end point make logical sense. What does not make sense to
+me is that there is no apprent node that is between Ann Arbor and
+Honolulu, as I assumed that there would be a peering point at the
+West coast connecting the mainland US to HI.
+For this connection, it goes through 20 systems.
+
+
+190.64.134.53:
+This is the first address to connect outside of the US. Like the above,
+the connection orginates from Virginia, and then to São Paulo,
+Brazil, and then back to the US in Miami, FL. The connection
+then to Montevideo in Uruguay. The IP address is owned by
+Cliente Antel Uruguay, which is the a state owned telecommunications
+company.
+For this connection, it goes through 17 systems.
+
+
+2001:608:0:dff::2:
+As this is the same instance as the prior 3 examples, the
+map visualization does not show the connection orginating
+from Virginia, but rather the first location on the map
+is Seattle, WA. The connection appears to jump directly
+to Darmstadt in Germany. I do not believe there is a
+direct connection between the US West coast and mainland
+Europe, as it would not make sense to run a cable that
+long. I will assume that the connection does orginate
+from the AWS datacenter in Virginia, and before leaving
+the US it will reach a peering location on the East
+coast before going through one of the many under sea
+cables to the West coast of Europe. Once in Germany,
+the final destination is Munich, as the address is
+owned by SpaceNet AG, a company located in Munich
+Germany.
+For this connection, it goes through 14 systems.
+
+
+196.10.52.57:
+This visualization once again orginates from Virginia,
+and then connects to NYC. From there, it goes accross
+an under sea cable to London in the United Kingdom.
+The visualization appears to then directly connect to
+Alberton in South Africa, however just like the previous
+example, I believe that the map is missing a peering
+location between the continents of Europe and Africa,
+as well as between the many nations of Africa. The
+IP address is owned by Ispa SA, which is owned by
+The Internet Service Providers' Association of
+South Africa, so this final destination makes sense.
+For this connection, it goes through 17 systems.
+
+Something unrelated but interesting I learned when
+looking this up: the TDL for South Africa is .za,
+and not .sa like I was expecting. While .sa being
+assigned to Saudi Arabia makes sense assuming it
+claimed the TDL first, it appears that South Africa
+was assigned .za in 1990, while Saudi Arabia was
+assigned .sa in 1994.
+
+
+2606:4700:f1::123:
+Just as with the 4th IP address, this is also and
+IPv6 address. And just as with the 4th address, the
+map shows the connection orginating from Seattle, WA,
+before directly jumping to Atlanta, GA. The IP address
+is owned by CloudFlare, who owns a datacenter in
+Atlanta, GA. There is definitely missing nodes on this
+map, missing peering locations as well as the server's
+physical location in Virginia.
+For this connection, it goes through 13 systems.
+
+
+144.76.76.107:
+This visualization once again orginates from Virginia,
+but visually skips any peering location connecting the
+East coast and Europe. The connection jumps to Frankfurt
+in Germany, then to Falkenstein, and finally to
+Gunzenhausen in Germany. This IP address is owned by
+Hetzner Online AG, which is a company with a datacenter
+in Gunzenhausen.
+For this connection, it goes through 17 systems.
+
+211.233.84.186:
+For this final traceroute, the connecting begins in
+Virginia, then Washington, back to Virginia, and then
+directly to Seoul in South Korea. This map again appears
+to miss some peering nodes on the US West coast and
+East coast of Asia. This final IP address is owned by
+LG Dacom Corporation, an internet service provider
+servicing Seoul in South Korea.
+For this connection, it goes through 20 systems.
+
+
+Notes:
+- For the issue with IPv6 traffic orginating from
+  Seattle, as well as some IPv4 traffic jumping to
+  Seattle for seemingly no reason, I believe the
+  best way to explain this is perhaps the geolocation
+  associated with some IP addresses are not accurate.
+  When searching for the instance's IPv6 address on
+  iplocation.net, the results for it's geolocation
+  is in Virginia for some of the data providers,
+  and in Washington for some of the other data
+  providers. Thus, it is possible that the weird
+  behavior was simply just an incorrect geolocation
+  for the IP address due to outdated databases.
+
+- Major peering points that I noticed in this exercise
+  include one in NYC, NJEdge as well as supposedly in
+  Seattle, WA. The map on the provided visualization
+  link displays connections supposedly connecting over
+  extreamly long distances and between nations without
+  any peering locations. I will make the assumption there
+  is a peering location at the coast of each continent
+  when a connection is made over seas, as well as
+  possibly between nations or parts of large nations.
+
+- Each of the connections are routed throug many ASes,
+  however it is hard to visualize as the map condeses
+  near points and seemingly skips peering loations.
+  The traceroute output counts how many hops that each
+  connection makes, and those have been noted under each
+  entry in this file.
+  

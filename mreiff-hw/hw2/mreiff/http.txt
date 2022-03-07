@@ -1,0 +1,40 @@
+tcpdump -r output for telnet HTTP request to 6.ifconfig.pro
+on Fedora. I filtered out all SSH traffic that was logged due
+to me being connected over SSH.
+
+00:06:43.668796 IP6 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522 > ifconfig.pro.http: Flags [S], seq 2790916694, win 62587, options [mss 8941,sackOK,TS val 2258776398 ecr 0,nop,wscale 7], length 0
+00:06:43.686320 IP6 ifconfig.pro.http > 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522: Flags [S.], seq 73462718, ack 2790916695, win 65535, options [mss 1440,nop,wscale 6,sackOK,TS val 326850343 ecr 2258776398], length 0
+00:06:43.686336 IP6 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522 > ifconfig.pro.http: Flags [.], ack 1, win 489, options [nop,nop,TS val 2258776415 ecr 326850343], length 0
+00:06:44.466237 IP6 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522 > ifconfig.pro.http: Flags [P.], seq 1:18, ack 1, win 489, options [nop,nop,TS val 2258777195 ecr 326850343], length 17: HTTP: HEAD / HTTP/1.0
+00:06:44.525840 IP6 ifconfig.pro.http > 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522: Flags [.], ack 18, win 1035, options [nop,nop,TS val 326851184 ecr 2258777195], length 0
+00:06:45.030244 IP6 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.46522 > ifconfig.pro.http: Flags [P.], seq 18:20, ack 1, win 489, options [nop,nop,TS val 2258777759 ecr 326851184], length 2: HTTP
+
+
+Comments/Annotations:
+
+- The first thing I noticed about this was the output (once filtered)
+  was much shorter than when I was doing the traceroute portion of this
+  assignment.
+
+- When collecting this data, using the -w to export a pcap file allowed
+  me to open the data in Wireshark, which helped me get a better understanding
+  of what was happening. When feeding the file back into tcpdump with the -r
+  flag, it produced the output seen above.
+
+- For this instance, the IPv6 address was 2600:1f18:f87:cb00:51f3:41c0:5f3c:449f.
+
+- According to Wireshark, The first five packets are all TCP, while only the
+  final packet was HTTP.
+
+- The TCP handshake takes place on the 3rd line, and the HTTP takes place on
+  the 4th line. After those two, when I was trying to determine the HTTP reply
+  and termination packets, I was a little confused. I am assuming the HTTP
+  response is the 6th line, however that leaves no further packets to represent
+  the FIN ACK. There appears to be no packet associated with FIN. I tried running
+  this multiple times and kept getting the same six packet output, even accross
+  multiple instances of Fedora.
+
+- While the assignment specified to also run the snoop command with the -v flag,
+  it did not say to indlude it's output in this file. However, unlike the Fedora
+  output, the OmniOS output did contain packets with FIN, signifying the termination
+  of the connection. I have included the raw output in a file: ./raw/part2/omniOS.txt
