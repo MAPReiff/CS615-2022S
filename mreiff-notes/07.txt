@@ -12,3 +12,27 @@ I expected it to, however I was still able to complete it on time.
 I found the reading about DoT, DoH and DNSSEC very interesting, as it is
 very fascinating seeing multiple standards designed to accomplish similar
 tasks do so in different ways.
+
+After class:
+-------------------
+On the visual traceroute, some locations may not be geographically correct
+due to IP addresses not having an official database, but rather privately
+made ones.
+
+We only have 13 main root servers due to UDP packet size limitation.
+TCP can handle more data than UDP, and you can choose to use it over UDP
+if configured to do so.
+
+When using a caching resolver, the URL is broken up by each of it's segments
+Ex: www.cs.stevens.edu
+- connect to a root server to first check edu
+- then stevens.edu
+- then cs.stevens.edu
+- finally www.cs.stevens.edu
+When doing the same with an IP address, it will treaty it as a domain:
+IP.in-addr.arpa, and do the same kind of search.
+
+DNS by default does not have security. DoT and DoH are meant to solve that.
+
+HTTP is now the "universal internet" protocol; the most widely used version
+is 1.1. RFC2616
