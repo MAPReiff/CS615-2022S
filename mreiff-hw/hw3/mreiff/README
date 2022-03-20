@@ -1,0 +1,67 @@
+I pledge my honor that I have abided by the Stevens Honor System.
+
+HW#3 Capturing DNS Traffic
+
+Notes & Setup:
+- As per the directions on the course site, I completed the
+  assignment on two AWS EC2 instances. The DNS server was as
+  NetBSD instance, while the client was a Fedora instance.
+    - I tried to use an Ubuntu instance as the client, however
+      every time I tried to connect, across multiple instances,
+      I kept getting a message saying `Permission denied (publickey).`
+      Perhaps there is something wrong with the image that AWS
+      is using?
+
+- In order to configure the DNS server on the NetBSD instance,
+  `named=YES` must be added to the `/etc/rc.conf` file, and
+  started by running `/etc/rc.d/named start`.
+
+- On the Fedora instance, I needed to install the following packages
+  using `yum`:
+    - openssl
+    - tcpdump
+
+- In order to configure the DNS client on the Fedora instance,
+  I commented out the default values in `/etc/resolv.conf`, and
+  added the IP address of the NetBSD instance to the file as a
+  `nameserver`. This however did not work. I tried to reboot the
+  instance, and saw that the contents of the file were restored to
+  the default values. After doing some research, it appears that this
+  is the default behavior for AWS EC2 instances based on this video:
+      https://www.youtube.com/watch?v=0xDYDTss2jQ
+  Following the instructions in this video also did not work, so
+  I went to the place I should of gone to in the first place: The
+  Arch Wiki.
+      https://wiki.archlinux.org/title/Systemd-resolved
+  After updating the `/etc/systemd/resolved.conf` file to use the
+  NetBSD instance's IP address, and updating the
+  `/etc/systemd/resolved.conf.d/fallback_dns.conf` file to remove
+  any fallback servers, I restarted the systemd service using
+  `sudo systemctl restart systemd-resolved.service`. Finally,
+  I flushed the cache with `sudo resolvectl flush-caches`.
+
+- I have included the raw/unfiltered outputs of the tcpdumps in the
+  ./raw directory. Both the client and the server have two files each,
+  a .pcap file for wireshark as well as the output of `tcpdump -r` as
+  .txt files.
+
+- Throughout all of the exported data, the Fedora client instance uses
+  the IPv4 address 10.10.0.33, while the NetBSD server instance uses
+  the IPv4 address 10.10.0.59. The Fedora client instance uses the
+  IPv6 address 2600:1f18:f87:cb00:9d93:20a8:999b:2c1, while the
+  NetBSD server instance uses the IPv6 address of
+  2600:1f18:f87:cb00:9c21:6c90:aa52:2693. All four of these addresses
+  are associated with Amazon's Virginia datacenter.
+
+- The tcpdump output from the NetBSD instance was much longer than
+  the output of the Fedora client instance. The server had 380 lines
+  of output, while the client only had 102 lines. This makes sense,
+  as the NetBSD DNS server needs to make many requests to different
+  servers to get the information needed regarding DARPA's site to
+  send back to the Fedora instance.
+
+- The tcpdump output of the NetBSD instance also appears to make
+  additional requests to servers associated with DRAPA's host
+  after communication ended with the Fedora instance, which I
+  believe is the server caching related servers/information to
+  help speed up ny future requests to this server.

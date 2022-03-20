@@ -1,0 +1,53 @@
+Filtered tcpdump output from the Fedora client instance.
+This data is only what happened over port 53, which is
+the port the DNS is typically transmitted over.
+Notes/annotations below.
+
+
+IP 10.10.0.33.46870 > 10.10.0.2.domain: 42209+ [1au] A? www.darpa.mil. (42)
+IP 10.10.0.33.50212 > 10.10.0.2.domain: 11285+ [1au] AAAA? www.darpa.mil. (42)
+IP 10.10.0.33.56277 > 10.10.0.59.domain: 5823+ [1au] A? www.darpa.mil. (42)
+IP 10.10.0.33.46847 > 10.10.0.59.domain: 33798+ [1au] AAAA? www.darpa.mil. (42)
+IP 10.10.0.2.domain > 10.10.0.33.46870: 42209 3/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., A 104.102.130.114 (134)
+IP 10.10.0.2.domain > 10.10.0.33.50212: 11285 4/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., AAAA 2600:1405:4000:38c::3281, AAAA 2600:1405:4000:3af::3281 (174)
+IP 10.10.0.33.53867 > 10.10.0.59.domain: 2248+ [1au] AAAA? www.darpa.mil.edgekey.net. (54)
+IP 10.10.0.33.51353 > 10.10.0.59.domain: 58495+ [1au] A? www.darpa.mil.edgekey.net. (54)
+IP 10.10.0.33.33097 > 10.10.0.59.domain: 35452+ [1au] AAAA? e12929.dscb.akamaiedge.net. (55)
+IP 10.10.0.33.59242 > 10.10.0.59.domain: 22657+ [1au] A? e12929.dscb.akamaiedge.net. (55)
+IP 10.10.0.59.domain > 10.10.0.33.59242: 22657 1/0/1 A 23.208.60.60 (71)
+IP 10.10.0.59.domain > 10.10.0.33.33097: 35452 2/0/1 AAAA 2600:1408:9000:791::3281, AAAA 2600:1408:9000:795::3281 (111)
+IP 10.10.0.59.domain > 10.10.0.33.53867: 2248 3/0/1 CNAME e12929.dscb.akamaiedge.net., AAAA 2600:1408:9000:795::3281, AAAA 2600:1408:9000:791::3281 (150)
+IP 10.10.0.59.domain > 10.10.0.33.46847: 33798 4/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., AAAA 2600:1408:9000:791::3281, AAAA 2600:1408:9000:795::3281 (177)
+IP 10.10.0.59.domain > 10.10.0.33.51353: 58495 2/0/1 CNAME e12929.dscb.akamaiedge.net., A 23.208.60.60 (110)
+IP 10.10.0.59.domain > 10.10.0.33.56277: 5823 3/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., A 23.208.60.60 (137)
+
+
+Notes/Annotations:
+
+- The Fedora client instance has the IPv4 address
+  10.10.0.33, and the NetBSD server instance has the IPv4
+  address of 10.10.0.59. As the server's IPv4 address was
+  used to define the DNS server that the client should use,
+  all of this traffic was done over IPv4.
+
+- Even though the address 10.10.0.2 was not included
+  in the DNS configuration file, it appears that the first
+  two packets sent by the client were to this address as
+  requests for the A and AAAA records associated with the
+  DARPA URL. This address also responds with data after
+  the client makes two requests to the properly defined
+  DNS server.
+
+- The remainder of the DNS traffic happened between the client
+  and the specified DNS server, including repeats of the the
+  initial requests for the A and AAAA records.
+  
+- The client then asks for A and AAAA records for the DARPA
+  URL suffixed by edgekey.net, and then makes requests regarding
+  CNAME records for a subdomain of akamaiedge.net. These two domains
+  are owned by Akamai Technologies, a company which provides "web and
+  Internet security services" as well as a CDN.
+
+- The DNS server returns IPv4 and IPv6 addresses for these requests,
+  which allow for the client to then connect to the server which is
+  used to host DARPA's webpage.

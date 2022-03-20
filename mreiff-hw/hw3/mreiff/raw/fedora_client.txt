@@ -1,0 +1,104 @@
+reading from file /home/mreiff/Documents/cs615/mreiff-hw/hw3/mreiff/raw/fedora_client.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+13:00:49.628413 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 261110836:261110896, ack 3648494828, win 464, options [nop,nop,TS val 618688391 ecr 3545542245], length 60
+13:00:49.628463 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 60:96, ack 1, win 464, options [nop,nop,TS val 618688392 ecr 3545542245], length 36
+13:00:49.628508 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 96:140, ack 1, win 464, options [nop,nop,TS val 618688392 ecr 3545542245], length 44
+13:00:49.628545 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 140:192, ack 1, win 464, options [nop,nop,TS val 618688392 ecr 3545542245], length 52
+13:00:49.628580 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 192:260, ack 1, win 464, options [nop,nop,TS val 618688392 ecr 3545542245], length 68
+13:00:49.628615 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 260:328, ack 1, win 464, options [nop,nop,TS val 618688392 ecr 3545542245], length 68
+13:00:49.628646 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 328:364, ack 1, win 464, options [nop,nop,TS val 618688392 ecr 3545542245], length 36
+13:00:49.648151 IP ool-4354b581.dyn.optonline.net.43370 > 10.10.0.33.ssh: Flags [.], ack 328, win 501, options [nop,nop,TS val 3545542285 ecr 618688392], length 0
+13:00:49.648173 IP ool-4354b581.dyn.optonline.net.43370 > 10.10.0.33.ssh: Flags [.], ack 364, win 501, options [nop,nop,TS val 3545542285 ecr 618688392], length 0
+13:00:50.367824 IP scanner-22.ch1.censys-scanner.com.42880 > 10.10.0.33.CardWeb-IO: Flags [S], seq 3522274838, win 1024, options [mss 1460], length 0
+13:00:50.367853 IP 10.10.0.33.CardWeb-IO > scanner-22.ch1.censys-scanner.com.42880: Flags [R.], seq 0, ack 3522274839, win 0, length 0
+13:00:50.628774 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 364:408, ack 1, win 464, options [nop,nop,TS val 618689392 ecr 3545542285], length 44
+13:00:50.648373 IP ool-4354b581.dyn.optonline.net.43370 > 10.10.0.33.ssh: Flags [.], ack 408, win 501, options [nop,nop,TS val 3545543285 ecr 618689392], length 0
+13:00:51.518172 IP 150.158.137.129.42266 > 10.10.0.33.redis: Flags [S], seq 3503313385, win 29200, options [mss 1424,sackOK,TS val 3258422230 ecr 0,nop,wscale 7], length 0
+13:00:51.518199 IP 10.10.0.33.redis > 150.158.137.129.42266: Flags [R.], seq 0, ack 3503313386, win 0, length 0
+13:00:51.628753 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 408:452, ack 1, win 464, options [nop,nop,TS val 618690392 ecr 3545543285], length 44
+13:00:51.653675 IP ool-4354b581.dyn.optonline.net.43370 > 10.10.0.33.ssh: Flags [.], ack 452, win 501, options [nop,nop,TS val 3545544286 ecr 618690392], length 0
+13:00:51.883507 IP 23-95-222-129-host.colocrossing.com.47209 > 10.10.0.33.snpp: Flags [S], seq 2133347337, win 1024, length 0
+13:00:51.883536 IP 10.10.0.33.snpp > 23-95-222-129-host.colocrossing.com.47209: Flags [R.], seq 0, ack 2133347338, win 0, length 0
+13:00:51.910516 IP 23-95-222-129-host.colocrossing.com.47209 > 10.10.0.33.snpp: Flags [R], seq 2133347338, win 1200, length 0
+13:00:52.059971 IP6 fe80::82f:8ff:fed6:4f17 > ff02::1: ICMP6, router advertisement, length 56
+13:00:52.063104 IP6 fe80::8c2:abff:feed:6d39 > ff02::16: HBH ICMP6, multicast listener report v2, 3 group record(s), length 68
+13:00:52.505138 IP6 fe80::8c2:abff:feed:6d39 > ff02::16: HBH ICMP6, multicast listener report v2, 3 group record(s), length 68
+13:00:52.628723 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 452:496, ack 1, win 464, options [nop,nop,TS val 618691392 ecr 3545544286], length 44
+13:00:52.654504 IP ool-4354b581.dyn.optonline.net.43370 > 10.10.0.33.ssh: Flags [.], ack 496, win 501, options [nop,nop,TS val 3545545286 ecr 618691392], length 0
+13:00:53.367674 IP ool-4354b581.dyn.optonline.net.43374 > 10.10.0.33.ssh: Flags [P.], seq 1326589161:1326589197, ack 1015584017, win 501, options [nop,nop,TS val 3545546000 ecr 618658521], length 36
+13:00:53.369088 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 1:37, ack 36, win 464, options [nop,nop,TS val 618692132 ecr 3545546000], length 36
+13:00:53.390248 IP ool-4354b581.dyn.optonline.net.43374 > 10.10.0.33.ssh: Flags [.], ack 37, win 501, options [nop,nop,TS val 3545546025 ecr 618692132], length 0
+13:00:53.392188 ARP, Request who-has 10.10.0.59 tell 10.10.0.33, length 28
+13:00:53.392283 IP 10.10.0.33.46870 > 10.10.0.2.domain: 42209+ [1au] A? www.darpa.mil. (42)
+13:00:53.392326 IP 10.10.0.33.50212 > 10.10.0.2.domain: 11285+ [1au] AAAA? www.darpa.mil. (42)
+13:00:53.392393 ARP, Reply 10.10.0.59 is-at 0a:37:1d:61:59:33 (oui Unknown), length 42
+13:00:53.392397 IP 10.10.0.33.56277 > 10.10.0.59.domain: 5823+ [1au] A? www.darpa.mil. (42)
+13:00:53.392402 IP 10.10.0.33.46847 > 10.10.0.59.domain: 33798+ [1au] AAAA? www.darpa.mil. (42)
+13:00:53.450166 IP 10.10.0.2.domain > 10.10.0.33.46870: 42209 3/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., A 104.102.130.114 (134)
+13:00:53.467576 IP 10.10.0.2.domain > 10.10.0.33.50212: 11285 4/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., AAAA 2600:1405:4000:38c::3281, AAAA 2600:1405:4000:3af::3281 (174)
+13:00:53.467994 IP 10.10.0.33.53867 > 10.10.0.59.domain: 2248+ [1au] AAAA? www.darpa.mil.edgekey.net. (54)
+13:00:53.468093 IP 10.10.0.33.51353 > 10.10.0.59.domain: 58495+ [1au] A? www.darpa.mil.edgekey.net. (54)
+13:00:53.468221 IP 10.10.0.33.33097 > 10.10.0.59.domain: 35452+ [1au] AAAA? e12929.dscb.akamaiedge.net. (55)
+13:00:53.468281 IP 10.10.0.33.59242 > 10.10.0.59.domain: 22657+ [1au] A? e12929.dscb.akamaiedge.net. (55)
+13:00:53.469794 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [S], seq 2827753503, win 62587, options [mss 8941,sackOK,TS val 1470354361 ecr 0,nop,wscale 7], length 0
+13:00:53.473993 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [S.], seq 4115458741, ack 2827753504, win 64260, options [mss 1440,sackOK,TS val 210388424 ecr 1470354361,nop,wscale 7], length 0
+13:00:53.474017 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 1, win 489, options [nop,nop,TS val 1470354365 ecr 210388424], length 0
+13:00:53.474294 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 1:308, ack 1, win 489, options [nop,nop,TS val 1470354365 ecr 210388424], length 307
+13:00:53.478435 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [.], ack 308, win 501, options [nop,nop,TS val 210388428 ecr 1470354365], length 0
+13:00:53.487387 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 1:2857, ack 308, win 501, options [nop,nop,TS val 210388437 ecr 1470354365], length 2856
+13:00:53.487388 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 2857:3496, ack 308, win 501, options [nop,nop,TS val 210388437 ecr 1470354365], length 639
+13:00:53.487403 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 2857, win 467, options [nop,nop,TS val 1470354378 ecr 210388437], length 0
+13:00:53.487410 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 3496, win 463, options [nop,nop,TS val 1470354378 ecr 210388437], length 0
+13:00:53.489019 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 37:81, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 44
+13:00:53.489083 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 81:117, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 36
+13:00:53.489126 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 117:161, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 44
+13:00:53.489169 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 161:197, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 36
+13:00:53.489203 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 197:233, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 36
+13:00:53.489237 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 233:269, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 36
+13:00:53.489270 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 269:305, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 36
+13:00:53.489304 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 305:349, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 44
+13:00:53.489338 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 349:385, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 36
+13:00:53.489381 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 385:421, ack 36, win 464, options [nop,nop,TS val 618692252 ecr 3545546025], length 36
+13:00:53.493365 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 308:388, ack 3496, win 463, options [nop,nop,TS val 1470354384 ecr 210388437], length 80
+13:00:53.497518 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [.], ack 388, win 501, options [nop,nop,TS val 210388447 ecr 1470354384], length 0
+13:00:53.497531 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 388:450, ack 3496, win 463, options [nop,nop,TS val 1470354389 ecr 210388447], length 62
+13:00:53.498002 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 3496:3767, ack 388, win 501, options [nop,nop,TS val 210388448 ecr 1470354384], length 271
+13:00:53.498007 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 3767, win 461, options [nop,nop,TS val 1470354389 ecr 210388448], length 0
+13:00:53.498125 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 3767:4038, ack 388, win 501, options [nop,nop,TS val 210388448 ecr 1470354384], length 271
+13:00:53.498130 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 4038, win 459, options [nop,nop,TS val 1470354389 ecr 210388448], length 0
+13:00:53.501690 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [.], ack 450, win 501, options [nop,nop,TS val 210388452 ecr 1470354389], length 0
+13:00:53.502833 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 4038:4813, ack 450, win 501, options [nop,nop,TS val 210388453 ecr 1470354389], length 775
+13:00:53.502838 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 4813, win 453, options [nop,nop,TS val 1470354394 ecr 210388453], length 0
+13:00:53.502871 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 4813:4837, ack 450, win 501, options [nop,nop,TS val 210388453 ecr 1470354389], length 24
+13:00:53.502875 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 4837, win 453, options [nop,nop,TS val 1470354394 ecr 210388453], length 0
+13:00:53.502910 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [F.], seq 4837, ack 450, win 501, options [nop,nop,TS val 210388453 ecr 1470354389], length 0
+13:00:53.503506 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 450:474, ack 4838, win 453, options [nop,nop,TS val 1470354395 ecr 210388453], length 24
+13:00:53.503517 IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 474, ack 4838, win 453, options [nop,nop,TS val 1470354395 ecr 210388453], length 0
+13:00:53.507675 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [R], seq 4115463579, win 0, length 0
+13:00:53.507676 IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [R], seq 4115463579, win 0, length 0
+13:00:53.539143 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [.], seq 421:1869, ack 36, win 464, options [nop,nop,TS val 618692302 ecr 3545546025], length 1448
+13:00:53.572692 IP ool-4354b581.dyn.optonline.net.43374 > 10.10.0.33.ssh: Flags [.], ack 421, win 501, options [nop,nop,TS val 3545546208 ecr 618692252], length 0
+13:00:53.572734 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 1869:4765, ack 36, win 464, options [nop,nop,TS val 618692336 ecr 3545546208], length 2896
+13:00:53.572746 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 4765:7661, ack 36, win 464, options [nop,nop,TS val 618692336 ecr 3545546208], length 2896
+13:00:53.572749 IP ool-4354b581.dyn.optonline.net.43374 > 10.10.0.33.ssh: Flags [.], ack 1869, win 490, options [nop,nop,TS val 3545546208 ecr 618692302], length 0
+13:00:53.572789 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43374: Flags [P.], seq 7661:9969, ack 36, win 464, options [nop,nop,TS val 618692336 ecr 3545546208], length 2308
+13:00:53.593623 IP ool-4354b581.dyn.optonline.net.43374 > 10.10.0.33.ssh: Flags [.], ack 7661, win 455, options [nop,nop,TS val 3545546230 ecr 618692336], length 0
+13:00:53.593642 IP ool-4354b581.dyn.optonline.net.43374 > 10.10.0.33.ssh: Flags [.], ack 9969, win 437, options [nop,nop,TS val 3545546230 ecr 618692336], length 0
+13:00:53.628760 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 496:540, ack 1, win 464, options [nop,nop,TS val 618692392 ecr 3545545286], length 44
+13:00:53.651239 IP ool-4354b581.dyn.optonline.net.43370 > 10.10.0.33.ssh: Flags [.], ack 540, win 501, options [nop,nop,TS val 3545546285 ecr 618692392], length 0
+13:00:53.943657 IP 10.10.0.59.domain > 10.10.0.33.59242: 22657 1/0/1 A 23.208.60.60 (71)
+13:00:53.943691 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 59242 unreachable, length 107
+13:00:53.943698 IP 10.10.0.59.domain > 10.10.0.33.33097: 35452 2/0/1 AAAA 2600:1408:9000:791::3281, AAAA 2600:1408:9000:795::3281 (111)
+13:00:53.943702 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 33097 unreachable, length 147
+13:00:53.958519 IP 10.10.0.59.domain > 10.10.0.33.53867: 2248 3/0/1 CNAME e12929.dscb.akamaiedge.net., AAAA 2600:1408:9000:795::3281, AAAA 2600:1408:9000:791::3281 (150)
+13:00:53.958549 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 53867 unreachable, length 186
+13:00:53.958556 IP 10.10.0.59.domain > 10.10.0.33.46847: 33798 4/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., AAAA 2600:1408:9000:791::3281, AAAA 2600:1408:9000:795::3281 (177)
+13:00:53.958559 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 46847 unreachable, length 213
+13:00:53.959259 IP 10.10.0.59.domain > 10.10.0.33.51353: 58495 2/0/1 CNAME e12929.dscb.akamaiedge.net., A 23.208.60.60 (110)
+13:00:53.959264 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 51353 unreachable, length 146
+13:00:53.959270 IP 10.10.0.59.domain > 10.10.0.33.56277: 5823 3/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., A 23.208.60.60 (137)
+13:00:53.959273 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 56277 unreachable, length 173
+13:00:54.628729 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 540:584, ack 1, win 464, options [nop,nop,TS val 618693392 ecr 3545546285], length 44
+13:00:54.689030 IP ool-4354b581.dyn.optonline.net.43370 > 10.10.0.33.ssh: Flags [.], ack 584, win 501, options [nop,nop,TS val 3545547322 ecr 618693392], length 0
+13:00:55.628778 IP 10.10.0.33.ssh > ool-4354b581.dyn.optonline.net.43370: Flags [P.], seq 584:628, ack 1, win 464, options [nop,nop,TS val 618694392 ecr 3545547322], length 44
+13:00:55.735579 IP ool-4354b581.dyn.optonline.net.43370 > 10.10.0.33.ssh: Flags [.], ack 628, win 501, options [nop,nop,TS val 3545548358 ecr 618694392], length 0
+

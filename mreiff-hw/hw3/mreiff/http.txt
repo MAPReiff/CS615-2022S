@@ -1,0 +1,71 @@
+Filtered tcpdump output from the Fedora client instance
+when connecting to DARPA's server. Notes/annotations
+below.
+
+
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [S], seq 2827753503, win 62587, options [mss 8941,sackOK,TS val 1470354361 ecr 0,nop,wscale 7], length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [S.], seq 4115458741, ack 2827753504, win 64260, options [mss 1440,sackOK,TS val 210388424 ecr 1470354361,nop,wscale 7], length 0
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 1, win 489, options [nop,nop,TS val 1470354365 ecr 210388424], length 0
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 1:308, ack 1, win 489, options [nop,nop,TS val 1470354365 ecr 210388424], length 307
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [.], ack 308, win 501, options [nop,nop,TS val 210388428 ecr 1470354365], length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 1:2857, ack 308, win 501, options [nop,nop,TS val 210388437 ecr 1470354365], length 2856
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 2857:3496, ack 308, win 501, options [nop,nop,TS val 210388437 ecr 1470354365], length 639
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 2857, win 467, options [nop,nop,TS val 1470354378 ecr 210388437], length 0
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 3496, win 463, options [nop,nop,TS val 1470354378 ecr 210388437], length 0
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 308:388, ack 3496, win 463, options [nop,nop,TS val 1470354384 ecr 210388437], length 80
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [.], ack 388, win 501, options [nop,nop,TS val 210388447 ecr 1470354384], length 0
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 388:450, ack 3496, win 463, options [nop,nop,TS val 1470354389 ecr 210388447], length 62
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 3496:3767, ack 388, win 501, options [nop,nop,TS val 210388448 ecr 1470354384], length 271
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 3767, win 461, options [nop,nop,TS val 1470354389 ecr 210388448], length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 3767:4038, ack 388, win 501, options [nop,nop,TS val 210388448 ecr 1470354384], length 271
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 4038, win 459, options [nop,nop,TS val 1470354389 ecr 210388448], length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [.], ack 450, win 501, options [nop,nop,TS val 210388452 ecr 1470354389], length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 4038:4813, ack 450, win 501, options [nop,nop,TS val 210388453 ecr 1470354389], length 775
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 4813, win 453, options [nop,nop,TS val 1470354394 ecr 210388453], length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [P.], seq 4813:4837, ack 450, win 501, options [nop,nop,TS val 210388453 ecr 1470354389], length 24
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [.], ack 4837, win 453, options [nop,nop,TS val 1470354394 ecr 210388453], length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [F.], seq 4837, ack 450, win 501, options [nop,nop,TS val 210388453 ecr 1470354389], length 0
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 450:474, ack 4838, win 453, options [nop,nop,TS val 1470354395 ecr 210388453], length 24
+IP6 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046 > g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https: Flags [F.], seq 474, ack 4838, win 453, options [nop,nop,TS val 1470354395 ecr 210388453], length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [R], seq 4115463579, win 0, length 0
+IP6 g2600-1405-4000-03af-0000-0000-0000-3281.deploy.static.akamaitechnologies.com.https > 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.34046: Flags [R], seq 4115463579, win 0, length 0
+
+
+Notes/Annotations:
+
+- Based on the captured packets, there are three IP addresses
+  associated woth this domain. The first is an IPv4 address
+  which is 104.102.130.114. The second and third are IPv6
+  addresses and are 2600:1405:4000:38c::3281 and
+  2600:1405:4000:3af::3281. It appears only the third address
+  was used in these communications. This address appears to be
+  associated with a datacenter in Philadelphia, PA. The IPv6
+  address of the client instances is assicated with Amazon's
+  Virginia datacenter: 2600:1f18:f87:cb00:9d93:20a8:999b:2c1.
+
+- First, a connection is initiated by the client as denoted by
+  the SYN on the first line, followed by the SYN ACK on the second
+  line representing DARPA's server acknowledging the connection.
+  At the end of the log, the connection is closed as denoted by
+  the FIN ACK packets.
+
+- As shown in Wireshark, the protocols used in the connections
+  are TCP and TLSv1.3. The 10 packets with the [P.] flag are
+  using TLSv1.3, while the remainder are using TCP. As port
+  443 was used for this connection, the traffic is using HTTPS,
+  and is encrypted using TLS.
+
+- The first of the [P.] packets is the `Client Hello`, and the
+  second packet is the `Server Hello` packet. The second through
+  tenth of these packets are labeled as `Application Data` in
+  Wireshark, and represent the HTTPS data. As it is HTTPS and
+  thus encrypted, Wireshark labels much of the data in these
+  packets as `Encrypted Application Data`.
+
+- In the terminal instance that the connection command was ran,
+  some information about the connection in printed, such as
+  mentioning that the certificate used on this site was issued
+  by DigiCert. This output also contains refrences to Google
+  Tag Manager, YouTube, as well as Google Analytics. It also
+  mentions how the content is `text/html` and a last modified
+  date.

@@ -1,0 +1,381 @@
+reading from file /home/mreiff/Documents/cs615/mreiff-hw/hw3/mreiff/raw/netBSD_server.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+13:00:50.634510 IP 10.10.0.59.ssh > ool-4354b581.dyn.optonline.net.41960: Flags [P.], seq 1145739951:1145739995, ack 2443836270, win 4197, options [nop,nop,TS val 10141 ecr 1955185675], length 44
+13:00:50.634597 IP 10.10.0.59.ssh > ool-4354b581.dyn.optonline.net.41960: Flags [P.], seq 44:160, ack 1, win 4197, options [nop,nop,TS val 10141 ecr 1955185675], length 116
+13:00:50.646343 IP ool-4354b581.dyn.optonline.net.41960 > 10.10.0.59.ssh: Flags [.], ack 0, win 1434, options [nop,nop,TS val 1955185698 ecr 10141], length 0
+13:00:50.653463 IP ool-4354b581.dyn.optonline.net.41960 > 10.10.0.59.ssh: Flags [.], ack 44, win 1434, options [nop,nop,TS val 1955185706 ecr 10141], length 0
+13:00:50.653469 IP ool-4354b581.dyn.optonline.net.41960 > 10.10.0.59.ssh: Flags [.], ack 160, win 1434, options [nop,nop,TS val 1955185706 ecr 10141], length 0
+13:00:51.642899 IP 10.10.0.59.ssh > ool-4354b581.dyn.optonline.net.41960: Flags [P.], seq 160:204, ack 1, win 4197, options [nop,nop,TS val 10143 ecr 1955185706], length 44
+13:00:51.662897 IP ool-4354b581.dyn.optonline.net.41960 > 10.10.0.59.ssh: Flags [.], ack 204, win 1434, options [nop,nop,TS val 1955186714 ecr 10143], length 0
+13:00:52.652908 IP 10.10.0.59.ssh > ool-4354b581.dyn.optonline.net.41960: Flags [P.], seq 204:248, ack 1, win 4197, options [nop,nop,TS val 10145 ecr 1955186714], length 44
+13:00:52.726314 IP ool-4354b581.dyn.optonline.net.41960 > 10.10.0.59.ssh: Flags [.], ack 248, win 1434, options [nop,nop,TS val 1955187778 ecr 10145], length 0
+13:00:52.840642 IP6 fe80::82f:8ff:fed6:4f17 > ff02::1: ICMP6, router advertisement, length 56
+13:00:53.263028 IP 10.10.0.33.56277 > 10.10.0.59.domain: 5823+ [1au] A? www.darpa.mil. (42)
+13:00:53.263036 IP 10.10.0.33.46847 > 10.10.0.59.domain: 33798+ [1au] AAAA? www.darpa.mil. (42)
+13:00:53.265242 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.51350 > e.root-servers.net.domain: 4251 [1au] A? _.mil. (46)
+13:00:53.265958 IP6 e.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.51350: 4251-| 0/8/1 (488)
+13:00:53.266126 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65532 > e.root-servers.net.domain: Flags [S], seq 880596003, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.266787 IP6 e.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65532: Flags [S.], seq 3594228349, ack 880596004, win 65535, options [mss 1360,nop,nop,sackOK,nop,wscale 10], length 0
+13:00:53.266808 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65532 > e.root-servers.net.domain: Flags [.], ack 1, win 4140, length 0
+13:00:53.266938 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65532 > e.root-servers.net.domain: Flags [P.], seq 1:49, ack 1, win 4140, length 48 40373 [1au] A? _.mil. (46)
+13:00:53.267529 IP6 e.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65532: Flags [.], ack 49, win 64, length 0
+13:00:53.267998 IP6 e.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65532: Flags [P.], seq 1:755, ack 49, win 64, length 754 40373- 0/8/13 (752)
+13:00:53.268247 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65532 > e.root-servers.net.domain: Flags [F.], seq 49, ack 755, win 4140, length 0
+13:00:53.268652 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.55247 > CON1.NIPR.MIL.domain: 45384 [1au] A? _.darpa.mil. (52)
+13:00:53.302643 IP6 CON1.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.55247: 45384- 0/6/4 (398)
+13:00:53.303593 IP 10.10.0.59.64223 > ns2.darpa.mil.domain: 20291 [1au] A? www.darpa.mil. (54)
+13:00:53.303708 IP 10.10.0.59.50239 > ns2.darpa.mil.domain: 52191 [1au] AAAA? www.darpa.mil. (54)
+13:00:53.303815 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60525 > l.root-servers.net.domain: 42356% [1au] AAAA? NS2.DARPA.MIL. (54)
+13:00:53.303913 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.56139 > l.root-servers.net.domain: 40181% [1au] AAAA? NS1.DARPA.MIL. (54)
+13:00:53.304037 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.64546 > l.root-servers.net.domain: 36309% [1au] AAAA? NS3.DARPA.MIL. (54)
+13:00:53.305072 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.64546: 36309-| 0/8/1 (496)
+13:00:53.305151 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.56139: 40181-| 0/8/1 (496)
+13:00:53.305156 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60525: 42356-| 0/8/2 (512)
+13:00:53.305292 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531 > l.root-servers.net.domain: Flags [S], seq 892480333, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.305456 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530 > l.root-servers.net.domain: Flags [S], seq 915890295, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.305550 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529 > l.root-servers.net.domain: Flags [S], seq 937070949, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.306680 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531: Flags [S.], seq 1231134973, ack 892480334, win 64660, options [mss 1220,nop,nop,sackOK,nop,wscale 9], length 0
+13:00:53.306685 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529: Flags [S.], seq 3667360655, ack 937070950, win 64800, options [mss 1440,nop,nop,sackOK,nop,wscale 9], length 0
+13:00:53.306690 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530: Flags [S.], seq 1653577406, ack 915890296, win 64800, options [mss 1440,nop,nop,sackOK,nop,wscale 9], length 0
+13:00:53.306707 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531 > l.root-servers.net.domain: Flags [.], ack 1, win 4140, length 0
+13:00:53.306721 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529 > l.root-servers.net.domain: Flags [.], ack 1, win 4140, length 0
+13:00:53.306731 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530 > l.root-servers.net.domain: Flags [.], ack 1, win 4140, length 0
+13:00:53.306817 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531 > l.root-servers.net.domain: Flags [P.], seq 1:57, ack 1, win 4140, length 56 56190% [1au] AAAA? NS3.DARPA.MIL. (54)
+13:00:53.306866 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529 > l.root-servers.net.domain: Flags [P.], seq 1:57, ack 1, win 4140, length 56 35682% [1au] AAAA? NS2.DARPA.MIL. (54)
+13:00:53.306912 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530 > l.root-servers.net.domain: Flags [P.], seq 1:57, ack 1, win 4140, length 56 34472% [1au] AAAA? NS1.DARPA.MIL. (54)
+13:00:53.307883 IP ns2.darpa.mil.domain > 10.10.0.59.64223: 20291*-| 0/0/1 (42)
+13:00:53.307921 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531: Flags [.], ack 57, win 127, length 0
+13:00:53.307949 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529: Flags [.], ack 57, win 127, length 0
+13:00:53.307974 IP ns2.darpa.mil.domain > 10.10.0.59.50239: 52191*-| 0/0/1 (42)
+13:00:53.307978 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530: Flags [.], ack 57, win 127, length 0
+13:00:53.308001 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529: Flags [P.], seq 1:763, ack 57, win 127, length 762 35682- 0/8/13 (760)
+13:00:53.308023 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531: Flags [P.], seq 1:763, ack 57, win 127, length 762 56190- 0/8/13 (760)
+13:00:53.308050 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530: Flags [P.], seq 1:763, ack 57, win 127, length 762 34472- 0/8/13 (760)
+13:00:53.308267 IP 10.10.0.59.65533 > ns2.darpa.mil.domain: Flags [S], seq 941494627, win 32768, options [mss 1460,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.308347 IP 10.10.0.59.65532 > ns2.darpa.mil.domain: Flags [S], seq 957077711, win 32768, options [mss 1460,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.308566 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52684 > EUR2.NIPR.MIL.domain: 23256% [1au] AAAA? NS2.DARPA.MIL. (54)
+13:00:53.308731 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65130 > EUR2.NIPR.MIL.domain: 29349% [1au] AAAA? NS3.DARPA.MIL. (54)
+13:00:53.308895 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.51505 > EUR2.NIPR.MIL.domain: 54446% [1au] AAAA? NS1.DARPA.MIL. (54)
+13:00:53.308977 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529 > l.root-servers.net.domain: Flags [F.], seq 57, ack 763, win 4140, length 0
+13:00:53.309011 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531 > l.root-servers.net.domain: Flags [F.], seq 57, ack 763, win 4140, length 0
+13:00:53.309046 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530 > l.root-servers.net.domain: Flags [F.], seq 57, ack 763, win 4140, length 0
+13:00:53.310117 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529: Flags [F.], seq 763, ack 58, win 127, length 0
+13:00:53.310140 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65529 > l.root-servers.net.domain: Flags [.], ack 764, win 4140, length 0
+13:00:53.310148 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530: Flags [F.], seq 763, ack 58, win 127, length 0
+13:00:53.310158 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65530 > l.root-servers.net.domain: Flags [.], ack 764, win 4140, length 0
+13:00:53.310210 IP6 l.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531: Flags [F.], seq 763, ack 58, win 127, length 0
+13:00:53.310222 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65531 > l.root-servers.net.domain: Flags [.], ack 764, win 4140, length 0
+13:00:53.310702 IP6 e.root-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65532: Flags [.], ack 50, win 64, length 0
+13:00:53.311753 IP ns2.darpa.mil.domain > 10.10.0.59.65532: Flags [S.], seq 1800895074, ack 957077712, win 28960, options [mss 1460,nop,nop,TS val 1564884260 ecr 1,nop,wscale 8], length 0
+13:00:53.311766 IP 10.10.0.59.65532 > ns2.darpa.mil.domain: Flags [.], ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564884260], length 0
+13:00:53.311851 IP 10.10.0.59.65532 > ns2.darpa.mil.domain: Flags [P.], seq 1:57, ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564884260], length 56 38510 [1au] AAAA? www.darpa.mil. (54)
+13:00:53.311865 IP ns2.darpa.mil.domain > 10.10.0.59.65533: Flags [S.], seq 2667488356, ack 941494628, win 28960, options [mss 1460,nop,nop,TS val 1564884260 ecr 1,nop,wscale 8], length 0
+13:00:53.311880 IP 10.10.0.59.65533 > ns2.darpa.mil.domain: Flags [.], ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564884260], length 0
+13:00:53.311952 IP 10.10.0.59.65533 > ns2.darpa.mil.domain: Flags [P.], seq 1:57, ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564884260], length 56 37625 [1au] A? www.darpa.mil. (54)
+13:00:53.315282 IP ns2.darpa.mil.domain > 10.10.0.59.65532: Flags [.], ack 57, win 114, options [nop,nop,TS val 1564884260 ecr 1], length 0
+13:00:53.315432 IP ns2.darpa.mil.domain > 10.10.0.59.65533: Flags [.], ack 57, win 114, options [nop,nop,TS val 1564884260 ecr 1], length 0
+13:00:53.315806 IP ns2.darpa.mil.domain > 10.10.0.59.65532: Flags [P.], seq 1:678, ack 57, win 114, options [nop,nop,TS val 1564884260 ecr 1], length 677 38510*- 3/0/1 CNAME www.darpa.mil.edgekey.net., RRSIG, RRSIG (675)
+13:00:53.315827 IP ns2.darpa.mil.domain > 10.10.0.59.65532: Flags [F.], seq 678, ack 57, win 114, options [nop,nop,TS val 1564884260 ecr 1], length 0
+13:00:53.315837 IP 10.10.0.59.65532 > ns2.darpa.mil.domain: Flags [.], ack 679, win 4113, options [nop,nop,TS val 1 ecr 1564884260], length 0
+13:00:53.315985 IP ns2.darpa.mil.domain > 10.10.0.59.65533: Flags [P.], seq 1:678, ack 57, win 114, options [nop,nop,TS val 1564884260 ecr 1], length 677 37625*- 3/0/1 CNAME www.darpa.mil.edgekey.net., RRSIG, RRSIG (675)
+13:00:53.316019 IP ns2.darpa.mil.domain > 10.10.0.59.65533: Flags [F.], seq 678, ack 57, win 114, options [nop,nop,TS val 1564884260 ecr 1], length 0
+13:00:53.316029 IP 10.10.0.59.65533 > ns2.darpa.mil.domain: Flags [.], ack 679, win 4113, options [nop,nop,TS val 1 ecr 1564884260], length 0
+13:00:53.316151 IP 10.10.0.59.51361 > ns1.darpa.mil.domain: 5721 [1au] DNSKEY? darpa.mil. (50)
+13:00:53.316185 IP 10.10.0.59.65532 > ns2.darpa.mil.domain: Flags [F.], seq 57, ack 679, win 4197, options [nop,nop,TS val 1 ecr 1564884260], length 0
+13:00:53.316308 IP 10.10.0.59.65533 > ns2.darpa.mil.domain: Flags [F.], seq 57, ack 679, win 4197, options [nop,nop,TS val 1 ecr 1564884260], length 0
+13:00:53.319075 IP ns2.darpa.mil.domain > 10.10.0.59.65532: Flags [.], ack 58, win 114, options [nop,nop,TS val 1564884260 ecr 1], length 0
+13:00:53.319285 IP ns2.darpa.mil.domain > 10.10.0.59.65533: Flags [.], ack 58, win 114, options [nop,nop,TS val 1564884260 ecr 1], length 0
+13:00:53.319987 IP ns1.darpa.mil.domain > 10.10.0.59.51361: 5721*-|$ 0/0/1 (38)
+13:00:53.320109 IP 10.10.0.59.65531 > ns1.darpa.mil.domain: Flags [S], seq 986643304, win 32768, options [mss 1460,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.323283 IP ns1.darpa.mil.domain > 10.10.0.59.65531: Flags [S.], seq 3896414867, ack 986643305, win 28960, options [mss 1460,nop,nop,TS val 1061480380 ecr 1,nop,wscale 8], length 0
+13:00:53.323297 IP 10.10.0.59.65531 > ns1.darpa.mil.domain: Flags [.], ack 1, win 4197, options [nop,nop,TS val 1 ecr 1061480380], length 0
+13:00:53.323377 IP 10.10.0.59.65531 > ns1.darpa.mil.domain: Flags [P.], seq 1:53, ack 1, win 4197, options [nop,nop,TS val 1 ecr 1061480380], length 52 15963 [1au] DNSKEY? darpa.mil. (50)
+13:00:53.326371 IP ns1.darpa.mil.domain > 10.10.0.59.65531: Flags [.], ack 53, win 114, options [nop,nop,TS val 1061480380 ecr 1], length 0
+13:00:53.327510 IP ns1.darpa.mil.domain > 10.10.0.59.65531: Flags [.], seq 1:1449, ack 53, win 114, options [nop,nop,TS val 1061480380 ecr 1], length 1448 [prefix length(2330) != length(1446)] (invalid)
+13:00:53.327516 IP ns1.darpa.mil.domain > 10.10.0.59.65531: Flags [P.], seq 1449:2333, ack 53, win 114, options [nop,nop,TS val 1061480380 ecr 1], length 884 [prefix length(40256) != length(882)] (invalid)
+13:00:53.327520 IP ns1.darpa.mil.domain > 10.10.0.59.65531: Flags [F.], seq 2333, ack 53, win 114, options [nop,nop,TS val 1061480380 ecr 1], length 0
+13:00:53.327533 IP 10.10.0.59.65531 > ns1.darpa.mil.domain: Flags [.], ack 2333, win 3906, options [nop,nop,TS val 1 ecr 1061480380], length 0
+13:00:53.327545 IP 10.10.0.59.65531 > ns1.darpa.mil.domain: Flags [.], ack 2334, win 3906, options [nop,nop,TS val 1 ecr 1061480380], length 0
+13:00:53.328262 IP 10.10.0.59.65531 > ns1.darpa.mil.domain: Flags [F.], seq 53, ack 2334, win 4197, options [nop,nop,TS val 1 ecr 1061480380], length 0
+13:00:53.328375 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65230 > EUR2.NIPR.MIL.domain: 28628 [1au] DNSKEY? mil. (44)
+13:00:53.331010 IP ns1.darpa.mil.domain > 10.10.0.59.65531: Flags [.], ack 54, win 114, options [nop,nop,TS val 1061480381 ecr 1], length 0
+13:00:53.338636 IP 10.10.0.33.53867 > 10.10.0.59.domain: 2248+ [1au] AAAA? www.darpa.mil.edgekey.net. (54)
+13:00:53.339101 IP 10.10.0.33.51353 > 10.10.0.59.domain: 58495+ [1au] A? www.darpa.mil.edgekey.net. (54)
+13:00:53.339106 IP 10.10.0.33.33097 > 10.10.0.59.domain: 35452+ [1au] AAAA? e12929.dscb.akamaiedge.net. (55)
+13:00:53.339111 IP 10.10.0.33.59242 > 10.10.0.59.domain: 22657+ [1au] A? e12929.dscb.akamaiedge.net. (55)
+13:00:53.339656 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.49425 > M.ROOT-SERVERS.NET.domain: 65216 [1au] A? _.net. (46)
+13:00:53.375074 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.51505: 54446- 0/6/4 (387)
+13:00:53.375419 IP 10.10.0.59.60087 > ns3.darpa.mil.domain: 53135% [1au] AAAA? NS1.DARPA.MIL. (54)
+13:00:53.375463 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52684: 23256- 0/6/4 (387)
+13:00:53.375707 IP 10.10.0.59.50838 > ns3.darpa.mil.domain: 11078% [1au] AAAA? NS2.DARPA.MIL. (54)
+13:00:53.377363 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65130: 29349- 0/6/4 (387)
+13:00:53.377597 IP 10.10.0.59.59499 > ns3.darpa.mil.domain: 690% [1au] AAAA? NS3.DARPA.MIL. (54)
+13:00:53.378859 IP ns3.darpa.mil.domain > 10.10.0.59.60087: 53135*-| 0/0/1 (42)
+13:00:53.378864 IP ns3.darpa.mil.domain > 10.10.0.59.50838: 11078*-| 0/0/1 (42)
+13:00:53.379019 IP 10.10.0.59.65530 > ns3.darpa.mil.domain: Flags [S], seq 993562676, win 32768, options [mss 1460,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.379105 IP 10.10.0.59.65529 > ns3.darpa.mil.domain: Flags [S], seq 1009584242, win 32768, options [mss 1460,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.380935 IP ns3.darpa.mil.domain > 10.10.0.59.59499: 690*-| 0/0/1 (42)
+13:00:53.381050 IP 10.10.0.59.65528 > ns3.darpa.mil.domain: Flags [S], seq 1038392895, win 32768, options [mss 1460,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.382095 IP ns3.darpa.mil.domain > 10.10.0.59.65529: Flags [S.], seq 2602697343, ack 1009584243, win 28960, options [mss 1460,nop,nop,TS val 1564785554 ecr 1,nop,wscale 8], length 0
+13:00:53.382111 IP 10.10.0.59.65529 > ns3.darpa.mil.domain: Flags [.], ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.382193 IP 10.10.0.59.65529 > ns3.darpa.mil.domain: Flags [P.], seq 1:57, ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 56 56039% [1au] AAAA? NS2.DARPA.MIL. (54)
+13:00:53.382221 IP ns3.darpa.mil.domain > 10.10.0.59.65530: Flags [S.], seq 2514206363, ack 993562677, win 28960, options [mss 1460,nop,nop,TS val 1564785554 ecr 1,nop,wscale 8], length 0
+13:00:53.382232 IP 10.10.0.59.65530 > ns3.darpa.mil.domain: Flags [.], ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.382306 IP 10.10.0.59.65530 > ns3.darpa.mil.domain: Flags [P.], seq 1:57, ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 56 46576% [1au] AAAA? NS1.DARPA.MIL. (54)
+13:00:53.383790 IP ns3.darpa.mil.domain > 10.10.0.59.65528: Flags [S.], seq 416464134, ack 1038392896, win 28960, options [mss 1460,nop,nop,TS val 1564785554 ecr 1,nop,wscale 8], length 0
+13:00:53.383802 IP 10.10.0.59.65528 > ns3.darpa.mil.domain: Flags [.], ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.383876 IP 10.10.0.59.65528 > ns3.darpa.mil.domain: Flags [P.], seq 1:57, ack 1, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 56 37151% [1au] AAAA? NS3.DARPA.MIL. (54)
+13:00:53.385108 IP ns3.darpa.mil.domain > 10.10.0.59.65530: Flags [.], ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 0
+13:00:53.385249 IP ns3.darpa.mil.domain > 10.10.0.59.65529: Flags [.], ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 0
+13:00:53.385805 IP ns3.darpa.mil.domain > 10.10.0.59.65530: Flags [P.], seq 1:1373, ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 1372 46576*- 0/6/1 (1370)
+13:00:53.385811 IP ns3.darpa.mil.domain > 10.10.0.59.65530: Flags [F.], seq 1373, ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 0
+13:00:53.385822 IP 10.10.0.59.65530 > ns3.darpa.mil.domain: Flags [.], ack 1374, win 4026, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.385976 IP ns3.darpa.mil.domain > 10.10.0.59.65529: Flags [P.], seq 1:1373, ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 1372 56039*- 0/6/1 (1370)
+13:00:53.385998 IP ns3.darpa.mil.domain > 10.10.0.59.65529: Flags [F.], seq 1373, ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 0
+13:00:53.386009 IP 10.10.0.59.65529 > ns3.darpa.mil.domain: Flags [.], ack 1374, win 4026, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.386103 IP 10.10.0.59.65530 > ns3.darpa.mil.domain: Flags [F.], seq 57, ack 1374, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.386210 IP 10.10.0.59.65529 > ns3.darpa.mil.domain: Flags [F.], seq 57, ack 1374, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.386543 IP ns3.darpa.mil.domain > 10.10.0.59.65528: Flags [.], ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 0
+13:00:53.387120 IP ns3.darpa.mil.domain > 10.10.0.59.65528: Flags [P.], seq 1:1373, ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 1372 37151*- 0/6/1 (1370)
+13:00:53.387125 IP ns3.darpa.mil.domain > 10.10.0.59.65528: Flags [F.], seq 1373, ack 57, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 0
+13:00:53.387137 IP 10.10.0.59.65528 > ns3.darpa.mil.domain: Flags [.], ack 1374, win 4026, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.387263 IP 10.10.0.59.65528 > ns3.darpa.mil.domain: Flags [F.], seq 57, ack 1374, win 4197, options [nop,nop,TS val 1 ecr 1564785554], length 0
+13:00:53.388596 IP ns3.darpa.mil.domain > 10.10.0.59.65530: Flags [.], ack 58, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 0
+13:00:53.388845 IP ns3.darpa.mil.domain > 10.10.0.59.65529: Flags [.], ack 58, win 114, options [nop,nop,TS val 1564785554 ecr 1], length 0
+13:00:53.389622 IP ns3.darpa.mil.domain > 10.10.0.59.65528: Flags [.], ack 58, win 114, options [nop,nop,TS val 1564785555 ecr 1], length 0
+13:00:53.395600 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65230: 28628*-| 0/0/1 (32)
+13:00:53.395758 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528 > EUR2.NIPR.MIL.domain: Flags [S], seq 1047771460, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.418058 IP6 M.ROOT-SERVERS.NET.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.49425: 65216-| 0/0/1 (34)
+13:00:53.418251 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527 > M.ROOT-SERVERS.NET.domain: Flags [S], seq 1065407539, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.460821 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528: Flags [S.], seq 3188028181, ack 1047771461, win 14400, options [mss 1440,nop,wscale 0,sackOK,TS val 2218379186 ecr 1], length 0
+13:00:53.460861 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528 > EUR2.NIPR.MIL.domain: Flags [.], ack 1, win 4140, options [nop,nop,TS val 1 ecr 2218379186], length 0
+13:00:53.461009 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528 > EUR2.NIPR.MIL.domain: Flags [P.], seq 1:47, ack 1, win 4140, options [nop,nop,TS val 1 ecr 2218379186], length 46 53599 [1au] DNSKEY? mil. (44)
+13:00:53.494997 IP6 M.ROOT-SERVERS.NET.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527: Flags [S.], seq 971267590, ack 1065407540, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 1], length 0
+13:00:53.495036 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527 > M.ROOT-SERVERS.NET.domain: Flags [.], ack 1, win 4140, options [nop,nop,TS val 1 ecr 1], length 0
+13:00:53.495177 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527 > M.ROOT-SERVERS.NET.domain: Flags [P.], seq 1:49, ack 1, win 4140, options [nop,nop,TS val 1 ecr 1], length 48 55916 [1au] A? _.net. (46)
+13:00:53.525827 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528: Flags [.], ack 47, win 14446, options [nop,nop,TS val 2218379252 ecr 1], length 0
+13:00:53.526998 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528: Flags [P.], seq 1:1064, ack 47, win 14446, options [nop,nop,TS val 2218379252 ecr 1], length 1063 53599*- 5/0/1 DNSKEY, DNSKEY, DNSKEY, RRSIG, RRSIG (1061)
+13:00:53.527631 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528 > EUR2.NIPR.MIL.domain: Flags [F.], seq 47, ack 1064, win 4140, options [nop,nop,TS val 1 ecr 2218379252], length 0
+13:00:53.572092 IP6 M.ROOT-SERVERS.NET.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527: Flags [P.], seq 1:1165, ack 49, win 4140, options [nop,nop,TS val 1 ecr 1], length 1164 55916- 0/15/27 (1162)
+13:00:53.572493 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527 > M.ROOT-SERVERS.NET.domain: Flags [F.], seq 49, ack 1165, win 4140, options [nop,nop,TS val 1 ecr 1], length 0
+13:00:53.572862 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.57782 > i.gtld-servers.net.domain: 44357 [1au] A? _.edgekey.net. (54)
+13:00:53.572981 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.51749 > i.gtld-servers.net.domain: 8404 [1au] A? _.akamaiedge.net. (57)
+13:00:53.592077 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528: Flags [.], ack 48, win 14446, options [nop,nop,TS val 2218379318 ecr 1], length 0
+13:00:53.592346 IP6 EUR2.NIPR.MIL.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528: Flags [F.], seq 1064, ack 48, win 14446, options [nop,nop,TS val 2218379318 ecr 1], length 0
+13:00:53.592362 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65528 > EUR2.NIPR.MIL.domain: Flags [.], ack 1065, win 4140, options [nop,nop,TS val 1 ecr 2218379318], length 0
+13:00:53.605228 IP6 i.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.51749: 8404-| 0/15/2 (493)
+13:00:53.605312 IP6 i.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.57782: 44357-| 0/15/2 (490)
+13:00:53.605528 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65526 > i.gtld-servers.net.domain: Flags [S], seq 1080414872, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.605656 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65525 > i.gtld-servers.net.domain: Flags [S], seq 1103699627, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.637691 IP6 i.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65526: Flags [S.], seq 2006516725, ack 1080414873, win 1180, options [mss 1180,nop,nop,TS val 1648503813 ecr 1], length 0
+13:00:53.637727 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65526 > i.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 2 ecr 1648503813], length 0
+13:00:53.637750 IP6 i.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65525: Flags [S.], seq 967122164, ack 1103699628, win 1180, options [mss 1180,nop,nop,TS val 1649473357 ecr 1], length 0
+13:00:53.637762 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65525 > i.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 2 ecr 1649473357], length 0
+13:00:53.637907 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65526 > i.gtld-servers.net.domain: Flags [P.], seq 1:60, ack 1, win 33120, options [nop,nop,TS val 2 ecr 1648503813], length 59 41463 [1au] A? _.akamaiedge.net. (57)
+13:00:53.637982 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65525 > i.gtld-servers.net.domain: Flags [P.], seq 1:57, ack 1, win 33120, options [nop,nop,TS val 2 ecr 1649473357], length 56 19057 [1au] A? _.edgekey.net. (54)
+13:00:53.649215 IP6 M.ROOT-SERVERS.NET.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527: Flags [.], ack 50, win 4140, options [nop,nop,TS val 2 ecr 1], length 0
+13:00:53.649242 IP6 M.ROOT-SERVERS.NET.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527: Flags [F.], seq 1165, ack 50, win 4140, options [nop,nop,TS val 2 ecr 1], length 0
+13:00:53.649258 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65527 > M.ROOT-SERVERS.NET.domain: Flags [.], ack 1166, win 4140, options [nop,nop,TS val 2 ecr 2], length 0
+13:00:53.662918 IP 10.10.0.59.ssh > ool-4354b581.dyn.optonline.net.41960: Flags [P.], seq 248:292, ack 1, win 4197, options [nop,nop,TS val 10147 ecr 1955187778], length 44
+13:00:53.670000 IP6 i.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65526: Flags [P.], seq 1:1106, ack 60, win 1180, options [nop,nop,TS val 1648503846 ecr 2], length 1105 41463- 0/17/15 (1103)
+13:00:53.670333 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65526 > i.gtld-servers.net.domain: Flags [F.], seq 60, ack 1106, win 33120, options [nop,nop,TS val 2 ecr 1648503846], length 0
+13:00:53.670516 IP6 i.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65525: Flags [P.], seq 1:1159, ack 57, win 1180, options [nop,nop,TS val 1649473390 ecr 2], length 1158 19057- 0/17/17 (1156)
+13:00:53.670703 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.54276 > g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain: 40734 [1au] A? _.dscb.akamaiedge.net. (62)
+13:00:53.670993 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65525 > i.gtld-servers.net.domain: Flags [F.], seq 57, ack 1159, win 33120, options [nop,nop,TS val 2 ecr 1649473390], length 0
+13:00:53.671233 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.50826 > a16-65.akam.net.domain: 40999 [1au] A? _.mil.edgekey.net. (58)
+13:00:53.677754 IP6 g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.54276: 40734- 0/8/10 (374)
+13:00:53.678536 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.50117 > g2600-1480-e800-0000-0000-0000-0000-00c0.deploy.static.akamaitechnologies.com.domain: 41006 [1au] AAAA? e12929.dscb.akamaiedge.net. (67)
+13:00:53.678666 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.54059 > g2600-1480-e800-0000-0000-0000-0000-00c0.deploy.static.akamaitechnologies.com.domain: 54175 [1au] A? e12929.dscb.akamaiedge.net. (67)
+13:00:53.678828 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.61767 > g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain: 63901% [1au] AAAA? n1dscb.akamaiedge.net. (62)
+13:00:53.678966 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.62900 > g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain: 20769% [1au] AAAA? n5dscb.akamaiedge.net. (62)
+13:00:53.679103 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.58850 > g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain: 1970% [1au] AAAA? n6dscb.akamaiedge.net. (62)
+13:00:53.679245 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.57610 > g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain: 42603% [1au] AAAA? n2dscb.akamaiedge.net. (62)
+13:00:53.679379 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52988 > g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain: 27438% [1au] AAAA? n7dscb.akamaiedge.net. (62)
+13:00:53.679520 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.49612 > g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain: 22969% [1au] AAAA? n3dscb.akamaiedge.net. (62)
+13:00:53.679664 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52886 > g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain: 45395% [1au] AAAA? n4dscb.akamaiedge.net. (62)
+13:00:53.684852 IP6 g2600-1480-e800-0000-0000-0000-0000-00c0.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.50117: 41006*- 2/0/1 AAAA 2600:1408:9000:791::3281, AAAA 2600:1408:9000:795::3281 (111)
+13:00:53.684975 IP6 g2600-1480-e800-0000-0000-0000-0000-00c0.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.54059: 54175*- 1/0/1 A 23.208.60.60 (71)
+13:00:53.685403 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.50695 > l.gtld-servers.net.domain: 37465 [1au] DS? akamaiedge.net. (55)
+13:00:53.685795 IP6 g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.61767: 63901*- 0/1/1 (116)
+13:00:53.686209 IP6 g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.62900: 20769*- 0/1/1 (116)
+13:00:53.686214 IP6 g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.58850: 1970*- 0/1/1 (116)
+13:00:53.686291 IP6 g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.57610: 42603*- 0/1/1 (116)
+13:00:53.686684 IP6 g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52886: 45395*- 0/1/1 (116)
+13:00:53.686712 IP6 g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52988: 27438*- 0/1/1 (116)
+13:00:53.686737 IP6 g2600-1406-0032-0000-0000-0000-0000-00c2.deploy.static.akamaitechnologies.com.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.49612: 22969*- 0/1/1 (116)
+13:00:53.702595 IP6 i.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65526: Flags [F.], seq 1106, ack 61, win 1180, options [nop,nop,TS val 1648503878 ecr 2], length 0
+13:00:53.702618 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65526 > i.gtld-servers.net.domain: Flags [.], ack 1107, win 33120, options [nop,nop,TS val 2 ecr 1648503878], length 0
+13:00:53.703098 IP6 i.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65525: Flags [F.], seq 1159, ack 58, win 1180, options [nop,nop,TS val 1649473422 ecr 2], length 0
+13:00:53.703113 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65525 > i.gtld-servers.net.domain: Flags [.], ack 1160, win 33120, options [nop,nop,TS val 2 ecr 1649473422], length 0
+13:00:53.705554 IP6 l.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.50695: 37465*-| 0/4/1 (470)
+13:00:53.705716 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65524 > l.gtld-servers.net.domain: Flags [S], seq 1124574750, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.726709 IP6 l.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65524: Flags [S.], seq 1809707150, ack 1124574751, win 1180, options [mss 1180,nop,nop,TS val 2056611675 ecr 1], length 0
+13:00:53.726729 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65524 > l.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 2056611675], length 0
+13:00:53.726831 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65524 > l.gtld-servers.net.domain: Flags [P.], seq 1:58, ack 1, win 33120, options [nop,nop,TS val 1 ecr 2056611675], length 57 61262 [1au] DS? akamaiedge.net. (55)
+13:00:53.735233 IP6 a16-65.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.50826: 40999 NXDomain*- 0/1/1 (109)
+13:00:53.735606 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.62246 > m.gtld-servers.net.domain: 45416 [1au] DS? edgekey.net. (52)
+13:00:53.748548 IP6 l.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65524: Flags [P.], seq 1:863, ack 58, win 1180, options [nop,nop,TS val 2056611697 ecr 1], length 862 61262*- 0/6/1 (860)
+13:00:53.748778 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65524 > l.gtld-servers.net.domain: Flags [F.], seq 58, ack 863, win 33120, options [nop,nop,TS val 1 ecr 2056611697], length 0
+13:00:53.748923 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.63962 > m.gtld-servers.net.domain: 16636 [1au] DNSKEY? net. (44)
+13:00:53.750196 IP ool-4354b581.dyn.optonline.net.41960 > 10.10.0.59.ssh: Flags [.], ack 292, win 1434, options [nop,nop,TS val 1955188801 ecr 10147], length 0
+13:00:53.760492 IP6 m.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.62246: 45416*-| 0/4/1 (467)
+13:00:53.760652 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65523 > m.gtld-servers.net.domain: Flags [S], seq 1155331834, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.770697 IP6 m.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.63962: 16636*-| 2/0/1 DNSKEY, DNSKEY (484)
+13:00:53.770792 IP6 l.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65524: Flags [F.], seq 863, ack 59, win 1180, options [nop,nop,TS val 2056611719 ecr 1], length 0
+13:00:53.770808 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65524 > l.gtld-servers.net.domain: Flags [.], ack 864, win 33120, options [nop,nop,TS val 1 ecr 2056611719], length 0
+13:00:53.770882 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65522 > m.gtld-servers.net.domain: Flags [S], seq 1162907627, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.785792 IP6 m.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65523: Flags [S.], seq 2652859879, ack 1155331835, win 1180, options [mss 1180,nop,nop,TS val 2056654728 ecr 1], length 0
+13:00:53.785809 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65523 > m.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 2056654728], length 0
+13:00:53.785905 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65523 > m.gtld-servers.net.domain: Flags [P.], seq 1:55, ack 1, win 33120, options [nop,nop,TS val 1 ecr 2056654728], length 54 2117 [1au] DS? edgekey.net. (52)
+13:00:53.791242 IP6 m.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65522: Flags [S.], seq 2964043510, ack 1162907628, win 1180, options [mss 1180,nop,nop,TS val 2056611738 ecr 1], length 0
+13:00:53.791260 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65522 > m.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 2056611738], length 0
+13:00:53.791347 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65522 > m.gtld-servers.net.domain: Flags [P.], seq 1:47, ack 1, win 33120, options [nop,nop,TS val 1 ecr 2056611738], length 46 56966 [1au] DNSKEY? net. (44)
+13:00:53.810784 IP6 m.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65523: Flags [P.], seq 1:860, ack 55, win 1180, options [nop,nop,TS val 2056654753 ecr 1], length 859 2117*- 0/6/1 (857)
+13:00:53.811030 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65523 > m.gtld-servers.net.domain: Flags [F.], seq 55, ack 860, win 33120, options [nop,nop,TS val 1 ecr 2056654753], length 0
+13:00:53.812433 IP6 m.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65522: Flags [P.], seq 1:778, ack 47, win 1180, options [nop,nop,TS val 2056611759 ecr 1], length 777 56966*- 3/0/1 DNSKEY, DNSKEY, RRSIG (775)
+13:00:53.812772 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65522 > m.gtld-servers.net.domain: Flags [F.], seq 47, ack 778, win 33120, options [nop,nop,TS val 1 ecr 2056611759], length 0
+13:00:53.813637 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.62383 > a1-66.akam.net.domain: 1138 [1au] A? _.darpa.mil.edgekey.net. (64)
+13:00:53.813887 IP 10.10.0.59.domain > 10.10.0.33.59242: 22657 1/0/1 A 23.208.60.60 (71)
+13:00:53.813909 IP 10.10.0.59.domain > 10.10.0.33.33097: 35452 2/0/1 AAAA 2600:1408:9000:791::3281, AAAA 2600:1408:9000:795::3281 (111)
+13:00:53.814339 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 59242 unreachable, length 107
+13:00:53.814345 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 33097 unreachable, length 147
+13:00:53.826289 IP6 a1-66.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.62383: 1138 NXDomain*- 0/1/1 (115)
+13:00:53.826970 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.64588 > a6-65.akam.net.domain: 59116 [1au] AAAA? www.darpa.mil.edgekey.net. (66)
+13:00:53.827119 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.62319 > a6-65.akam.net.domain: 13686 [1au] A? www.darpa.mil.edgekey.net. (66)
+13:00:53.827229 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.61719 > e.gtld-servers.net.domain: 40311% [1au] AAAA? usw6.akam.net. (54)
+13:00:53.827335 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52472 > e.gtld-servers.net.domain: 24605% [1au] AAAA? a5-65.akam.net. (55)
+13:00:53.827446 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60973 > e.gtld-servers.net.domain: 52251% [1au] AAAA? adns1.akam.net. (55)
+13:00:53.827550 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.58424 > e.gtld-servers.net.domain: 25158% [1au] AAAA? a28-65.akam.net. (56)
+13:00:53.827663 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.61225 > e.gtld-servers.net.domain: 22082% [1au] AAAA? a12-65.akam.net. (56)
+13:00:53.827770 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.63324 > e.gtld-servers.net.domain: 13518% [1au] AAAA? ns7-65.akam.net. (56)
+13:00:53.827879 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.56690 > e.gtld-servers.net.domain: 56275% [1au] AAAA? a13-65.akam.net. (56)
+13:00:53.827992 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.49292 > e.gtld-servers.net.domain: 3474% [1au] AAAA? a18-65.akam.net. (56)
+13:00:53.828121 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.53966 > e.gtld-servers.net.domain: 38418% [1au] AAAA? ns4-66.akam.net. (56)
+13:00:53.828224 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52794 > e.gtld-servers.net.domain: 45866% [1au] AAAA? ns5-66.akam.net. (56)
+13:00:53.828377 IP6 a6-65.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.64588: 59116*- 1/0/1 CNAME e12929.dscb.akamaiedge.net. (91)
+13:00:53.828754 IP 10.10.0.59.domain > 10.10.0.33.53867: 2248 3/0/1 CNAME e12929.dscb.akamaiedge.net., AAAA 2600:1408:9000:795::3281, AAAA 2600:1408:9000:791::3281 (150)
+13:00:53.828773 IP 10.10.0.59.domain > 10.10.0.33.46847: 33798 4/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., AAAA 2600:1408:9000:791::3281, AAAA 2600:1408:9000:795::3281 (177)
+13:00:53.828836 IP6 a6-65.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.62319: 13686*- 1/0/1 CNAME e12929.dscb.akamaiedge.net. (91)
+13:00:53.829027 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60973: 52251-| 0/15/2 (484)
+13:00:53.829033 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.61719: 40311-| 0/15/2 (483)
+13:00:53.829101 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.58424: 25158-| 0/15/2 (485)
+13:00:53.829170 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.63324: 13518-| 0/15/2 (485)
+13:00:53.829175 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 53867 unreachable, length 186
+13:00:53.829206 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 46847 unreachable, length 213
+13:00:53.829211 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52472: 24605-| 0/15/2 (484)
+13:00:53.829306 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.61225: 22082-| 0/15/2 (485)
+13:00:53.829311 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.56690: 56275-| 0/15/2 (485)
+13:00:53.829316 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.49292: 3474-| 0/15/2 (485)
+13:00:53.829320 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.52794: 45866-| 0/15/2 (485)
+13:00:53.829325 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.53966: 38418-| 0/15/2 (485)
+13:00:53.829513 IP 10.10.0.59.domain > 10.10.0.33.51353: 58495 2/0/1 CNAME e12929.dscb.akamaiedge.net., A 23.208.60.60 (110)
+13:00:53.829530 IP 10.10.0.59.domain > 10.10.0.33.56277: 5823 3/0/1 CNAME www.darpa.mil.edgekey.net., CNAME e12929.dscb.akamaiedge.net., A 23.208.60.60 (137)
+13:00:53.829876 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65521 > e.gtld-servers.net.domain: Flags [S], seq 1182749589, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.829904 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 51353 unreachable, length 146
+13:00:53.829928 IP 10.10.0.33 > 10.10.0.59: ICMP 10.10.0.33 udp port 56277 unreachable, length 173
+13:00:53.830031 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65520 > e.gtld-servers.net.domain: Flags [S], seq 1207205914, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830138 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65519 > e.gtld-servers.net.domain: Flags [S], seq 1221472188, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830237 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65518 > e.gtld-servers.net.domain: Flags [S], seq 1235256387, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830347 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65517 > e.gtld-servers.net.domain: Flags [S], seq 1246149417, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830453 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65516 > e.gtld-servers.net.domain: Flags [S], seq 1263982038, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830561 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65515 > e.gtld-servers.net.domain: Flags [S], seq 1282614773, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830665 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65514 > e.gtld-servers.net.domain: Flags [S], seq 1302417817, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830765 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65513 > e.gtld-servers.net.domain: Flags [S], seq 1313674841, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830861 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65512 > e.gtld-servers.net.domain: Flags [S], seq 1335697296, win 32768, options [mss 1440,nop,wscale 3,sackOK,TS val 1 ecr 0], length 0
+13:00:53.830958 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65519: Flags [S.], seq 1447808191, ack 1221472189, win 1180, options [mss 1180,nop,nop,TS val 1389391383 ecr 1], length 0
+13:00:53.830964 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65520: Flags [S.], seq 634711893, ack 1207205915, win 1180, options [mss 1180,nop,nop,TS val 1389391383 ecr 1], length 0
+13:00:53.830979 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65519 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 1389391383], length 0
+13:00:53.830991 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65520 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 1389391383], length 0
+13:00:53.831259 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65519 > e.gtld-servers.net.domain: Flags [P.], seq 1:58, ack 1, win 33120, options [nop,nop,TS val 1 ecr 1389391383], length 57 47619% [1au] AAAA? adns1.akam.net. (55)
+13:00:53.831291 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65516: Flags [S.], seq 1131690746, ack 1263982039, win 1180, options [mss 1180,nop,nop,TS val 1117125654 ecr 1], length 0
+13:00:53.831296 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65521: Flags [S.], seq 4226623976, ack 1182749590, win 1180, options [mss 1180,nop,nop,TS val 1117125654 ecr 1], length 0
+13:00:53.831300 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65517: Flags [S.], seq 2292567727, ack 1246149418, win 1180, options [mss 1180,nop,nop,TS val 1117125654 ecr 1], length 0
+13:00:53.831312 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65516 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 1117125654], length 0
+13:00:53.831329 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65521 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 1117125654], length 0
+13:00:53.831342 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65517 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 1117125654], length 0
+13:00:53.831402 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65520 > e.gtld-servers.net.domain: Flags [P.], seq 1:58, ack 1, win 33120, options [nop,nop,TS val 1 ecr 1389391383], length 57 18897% [1au] AAAA? a5-65.akam.net. (55)
+13:00:53.831448 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65521 > e.gtld-servers.net.domain: Flags [P.], seq 1:57, ack 1, win 33120, options [nop,nop,TS val 1 ecr 1117125654], length 56 44601% [1au] AAAA? usw6.akam.net. (54)
+13:00:53.831504 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65516 > e.gtld-servers.net.domain: Flags [P.], seq 1:59, ack 1, win 33120, options [nop,nop,TS val 1 ecr 1117125654], length 58 7128% [1au] AAAA? a12-65.akam.net. (56)
+13:00:53.831565 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65517 > e.gtld-servers.net.domain: Flags [P.], seq 1:59, ack 1, win 33120, options [nop,nop,TS val 1 ecr 1117125654], length 58 56473% [1au] AAAA? ns7-65.akam.net. (56)
+13:00:53.831783 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65513: Flags [S.], seq 2599931044, ack 1313674842, win 1180, options [mss 1180,nop,nop,TS val 950719370 ecr 1], length 0
+13:00:53.831788 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65514: Flags [S.], seq 2133196810, ack 1302417818, win 1180, options [mss 1180,nop,nop,TS val 950719370 ecr 1], length 0
+13:00:53.831793 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65515: Flags [S.], seq 1665630012, ack 1282614774, win 1180, options [mss 1180,nop,nop,TS val 1389391384 ecr 1], length 0
+13:00:53.831807 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65513 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 950719370], length 0
+13:00:53.831824 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65514 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 950719370], length 0
+13:00:53.831838 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65515 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 1389391384], length 0
+13:00:53.831843 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65518: Flags [S.], seq 758269856, ack 1235256388, win 1180, options [mss 1180,nop,nop,TS val 1389391384 ecr 1], length 0
+13:00:53.831852 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65518 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 1389391384], length 0
+13:00:53.831936 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65513 > e.gtld-servers.net.domain: Flags [P.], seq 1:59, ack 1, win 33120, options [nop,nop,TS val 1 ecr 950719370], length 58 6461% [1au] AAAA? ns5-66.akam.net. (56)
+13:00:53.831986 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65514 > e.gtld-servers.net.domain: Flags [P.], seq 1:59, ack 1, win 33120, options [nop,nop,TS val 1 ecr 950719370], length 58 40467% [1au] AAAA? a18-65.akam.net. (56)
+13:00:53.832041 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65515 > e.gtld-servers.net.domain: Flags [P.], seq 1:59, ack 1, win 33120, options [nop,nop,TS val 1 ecr 1389391384], length 58 17761% [1au] AAAA? a13-65.akam.net. (56)
+13:00:53.832107 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65518 > e.gtld-servers.net.domain: Flags [P.], seq 1:59, ack 1, win 33120, options [nop,nop,TS val 1 ecr 1389391384], length 58 46748% [1au] AAAA? a28-65.akam.net. (56)
+13:00:53.832405 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65512: Flags [S.], seq 790857270, ack 1335697297, win 1180, options [mss 1180,nop,nop,TS val 1117125655 ecr 1], length 0
+13:00:53.832418 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65512 > e.gtld-servers.net.domain: Flags [.], ack 1, win 33120, options [nop,nop,TS val 1 ecr 1117125655], length 0
+13:00:53.832452 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65521: Flags [P.], seq 1:1124, ack 57, win 1180, options [nop,nop,TS val 1117125655 ecr 1], length 1123 44601- 0/17/16 (1121)
+13:00:53.832535 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65512 > e.gtld-servers.net.domain: Flags [P.], seq 1:59, ack 1, win 33120, options [nop,nop,TS val 1 ecr 1117125655], length 58 28182% [1au] AAAA? ns4-66.akam.net. (56)
+13:00:53.832909 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.50514 > a6-67.akam.net.domain: 63563% [1au] AAAA? usw6.akam.net. (54)
+13:00:53.832961 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65514: Flags [P.], seq 1:1126, ack 59, win 1180, options [nop,nop,TS val 950719371 ecr 1], length 1125 40467- 0/17/16 (1123)
+13:00:53.832966 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65513: Flags [P.], seq 1:1126, ack 59, win 1180, options [nop,nop,TS val 950719371 ecr 1], length 1125 6461- 0/17/16 (1123)
+13:00:53.832971 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65515: Flags [P.], seq 1:1126, ack 59, win 1180, options [nop,nop,TS val 1389391385 ecr 1], length 1125 17761- 0/17/16 (1123)
+13:00:53.832991 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65521 > e.gtld-servers.net.domain: Flags [F.], seq 57, ack 1124, win 33120, options [nop,nop,TS val 1 ecr 1117125655], length 0
+13:00:53.833004 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65519: Flags [P.], seq 1:1125, ack 58, win 1180, options [nop,nop,TS val 1389391385 ecr 1], length 1124 47619- 0/17/16 (1122)
+13:00:53.833142 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65520: Flags [P.], seq 1:1125, ack 58, win 1180, options [nop,nop,TS val 1389391385 ecr 1], length 1124 18897- 0/17/16 (1122)
+13:00:53.833359 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65516: Flags [P.], seq 1:1126, ack 59, win 1180, options [nop,nop,TS val 1117125656 ecr 1], length 1125 7128- 0/17/16 (1123)
+13:00:53.833364 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65517: Flags [P.], seq 1:1126, ack 59, win 1180, options [nop,nop,TS val 1117125656 ecr 1], length 1125 56473- 0/17/16 (1123)
+13:00:53.833369 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65512: Flags [P.], seq 1:1126, ack 59, win 1180, options [nop,nop,TS val 1117125656 ecr 1], length 1125 28182- 0/17/16 (1123)
+13:00:53.833444 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60344 > a6-67.akam.net.domain: 27667% [1au] AAAA? a18-65.akam.net. (56)
+13:00:53.833551 IP6 m.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65522: Flags [F.], seq 778, ack 48, win 1180, options [nop,nop,TS val 2056611780 ecr 1], length 0
+13:00:53.833566 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65522 > m.gtld-servers.net.domain: Flags [.], ack 779, win 33120, options [nop,nop,TS val 1 ecr 2056611780], length 0
+13:00:53.833703 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.58147 > a6-67.akam.net.domain: 39208% [1au] AAAA? ns5-66.akam.net. (56)
+13:00:53.833923 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.61523 > a6-67.akam.net.domain: 38963% [1au] AAAA? a13-65.akam.net. (56)
+13:00:53.833980 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65518: Flags [P.], seq 1:1126, ack 59, win 1180, options [nop,nop,TS val 1389391386 ecr 1], length 1125 46748- 0/17/16 (1123)
+13:00:53.834181 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60083 > a6-67.akam.net.domain: 29373% [1au] AAAA? adns1.akam.net. (55)
+13:00:53.834246 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65514 > e.gtld-servers.net.domain: Flags [F.], seq 59, ack 1126, win 33120, options [nop,nop,TS val 1 ecr 950719371], length 0
+13:00:53.834277 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.50514: 63563*- 0/1/1 (108)
+13:00:53.834412 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65513 > e.gtld-servers.net.domain: Flags [F.], seq 59, ack 1126, win 33120, options [nop,nop,TS val 1 ecr 950719371], length 0
+13:00:53.834425 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65521: Flags [F.], seq 1124, ack 58, win 1180, options [nop,nop,TS val 1117125657 ecr 1], length 0
+13:00:53.834455 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65521 > e.gtld-servers.net.domain: Flags [.], ack 1125, win 33120, options [nop,nop,TS val 1 ecr 1117125657], length 0
+13:00:53.834519 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65515 > e.gtld-servers.net.domain: Flags [F.], seq 59, ack 1126, win 33120, options [nop,nop,TS val 1 ecr 1389391385], length 0
+13:00:53.834588 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65519 > e.gtld-servers.net.domain: Flags [F.], seq 58, ack 1125, win 33120, options [nop,nop,TS val 1 ecr 1389391385], length 0
+13:00:53.834834 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.51799 > a6-67.akam.net.domain: 54593% [1au] AAAA? a5-65.akam.net. (55)
+13:00:53.834931 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60344: 27667*- 0/1/1 (110)
+13:00:53.835060 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.58147: 39208*- 0/1/1 (110)
+13:00:53.835190 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.57673 > a6-67.akam.net.domain: 21871% [1au] AAAA? a12-65.akam.net. (56)
+13:00:53.835247 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.61523: 38963*- 1/0/1 AAAA 2600:1480:800::41 (72)
+13:00:53.835253 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65515: Flags [F.], seq 1126, ack 60, win 1180, options [nop,nop,TS val 1389391388 ecr 1], length 0
+13:00:53.835279 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65515 > e.gtld-servers.net.domain: Flags [.], ack 1127, win 33120, options [nop,nop,TS val 1 ecr 1389391388], length 0
+13:00:53.835330 IP6 m.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65523: Flags [F.], seq 860, ack 56, win 1180, options [nop,nop,TS val 2056654778 ecr 1], length 0
+13:00:53.835344 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65523 > m.gtld-servers.net.domain: Flags [.], ack 861, win 33120, options [nop,nop,TS val 1 ecr 2056654778], length 0
+13:00:53.835527 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60706 > a6-67.akam.net.domain: 36484% [1au] AAAA? ns7-65.akam.net. (56)
+13:00:53.835653 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60083: 29373*- 0/1/1 (109)
+13:00:53.835808 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60326 > a6-67.akam.net.domain: 53444% [1au] AAAA? ns4-66.akam.net. (56)
+13:00:53.835838 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65514: Flags [F.], seq 1126, ack 60, win 1180, options [nop,nop,TS val 950719374 ecr 1], length 0
+13:00:53.835843 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65513: Flags [F.], seq 1126, ack 60, win 1180, options [nop,nop,TS val 950719374 ecr 1], length 0
+13:00:53.835857 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65514 > e.gtld-servers.net.domain: Flags [.], ack 1127, win 33120, options [nop,nop,TS val 1 ecr 950719374], length 0
+13:00:53.835869 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65513 > e.gtld-servers.net.domain: Flags [.], ack 1127, win 33120, options [nop,nop,TS val 1 ecr 950719374], length 0
+13:00:53.836063 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.51799: 54593*- 1/0/1 AAAA 2600:1480:b000::41 (71)
+13:00:53.836116 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65435 > a6-67.akam.net.domain: 5273% [1au] AAAA? a28-65.akam.net. (56)
+13:00:53.836161 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65519: Flags [F.], seq 1125, ack 59, win 1180, options [nop,nop,TS val 1389391388 ecr 1], length 0
+13:00:53.836175 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65519 > e.gtld-servers.net.domain: Flags [.], ack 1126, win 33120, options [nop,nop,TS val 1 ecr 1389391388], length 0
+13:00:53.836217 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65520 > e.gtld-servers.net.domain: Flags [F.], seq 58, ack 1125, win 33120, options [nop,nop,TS val 1 ecr 1389391385], length 0
+13:00:53.836359 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65516 > e.gtld-servers.net.domain: Flags [F.], seq 59, ack 1126, win 33120, options [nop,nop,TS val 1 ecr 1117125656], length 0
+13:00:53.836446 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65517 > e.gtld-servers.net.domain: Flags [F.], seq 59, ack 1126, win 33120, options [nop,nop,TS val 1 ecr 1117125656], length 0
+13:00:53.836473 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.57673: 21871*- 0/1/1 (110)
+13:00:53.836529 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65512 > e.gtld-servers.net.domain: Flags [F.], seq 59, ack 1126, win 33120, options [nop,nop,TS val 1 ecr 1117125656], length 0
+13:00:53.836604 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65518 > e.gtld-servers.net.domain: Flags [F.], seq 59, ack 1126, win 33120, options [nop,nop,TS val 1 ecr 1389391386], length 0
+13:00:53.836898 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60706: 36484*- 0/1/1 (110)
+13:00:53.837164 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.60326: 53444*- 0/1/1 (110)
+13:00:53.837282 IP6 a6-67.akam.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65435: 5273*- 0/1/1 (110)
+13:00:53.837312 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65520: Flags [F.], seq 1125, ack 59, win 1180, options [nop,nop,TS val 1389391390 ecr 1], length 0
+13:00:53.837326 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65520 > e.gtld-servers.net.domain: Flags [.], ack 1126, win 33120, options [nop,nop,TS val 1 ecr 1389391390], length 0
+13:00:53.837425 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65516: Flags [F.], seq 1126, ack 60, win 1180, options [nop,nop,TS val 1117125660 ecr 1], length 0
+13:00:53.837431 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65517: Flags [F.], seq 1126, ack 60, win 1180, options [nop,nop,TS val 1117125660 ecr 1], length 0
+13:00:53.837435 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65512: Flags [F.], seq 1126, ack 60, win 1180, options [nop,nop,TS val 1117125660 ecr 1], length 0
+13:00:53.837448 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65516 > e.gtld-servers.net.domain: Flags [.], ack 1127, win 33120, options [nop,nop,TS val 1 ecr 1117125660], length 0
+13:00:53.837461 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65517 > e.gtld-servers.net.domain: Flags [.], ack 1127, win 33120, options [nop,nop,TS val 1 ecr 1117125660], length 0
+13:00:53.837476 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65512 > e.gtld-servers.net.domain: Flags [.], ack 1127, win 33120, options [nop,nop,TS val 1 ecr 1117125660], length 0
+13:00:53.838215 IP6 e.gtld-servers.net.domain > 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65518: Flags [F.], seq 1126, ack 60, win 1180, options [nop,nop,TS val 1389391391 ecr 1], length 0
+13:00:53.838231 IP6 2600:1f18:f87:cb00:9c21:6c90:aa52:2693.65518 > e.gtld-servers.net.domain: Flags [.], ack 1127, win 33120, options [nop,nop,TS val 1 ecr 1389391391], length 0
+13:00:54.672934 IP 10.10.0.59.ssh > ool-4354b581.dyn.optonline.net.41960: Flags [P.], seq 292:336, ack 1, win 4197, options [nop,nop,TS val 10149 ecr 1955188801], length 44
+13:00:54.694899 IP ool-4354b581.dyn.optonline.net.41960 > 10.10.0.59.ssh: Flags [.], ack 336, win 1434, options [nop,nop,TS val 1955189744 ecr 10149], length 0
+13:00:55.414600 IP scanner-22.ch1.censys-scanner.com.44892 > 10.10.0.59.9056: Flags [S], seq 4197482434, win 1024, options [mss 1460], length 0
+13:00:55.414629 IP 10.10.0.59.9056 > scanner-22.ch1.censys-scanner.com.44892: Flags [R.], seq 0, ack 4197482435, win 0, length 0
