@@ -1,0 +1,35 @@
+Lecture 08 (3/21/22)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week eight lecture playlist on youtube as well
+as read the blog posts linked on the course site. I have also looked at the HTTP
+exercise and SMTP exercise on the course site.
+
+I have completed the weekly questionnaire as well as HW3. I found the concept of
+analyzing traffic from my own DNS server to be very interesting. I was able to
+visualize how many different servers are needed to process a single request, as
+well as now have a better understanding of how the different root servers work
+together to provide the answer needed.
+
+Unrelated to this week's content, but something I found interesting. A few weeks
+ago in class (I believe lecture 4) we had discussed the concept of bad packages,
+and how it is possible to insert malware into a system or break dependencies by
+maliciously changing a package. Earlier this week, a popular Node.js package called
+`node-ipc` was updated by its maintainer to include protestware. The package implemented
+a new module called `peacenotwar` as a protest against the war happening between Ukraine
+and Russia. For most people, running this package will create a file on your desktop
+talking about how war is bad, but if the computer/server has an IP address located in
+Russia or Belarus, the package will overwrite all files on the disk with heart emoticons
+(♥). This has been labeled as CVE-2022-23812, and has a 9.8/10 on a severity scale
+https://security.snyk.io/vuln/SNYK-JS-NODEIPC-2426370. I believe that this touches
+on multiple topics we have discussed so far this semester. The first being package
+management; where in a case like this a sysadmin could manually tell systems to not
+accept newer versions of this package to ensure the safety of their systems. The
+second topic is IP addresses. As we discussed, while IP addresses are distributed
+geographically, they may not always be used where they are meant to be. For example,
+in the traceroute examples from HW2, some traffic was being sent far out of the way
+on the way to the destination, likely due to an address being used where it should
+not be. In this situation, there would be no way to know if a system with a Russian
+IP address is actually located in the country, or if it is either a mismatched IP
+location or a user using a VPN.
