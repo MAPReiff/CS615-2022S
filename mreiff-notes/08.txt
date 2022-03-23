@@ -33,3 +33,24 @@ on the way to the destination, likely due to an address being used where it shou
 not be. In this situation, there would be no way to know if a system with a Russian
 IP address is actually located in the country, or if it is either a mismatched IP
 location or a user using a VPN.
+
+After class:
+-------------------
+The first request to the DNS server is usally for an A record (followed by an AAAA
+record request). Then the returns a CNAME, as well as the IP address (A and or AAAA)
+for that record.
+
+The DNS server has the root servers hard coded. The server will ask a root server for
+the information about the TLD and will be returned a NS record as well as A/AAAA records
+for that name server. Next, the server asks that new server for information about the next
+level up, and will get back name servers with IP addresses. This repeats until we eventually
+reach the final level of the domain. The DNS server will cache all of these, making requests
+to future domains on the same base domain quicker.
+
+In a HTTP header, `Pragma: no-cache` means to not look at cache.
+
+I found the in class example regarding the fake Stevens login page to be very interesting.
+Prior, I have done a similar exercise in a class, however instead of inspecting the packets,
+I used PHP to take the input and save it to a log file. By using packet inspecting, I imagine
+attacks like this would be harder to detect, as there would be no additional scripts running
+on the page that the user (or more specifically their browsers) can detect.
