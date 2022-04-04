@@ -1,0 +1,11 @@
+Lecture 10 (4/4/22)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week ten lecture recordings linked on the course
+site which appear to overlap with week 9's content. I have also reviewed the `Backup
+Exercise` and `tar` pages linked on the site
+
+I have completed the week 10 checkpoint questionnaire, and have gotten started doing
+research in order to complete HW4 regarding EBS backups. This research has taken up
+much of the time I would normally dedicate to this class this past week.
