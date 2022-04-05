@@ -9,3 +9,40 @@ Exercise` and `tar` pages linked on the site
 I have completed the week 10 checkpoint questionnaire, and have gotten started doing
 research in order to complete HW4 regarding EBS backups. This research has taken up
 much of the time I would normally dedicate to this class this past week.
+
+
+After class:
+-------------------
+Possible backup problems
+- local i/o constancy problem
+- how do you act when there is not enough space; how do you know how much you need?
+	- EBS has a volume size limitation
+	- could compress things
+	- mandate max size/age
+	- could raid EBS volumes
+	- could split files across multiple volumes
+- incremental vs full backup
+- Write to EBS
+	- make volume
+	- make an instance
+	- write to the file system or write to a raw disk
+- local steps
+	- calculate the size needed
+	- create an instance
+	- create a volume/re use a volume
+	- read data and send over network
+- remote steps
+	- receive data from network and write it to a disk
+- on either side you can
+	- encrypt
+	- compress
+
+Example workflow
+- local: dump
+- ssh data transfer
+- remote: dd
+
+event: something that happens at a place and time
+
+A good way to review logs is to visualize it: graphs
+
