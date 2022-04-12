@@ -9,3 +9,34 @@ the `Configuration Management`  chapter linked on the course site.
 I have completed the week 11 checkpoint questionnaire, and have continued my
 work on HW4. I am finalizing my planning for how I will execute this assignment
 and plan to start work on the actual bulk of the assignment this coming week.
+
+After class:
+-------------------
+Project: 
+- backup: tar cf - . | ssh amazon "cat >/mount"
+- restore: ssh amazon "cat /mount" | tar xf -
+
+The point of a CM is not to make changes on a system, it is to get it to a ready
+state and/or to recover a system
+
+CM can be a pull model or a push model, and can be for more than just servers
+
+CM overlaps with:
+- software deployment
+- monitoring
+- revision control and audit logs
+- compliance enforcement
+- etc
+
+Don't update
+- you might update and GAIN a vulnerability/bug
+- might break something
+- leads to tracking (when you pull packages someone can track that)
+
+Always update
+- newest might fix stuff you didn't know needed fixes
+- exercises pipeline
+
+When updating, you need a test pipeline to verify new software is good; hard
+to do at scale
+
