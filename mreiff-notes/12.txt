@@ -1,0 +1,16 @@
+Lecture 12 (4/18/22)
+=========
+Before class:
+-------------------
+Prior to class, I have watched the week twelve lecture recordings linked on the
+course site which appear to overlap with week 11's content. I have also
+reviewed the two blog posts linked on the course site.
+
+I have completed the week 12 checkpoint questionnaire, and have continued my
+work on HW4. This week, I have started the actual programming portion of the
+assignment after completing the initial design phase. I decided to do this
+assignment in shell, as I determined it would be easier to do than attempting
+to do so in Node as I would need to also instruct the user on how to install
+Node and npm as well as instruct them on how to run the program with node.
+Additionally, I believe that this is an excellent opportunity to get more
+familiar with shell scripting.
