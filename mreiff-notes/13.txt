@@ -1,0 +1,20 @@
+Lecture 13 (4/25/22)
+=========
+Before class:
+-------------------
+Prior to class, I have read the two blog posts linked on the course site, and
+was disappointed to not see any associated youtube videos for this week's
+content.
+
+I have completed the week 13 checkpoint questionnaire, and have completed my
+work on HW4. This week was a bulk of the programming and ultimately spent much
+of my spare learning about shell. In the end, I created a solution with 3
+scripts in it:
+- A script to make backups
+- A script to assist with restoring from backups
+- A script to nuke the backups so the user can start over again
+
+I forgot to mention this in previous notes, so I will do so here. On 4/12/22,
+I attended a meetup hosted by PhillyJUG titled "How cloud services help to
+mitigate Log4Shell and its friends". I have included the report in the same
+directory where I keep my homework assignments.
