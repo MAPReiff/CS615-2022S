@@ -1,0 +1,13 @@
+# AWS EC2 Backup Configuration
+
+# AWS key name
+keyName="stevens"
+
+# AWS subnet name
+subnet="dualstack"
+
+# AWS security group name
+securityGroup="dualstack"
+
+# Directory you would like to back up
+backupDir="/home/$USER/demo"

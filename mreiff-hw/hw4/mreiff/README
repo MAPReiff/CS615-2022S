@@ -1,0 +1,136 @@
+I pledge my honor that I have abided by the Stevens Honor System.
+
+HW#4: EBS Backup
+
+Notes & Setup:
+- I completed this assignment by writing a shell script. I was originally
+  planning to accomplish this using Node.js, however, I was not sure about how
+  to provide "fool proof instructions for how to install the software" due to
+  how many different variations of Unix exist and ultimately scrapped that
+  idea.
+
+- In your terminal, make sure to `cd` into the directory with the script before
+  running or doing any of the initial setup.
+
+- In order to run this utility, the following assumptions have been made:
+  - You have an AWS security group configured
+  - You have an AWS subnet configured
+  - You have an AWS key pair configured with the necessary .pem file located in
+    the `.ssh` of your home directory (/home/$USER/.ssh/)
+  - You have the following commands/packages installed
+    - AWS Command Line Interface (for `aws` commands)
+    - jq
+    - awk
+    - sed
+    - sleep
+    - ssh
+    - tar
+    - cp
+    - chmod
+    - Some kind of text editor (nano, vim, etc)
+    - Some kind of terminal
+    - sh (or some shell which can call sh from /bin/sh)
+    - Excluding the AWS commands, I expect that these exist as either essential
+      packages on a Unix system or they are required by the CS615 awsaliases
+      which we use in class (which I assume are fair to assume are installed in
+      this type of situation)
+
+- Before running for the first time:
+  - You will need to enter parameters in the configuration file:
+    - Duplicate the `config.example` file to a file called `config`
+      - `cp ./config.example ./config`
+    - Open the new `config` file in your text editor
+      - Replace the default values of keyName, subnet, securityGroup, and
+        backupDir with your corresponding. Make sure to keep these values in
+        the quotation marks
+      - Once finished, save the file and exit your text editor.
+  - Make the script executable:
+    - `chmod +x ./ebsBackup.sh`
+
+- To execute the script, run `./ebsBackup.sh` in your terminal
+
+- If this is the first time running the script:
+  - You will be prompted to enter the desired size of the EBS backup volume you
+    wish to use to store your backups
+    - Please enter a whole number in bytes such as 1000000000, and not a value
+      such as 9.5 or 10GB
+    - If you enter a value smaller than your chosen backup directory, the
+      script will exit
+    - Please note that the minimum size of an EBS volume in this situation is
+      1GB (or 1000000000 bytes), and if you enter a size smaller than this the
+      volume will automatically be made to be 1GB
+    - It is recommended to make the EBS volume large enough to fit multiple
+      backups, however, this is not required
+  - After the creation of a volume, an Ubuntu instance will be started
+    - Once the instance can be accessed, the new EBS volume will be formatted
+      and mounted.
+  - Then, the directory which you selected to be backed up will be sent to the
+    new instance as a tar.gz file
+  - After the backup is completed, the EBS volume will be detached from the
+    instances, and the instance will shut down
+  - The script will then place a file named `.ec2backup_MR` in the working
+    directory, which will serve as a way to check if subsequent are created
+    initial backups or not
+  - The script will then exit
+
+- If you have already run the script before:
+  - First, it will check if the `.ec2backup_MR` file exists in the working
+    directory
+  - If the file exists, the script will start an instance and mount the EBS
+    volume to the new instance
+  - Then, it will compare the free space on the EBS volume with the size of the
+    directory you want to back up
+  - If there is not enough space on the EBS volume, the volume will be detached
+    and the instance will shut down before the script closes
+  - If there is enough space on the EBS volume, another tar.gz file of your
+    directory will be uploaded to the instance before detaching the volume and
+    killing the instance
+  
+- I have tested this script running `sh` through `bash` and did not encounter
+  issues in my testing.
+
+- As to not incur costs, I did not do any testing with EBS volumes larger than
+  16GB as I am unaware of how much free AWS credit I have available.
+
+- Prior to this, I never really did mush shell scripting other than a few basic
+  scripts and aliases. This was a great learning opportunity for me to get more
+  familiar with the language, as well as an opportunity I would not get to have
+  in any of my Computer Engineering classes.
+
+- As per the assignment spec, this script serves as a way to backup files,
+  and does not have a way to restoring the files.
+
+- In order to restore files, this process must be done manually. In my testing,
+  I would sometimes encounter issues when automating restoring files. Steps:
+  - In your terminal, make sure to `cd` into the directory with the script before
+    running.
+  - Make the script executable:
+    - `chmod +x ./restoreHelper.sh`
+  - Spawn an EC2 instance with the EBS volume attached by running the
+    `restoreHelper.sh` script. Please take note of the three commands that are
+    printed at the end of the script, as we will need them for later.
+  - Using the first of the three printed commands, append "ls /backup" to it.
+      Ex: ssh ..... "ls /backup"
+  - Determine which version of the backup you would like to restore, and note
+    the name of the tar.gz file.
+  - Remove (or move) the existing directory on your local machine
+    - Remove: `rm -r /dir`
+    - Move: `mv /dir /dir2`
+    - Replace `dir` with the path of your directory
+  - In order to restore, we will again append to the first command as so
+    - `ssh ... "cat /backup/file.tar.gz" | tar xzf - --directory /`
+    - Replace `file.tar.gz` with the name of the backup tar.gz you wish to
+      restore from.
+  - Now that the data has been restored, use the second and third command from
+    the restoreHelper script to detach the volume from the instance and shut
+    the instance down
+
+- If you wish to get rid of your EBS volume, you can use the `nuke.sh` script
+  to do so. 
+    - Make the script executable:
+      - `chmod +x ./nuke.sh`
+    - When you run the script, you will be given 15 seconds to back out by
+      killing the script with Ctrl+C
+    - If you wait out the warning period without killing the script, the EBS
+      volume will be deleted, and you can run the backup script again to start
+      over
