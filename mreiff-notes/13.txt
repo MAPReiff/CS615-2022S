@@ -18,3 +18,29 @@ I forgot to mention this in previous notes, so I will do so here. On 4/12/22,
 I attended a meetup hosted by PhillyJUG titled "How cloud services help to
 mitigate Log4Shell and its friends". I have included the report in the same
 directory where I keep my homework assignments.
+
+In class:
+-------------------
+Shell exponentiation
+- Split by white space
+- I/O redirection
+	- Can be anywhere in the command
+- Executes command with args
+
+Hack:
+- initial compromise --> secure foothold --> elevate privileges --> initial 
+  compromise --> target objective
+
+"like all things crypto, it's BS"
+
+My threat model is not your threat model
+- All orgs face some of the same threats, but some have ones that are more 
+  important to them than to others
+- All orgs have different threatening parties
+
+Good ops is good security
+
+Legal != Ethical
+
+What's the worst the worst people could do?
+
